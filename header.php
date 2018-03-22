@@ -53,6 +53,14 @@
                             <p>Product list</p>
                         </a>
                     </li>
+
+                    <li >
+                        <a href="addproduct.php">
+                            <i class="now-ui-icons location_map-big"></i>
+                            <p>Add Product</p>
+                        </a>
+                    </li>
+
                    
                     <li>
                         <a href="forms.php">
