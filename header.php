@@ -20,6 +20,11 @@
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="assets/demo/demo.css" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <style>
+        .table thead tr th{
+            font-size: 14px;
+        }
+    </style>
 </head>
 
 <body class="">

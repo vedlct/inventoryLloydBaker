@@ -73,11 +73,12 @@
                     <div class="card-header">
                         <h4 class="card-title"> Simple Table</h4>
                     </div>
-                    <div class="card-body">
+                    <div class="">
                         <div class="table-responsive">
-                            <table id="example" class="table table-striped table-bordered" style="width:100%">
+                            <table id="example" class="table table-striped table-bordered">
                                 <thead>
                                 <tr>
+                                    <th>Select</th>
                                     <th>Product Name</th>
                                     <th>Category</th>
                                     <th>SKU</th>
@@ -90,6 +91,7 @@
                                 </thead>
                                 <tbody>
                                 <tr>
+                                    <td><input type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
@@ -102,6 +104,7 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td><input type="checkbox"></td>
                                     <td>Bordeaux low-back satin gown</td>
                                     <td>WW Accessories Mirakl / Bags / Shoulder Bags</td>
                                     <td>ABCD-123-BLS</td>
@@ -114,6 +117,7 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td><input type="checkbox"></td>
                                     <td>Bordeaux low-back satin gown</td>
                                     <td>WW Accessories Mirakl / Bags / Shoulder Bags</td>
                                     <td>ABCD-123-BLS</td>
@@ -126,6 +130,7 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td><input type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
@@ -138,6 +143,7 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td><input type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
@@ -150,6 +156,7 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td><input type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
@@ -162,6 +169,7 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td><input type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
@@ -174,6 +182,7 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td><input type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
@@ -187,6 +196,7 @@
                                     </td>
                                 </tr>
                                 <tr>
+                                    <td><input type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
@@ -202,6 +212,8 @@
                                 </tbody>
 
                             </table>
+                            <button class="btn btn-info" style="margin: 20px;">Download Product</button>
+                            <button class="btn btn-info" style="margin: 20px;">Print Product</button>
                         </div>
                     </div>
                 </div>
