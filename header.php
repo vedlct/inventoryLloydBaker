@@ -42,6 +42,13 @@
                         </a>
                     </li>
 
+                    <li >
+                        <a href="addproduct.php">
+                            <i class="now-ui-icons location_map-big"></i>
+                            <p>Add Product</p>
+                        </a>
+                    </li>
+
                     <li>
                         <a href="product.php">
                             <i class="now-ui-icons design_app"></i>
@@ -49,12 +56,7 @@
                         </a>
                     </li>
 
-                    <li >
-                        <a href="addproduct.php">
-                            <i class="now-ui-icons location_map-big"></i>
-                            <p>Add Product</p>
-                        </a>
-                    </li>
+
 
                    
                     <li>
