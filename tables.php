@@ -75,255 +75,122 @@
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
-                                    <table class="table">
-                                        <thead class=" text-primary">
-                                            <th>
-                                                Name
-                                            </th>
-                                            <th>
-                                                Country
-                                            </th>
-                                            <th>
-                                                City
-                                            </th>
-                                            <th class="text-right">
-                                                Salary
-                                            </th>
+                                    <table id="example" class="table table-striped table-bordered" style="width:100%">
+                                        <thead>
+                                        <tr>
+                                            <th>Product Name</th>
+                                            <th>Category</th>
+                                            <th>SKU</th>
+                                            <th>Color</th>
+                                            <th>RRP</th>
+                                            <th>Stock Quantity</th>
+                                            <th>Min Qty Alert</th>
+                                        </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td>
-                                                    Dakota Rice
-                                                </td>
-                                                <td>
-                                                    Niger
-                                                </td>
-                                                <td>
-                                                    Oud-Turnhout
-                                                </td>
-                                                <td class="text-right">
-                                                    $36,738
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    Minerva Hooper
-                                                </td>
-                                                <td>
-                                                    Curaçao
-                                                </td>
-                                                <td>
-                                                    Sinaai-Waas
-                                                </td>
-                                                <td class="text-right">
-                                                    $23,789
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    Sage Rodriguez
-                                                </td>
-                                                <td>
-                                                    Netherlands
-                                                </td>
-                                                <td>
-                                                    Baileux
-                                                </td>
-                                                <td class="text-right">
-                                                    $56,142
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    Philip Chaney
-                                                </td>
-                                                <td>
-                                                    Korea, South
-                                                </td>
-                                                <td>
-                                                    Overland Park
-                                                </td>
-                                                <td class="text-right">
-                                                    $38,735
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    Doris Greene
-                                                </td>
-                                                <td>
-                                                    Malawi
-                                                </td>
-                                                <td>
-                                                    Feldkirchen in Kärnten
-                                                </td>
-                                                <td class="text-right">
-                                                    $63,542
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    Mason Porter
-                                                </td>
-                                                <td>
-                                                    Chile
-                                                </td>
-                                                <td>
-                                                    Gloucester
-                                                </td>
-                                                <td class="text-right">
-                                                    $78,615
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    Jon Porter
-                                                </td>
-                                                <td>
-                                                    Portugal
-                                                </td>
-                                                <td>
-                                                    Gloucester
-                                                </td>
-                                                <td class="text-right">
-                                                    $98,615
-                                                </td>
-                                            </tr>
+                                        <tr>
+                                            <td>Cobalt low-back satin gown</td>
+                                            <td>Womenswear>Gowns</td>
+                                            <td>ABCD-123-BLS</td>
+                                            <td>Yellow Croc</td>
+                                            <td>90</td>
+                                            <td>123</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bordeaux low-back satin gown</td>
+                                            <td>WW Accessories Mirakl / Bags / Shoulder Bags</td>
+                                            <td>ABCD-123-BLS</td>
+                                            <td>Yellow Croc</td>
+                                            <td>90</td>
+                                            <td>123</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bordeaux low-back satin gown</td>
+                                            <td>WW Accessories Mirakl / Bags / Shoulder Bags</td>
+                                            <td>ABCD-123-BLS</td>
+                                            <td>Black</td>
+                                            <td>90</td>
+                                            <td>123</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cobalt low-back satin gown</td>
+                                            <td>Womenswear>Gowns</td>
+                                            <td>ABCD-123-BLS</td>
+                                            <td>Yellow Croc</td>
+                                            <td>90</td>
+                                            <td>123</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cobalt low-back satin gown</td>
+                                            <td>Womenswear>Gowns</td>
+                                            <td>ABCD-123-BLS</td>
+                                            <td>Yellow Croc</td>
+                                            <td>90</td>
+                                            <td>123</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cobalt low-back satin gown</td>
+                                            <td>Womenswear>Gowns</td>
+                                            <td>ABCD-123-BLS</td>
+                                            <td>Yellow Croc</td>
+                                            <td>90</td>
+                                            <td>123</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cobalt low-back satin gown</td>
+                                            <td>Womenswear>Gowns</td>
+                                            <td>ABCD-123-BLS</td>
+                                            <td>Yellow Croc</td>
+                                            <td>90</td>
+                                            <td>123</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cobalt low-back satin gown</td>
+                                            <td>Womenswear>Gowns</td>
+                                            <td>ABCD-123-BLS</td>
+                                            <td>Yellow Croc</td>
+                                            <td>90</td>
+                                            <td>123</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cobalt low-back satin gown</td>
+                                            <td>Womenswear>Gowns</td>
+                                            <td>ABCD-123-BLS</td>
+                                            <td>Yellow Croc</td>
+                                            <td>90</td>
+                                            <td>123</td>
+                                            <td>10</td>
+                                        </tr>
+
                                         </tbody>
+
                                     </table>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12">
-                        <div class="card card-plain">
-                            <div class="card-header">
-                                <h4 class="card-title"> Table on Plain Background</h4>
-                                <p class="category"> Here is a subtitle for this table</p>
-                            </div>
-                            <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table">
-                                        <thead class=" text-primary">
-                                            <th>
-                                                Name
-                                            </th>
-                                            <th>
-                                                Country
-                                            </th>
-                                            <th>
-                                                City
-                                            </th>
-                                            <th class="text-right">
-                                                Salary
-                                            </th>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    Dakota Rice
-                                                </td>
-                                                <td>
-                                                    Niger
-                                                </td>
-                                                <td>
-                                                    Oud-Turnhout
-                                                </td>
-                                                <td class="text-right">
-                                                    $36,738
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    Minerva Hooper
-                                                </td>
-                                                <td>
-                                                    Curaçao
-                                                </td>
-                                                <td>
-                                                    Sinaai-Waas
-                                                </td>
-                                                <td class="text-right">
-                                                    $23,789
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    Sage Rodriguez
-                                                </td>
-                                                <td>
-                                                    Netherlands
-                                                </td>
-                                                <td>
-                                                    Baileux
-                                                </td>
-                                                <td class="text-right">
-                                                    $56,142
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    Philip Chaney
-                                                </td>
-                                                <td>
-                                                    Korea, South
-                                                </td>
-                                                <td>
-                                                    Overland Park
-                                                </td>
-                                                <td class="text-right">
-                                                    $38,735
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    Doris Greene
-                                                </td>
-                                                <td>
-                                                    Malawi
-                                                </td>
-                                                <td>
-                                                    Feldkirchen in Kärnten
-                                                </td>
-                                                <td class="text-right">
-                                                    $63,542
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    Mason Porter
-                                                </td>
-                                                <td>
-                                                    Chile
-                                                </td>
-                                                <td>
-                                                    Gloucester
-                                                </td>
-                                                <td class="text-right">
-                                                    $78,615
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    Jon Porter
-                                                </td>
-                                                <td>
-                                                    Portugal
-                                                </td>
-                                                <td>
-                                                    Gloucester
-                                                </td>
-                                                <td class="text-right">
-                                                    $98,615
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
+            <?php include ("footer.php"); ?>
+
+            <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+            <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
+
+            <script>
+
+                $(document).ready(function() {
+                    $('#example').DataTable();
+                } );
+
+            </script>
             
-       <?php include ("footer.php"); ?>
+
