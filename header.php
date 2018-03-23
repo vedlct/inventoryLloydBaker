@@ -61,6 +61,13 @@
                         </a>
                     </li>
 
+                    <li>
+                        <a href="user.php">
+                            <i class="now-ui-icons design_app"></i>
+                            <p>User list</p>
+                        </a>
+                    </li>
+
 
 
                    
