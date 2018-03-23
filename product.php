@@ -91,7 +91,7 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td><input type="checkbox"></td>
+                                    <td><input name="selected_rows[]" type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
@@ -104,7 +104,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><input type="checkbox"></td>
+                                    <td><input name="selected_rows[]" type="checkbox"></td>
                                     <td>Bordeaux low-back satin gown</td>
                                     <td>WW Accessories Mirakl / Bags / Shoulder Bags</td>
                                     <td>ABCD-123-BLS</td>
@@ -117,7 +117,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><input type="checkbox"></td>
+                                    <td><input name="selected_rows[]" type="checkbox"></td>
                                     <td>Bordeaux low-back satin gown</td>
                                     <td>WW Accessories Mirakl / Bags / Shoulder Bags</td>
                                     <td>ABCD-123-BLS</td>
@@ -130,7 +130,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><input type="checkbox"></td>
+                                    <td><input name="selected_rows[]" type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
@@ -143,7 +143,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><input type="checkbox"></td>
+                                    <td><input name="selected_rows[]" type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
@@ -156,7 +156,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><input type="checkbox"></td>
+                                    <td><input name="selected_rows[]" type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
@@ -169,7 +169,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><input type="checkbox"></td>
+                                    <td><input name="selected_rows[]" type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
@@ -182,7 +182,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><input type="checkbox"></td>
+                                    <td><input name="selected_rows[]" type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
@@ -196,7 +196,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><input type="checkbox"></td>
+                                    <td><input name="selected_rows[]" type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
@@ -210,11 +210,18 @@
                                 </tr>
 
                                 </tbody>
-
                             </table>
-                            <button class="btn btn-info" style="margin: 20px;">Download Product</button>
-                            <button class="btn btn-info" style="margin: 20px;">Print Product</button>
+
+                            <div style="margin-left: 20px">
+                                <input type="checkbox" id="selectall" onClick="selectAll(this)"/><b>Select All</b>
+                            </div>
+
+
                         </div>
+
+                        <button class="btn btn-info" style="margin: 20px;">Download Product</button>
+                        <button class="btn btn-info" style="margin: 20px;">Print Product</button>
+
                     </div>
                 </div>
             </div>
@@ -231,6 +238,33 @@
         $(document).ready(function() {
             $('#example').DataTable();
         } );
+        var selecteds = [];
+        function selected_rows(x) {
+            btn = $(x).data('panel-id');
+            var index = selecteds.indexOf(btn)
+            if (index == "-1"){
+                selecteds.push(btn);
+            }else {
+
+                selecteds.splice(index, 1);
+            }
+        }
+
+        function selectAll(source) {
+
+            for(var i=0; i <= selecteds.length; i++) {
+                selecteds.pop(i);
+            }
+            checkboxes = document.getElementsByName('selected_rows[]');
+            for(var i in checkboxes) {
+                checkboxes[i].checked = source.checked;
+            }
+
+            /* look for all checkboes that have a class 'chk' attached to it and check if it was checked */
+            $(".chk:checked").each(function () {
+                selecteds.push($(this).val());
+            });
+        }
 
     </script>
 
