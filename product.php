@@ -13,7 +13,7 @@
                         <span class="navbar-toggler-bar bar3"></span>
                     </button>
                 </div>
-                <a class="navbar-brand" href="#pablo">Table List</a>
+
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -71,7 +71,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title"> Simple Table</h4>
+                        <h4 class="card-title">Product List</h4>
                     </div>
                     <div class="">
                         <div class="table-responsive">
@@ -83,6 +83,7 @@
                                     <th>Category</th>
                                     <th>SKU</th>
                                     <th>Color</th>
+                                    <th>Location</th>
                                     <th>RRP</th>
                                     <th>Stock Quantity</th>
                                     <th>Min Qty Alert</th>
@@ -90,15 +91,16 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
+                                <tr style="color: red;">
                                     <td><input type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
                                     <td>Yellow Croc</td>
+                                    <td>Pallet-1</td>
                                     <td>90</td>
                                     <td>123</td>
-                                    <td>10</td>
+                                    <td>2</td>
                                     <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
                                         <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
                                     </td>
@@ -109,6 +111,7 @@
                                     <td>WW Accessories Mirakl / Bags / Shoulder Bags</td>
                                     <td>ABCD-123-BLS</td>
                                     <td>Yellow Croc</td>
+                                    <td>Pallet-2</td>
                                     <td>90</td>
                                     <td>123</td>
                                     <td>10</td>
@@ -122,6 +125,7 @@
                                     <td>WW Accessories Mirakl / Bags / Shoulder Bags</td>
                                     <td>ABCD-123-BLS</td>
                                     <td>Black</td>
+                                    <td>Pallet-3</td>
                                     <td>90</td>
                                     <td>123</td>
                                     <td>10</td>
@@ -135,6 +139,7 @@
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
                                     <td>Yellow Croc</td>
+                                    <td>Pallet-3</td>
                                     <td>90</td>
                                     <td>123</td>
                                     <td>10</td>
@@ -148,6 +153,35 @@
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
                                     <td>Yellow Croc</td>
+                                    <td>Pallet-5</td>
+                                    <td>90</td>
+                                    <td>123</td>
+                                    <td>10</td>
+                                    <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
+                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
+                                    </td>
+                                </tr>
+                                <tr style="color: red;">
+                                    <td><input type="checkbox"></td>
+                                    <td>Cobalt low-back satin gown</td>
+                                    <td>Womenswear>Gowns</td>
+                                    <td>ABCD-123-BLS</td>
+                                    <td>Yellow Croc</td>
+                                    <td>Pallet-6</td>
+                                    <td>90</td>
+                                    <td>123</td>
+                                    <td>5</td>
+                                    <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
+                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>Cobalt low-back satin gown</td>
+                                    <td>Womenswear>Gowns</td>
+                                    <td>ABCD-123-BLS</td>
+                                    <td>Yellow Croc</td>
+                                    <td>Pallet-7</td>
                                     <td>90</td>
                                     <td>123</td>
                                     <td>10</td>
@@ -161,32 +195,7 @@
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
                                     <td>Yellow Croc</td>
-                                    <td>90</td>
-                                    <td>123</td>
-                                    <td>10</td>
-                                    <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>Cobalt low-back satin gown</td>
-                                    <td>Womenswear>Gowns</td>
-                                    <td>ABCD-123-BLS</td>
-                                    <td>Yellow Croc</td>
-                                    <td>90</td>
-                                    <td>123</td>
-                                    <td>10</td>
-                                    <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td><input type="checkbox"></td>
-                                    <td>Cobalt low-back satin gown</td>
-                                    <td>Womenswear>Gowns</td>
-                                    <td>ABCD-123-BLS</td>
-                                    <td>Yellow Croc</td>
+                                    <td>Pallet-8</td>
                                     <td>90</td>
                                     <td>123</td>
                                     <td>10</td>
@@ -201,6 +210,7 @@
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
                                     <td>Yellow Croc</td>
+                                    <td>Pallet-9</td>
                                     <td>90</td>
                                     <td>123</td>
                                     <td>10</td>

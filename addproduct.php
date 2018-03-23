@@ -118,7 +118,7 @@
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label>Product Description</label>
-                                        <input type="text" class="form-control" placeholder="Product Description" value="Product Description">
+                                        <textarea  class="form-control" placeholder="Product Description"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -161,6 +161,12 @@
                                         <br>
                                         <input type="file" name="image2Pic"  accept=".jpg, .jpeg" id="image2Pic">
 
+                                </div>
+                            </div>
+                            <div class="col-md-12 pl-1">
+                                <div class="form-group">
+                                    <label>Product Stored Location</label>
+                                    <textarea  class="form-control" placeholder="Product Stored Location" ></textarea>
                                 </div>
                             </div>
 
