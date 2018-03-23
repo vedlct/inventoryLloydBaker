@@ -28,7 +28,6 @@
                                 </div>
                             </div>
 
-
                             <div class="form-group">
                                 <label class="control-label col-md-2 custom-label-style">Product Name</label>
                                 <input type="text" class="col-md-8 custom-input-style form-control" placeholder="Product Name" >
@@ -96,17 +95,18 @@
 
                             </div>
 
-                            <div class="col-md-12">
+                            <div class="form-group">
 
                                 <label class="control-label col-md-2 custom-label-style">product Image</label>
                                 <div class="col-md-8 custom-input-style">
                                     <input type="file" name="image2Pic" class="form-control" accept=".jpg, .jpeg" id="image2Pic">
                                 </div>
                             </div>
+
                             <br>
 
                             <div class="form-group">
-                                <div style="margin-left: 13%" class="col-md-4">
+                                <div style="margin-left: 14%" class="col-md-8 custom-input-style">
                                     <input type="submit" value="Submit" class="btn btn-primary">
                                 </div>
                             </div>
