@@ -74,76 +74,54 @@
                                 <h5 class="title">Forms</h5>
                             </div>
                             <div class="card-body">
-                                <form>
-                                    <div class="row">
-                                        <div class="col-md-5 pr-1">
-                                            <div class="form-group">
-                                                <label>Company (disabled)</label>
-                                                <input type="text" class="form-control" disabled="" placeholder="Company" value="Creative Code Inc.">
+                                <form class="form-horizontal">
+                                	<div class="form-group ">
+                                    	<label class="control-label col-md-2 custom-label-style">First Name:</label>
+                                        	<div class="col-md-8 custom-input-style">
+                                            	<input type="text" class="form-control" placeholder="Home Address" value="Shamser">
                                             </div>
-                                        </div>
-                                        <div class="col-md-3 px-1">
-                                            <div class="form-group">
-                                                <label>Username</label>
-                                                <input type="text" class="form-control" placeholder="Username" value="michael23">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 pl-1">
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail1">Email address</label>
-                                                <input type="email" class="form-control" placeholder="Email">
-                                            </div>
-                                        </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-6 pr-1">
-                                            <div class="form-group">
-                                                <label>First Name</label>
-                                                <input type="text" class="form-control" placeholder="Company" value="Mike">
+                                    
+                                    <div class="form-group">
+                                    	<label class="control-label col-md-2 custom-label-style">Last Name:</label>
+                                        	<div class="col-md-8 custom-input-style">
+                                            	<input type="text" class="form-control" placeholder="Home Address" value="Suzon">
                                             </div>
-                                        </div>
-                                        <div class="col-md-6 pl-1">
-                                            <div class="form-group">
-                                                <label>Last Name</label>
-                                                <input type="text" class="form-control" placeholder="Last Name" value="Andrew">
-                                            </div>
-                                        </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <label>Address</label>
-                                                <input type="text" class="form-control" placeholder="Home Address" value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09">
+                                    
+                                    <div class="form-group ">
+                                    	<label class="control-label col-md-2 custom-label-style">Email:</label>
+                                        	<div class="col-md-8 custom-input-style" >
+                                            	<input type="email" class="form-control" placeholder="Home Address" value="shamser.suzon@gmail.com">
                                             </div>
-                                        </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-4 pr-1">
-                                            <div class="form-group">
-                                                <label>City</label>
-                                                <input type="text" class="form-control" placeholder="City" value="Mike">
+                                    
+                                    <div class="form-group ">
+                                    	<label class="control-label col-md-2 custom-label-style">Checkbox:</label>
+                                        	<div class="checkbox col-md-8 custom-input-style">
+                                              <label><input type="checkbox" value=""> Option 1</label>
+                                              <label><input type="checkbox" value=""> Option 2</label>
+                                              <label><input type="checkbox" value=""> Option 3</label>
                                             </div>
-                                        </div>
-                                        <div class="col-md-4 px-1">
-                                            <div class="form-group">
-                                                <label>Country</label>
-                                                <input type="text" class="form-control" placeholder="Country" value="Andrew">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4 pl-1">
-                                            <div class="form-group">
-                                                <label>Postal Code</label>
-                                                <input type="number" class="form-control" placeholder="ZIP Code">
-                                            </div>
-                                        </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="form-group">
-                                                <label>About Me</label>
-                                                <textarea rows="4" cols="80" class="form-control" placeholder="Here can be your description" value="Mike">Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.</textarea>
+                                    
+                                    <div class="form-group ">
+                                    	<label class="control-label col-md-2 custom-label-style">Nationality:</label>
+                                        	<div class="col-md-8 custom-input-style">
+                                            	<select class="form-control">
+                                                	<option selected disabled>Select Option</option>
+                                                	<option>Bangladeshi</option>
+                                                    <option>Rajakar</option>
+                                                    <option>Rohingya</option>
+                                                </select>
                                             </div>
-                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group ">
+                                    	<label class="control-label col-md-2 custom-label-style">Textarea:</label>
+                                        	<div class="col-md-8 custom-input-style" >
+                                            	<textarea rows="4" cols="80" class="form-control" placeholder="Here can be your description" value="Mike">Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.</textarea>
+                                            </div>
                                     </div>
                                 </form>
                             </div>
