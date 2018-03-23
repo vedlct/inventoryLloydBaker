@@ -111,8 +111,8 @@
                                     <td><input name="selected_rows[]" type="checkbox"></td>
                                     <td>Bordeaux low-back satin gown</td>
                                     <td>WW Accessories Mirakl / Bags / Shoulder Bags</td>
-                                    <td>ABCD-123-BLS</td>
-                                    <td>Yellow Croc</td>
+                                    <td>ABCD-111-BLS</td>
+                                    <td>Blue</td>
                                     <td>Pallet-2</td>
                                     <td>90</td>
                                     <td>123</td>
@@ -125,7 +125,7 @@
                                     <td><input name="selected_rows[]" type="checkbox"></td>
                                     <td>Bordeaux low-back satin gown</td>
                                     <td>WW Accessories Mirakl / Bags / Shoulder Bags</td>
-                                    <td>ABCD-123-BLS</td>
+                                    <td>ABCD-222-BLS</td>
                                     <td>Black</td>
                                     <td>Pallet-3</td>
                                     <td>90</td>
@@ -139,8 +139,8 @@
                                     <td><input name="selected_rows[]" type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
-                                    <td>ABCD-123-BLS</td>
-                                    <td>Yellow Croc</td>
+                                    <td>ABCD-321-BLS</td>
+                                    <td>Green</td>
                                     <td>Pallet-3</td>
                                     <td>90</td>
                                     <td>123</td>
@@ -153,8 +153,8 @@
                                     <td><input name="selected_rows[]" type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
-                                    <td>ABCD-123-BLS</td>
-                                    <td>Yellow Croc</td>
+                                    <td>ABCD-129-BLS</td>
+                                    <td>Black</td>
                                     <td>Pallet-5</td>
                                     <td>90</td>
                                     <td>123</td>
@@ -169,7 +169,7 @@
 
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
-                                    <td>ABCD-123-BLS</td>
+                                    <td>ABCD-333-BLS</td>
                                     <td>Yellow Croc</td>
                                     <td>Pallet-6</td>
                                     <td>90</td>
@@ -183,7 +183,7 @@
                                     <td><input name="selected_rows[]" type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
-                                    <td>ABCD-123-BLS</td>
+                                    <td>ABCD-111-BLS</td>
                                     <td>Yellow Croc</td>
                                     <td>Pallet-7</td>
                                     <td>90</td>
@@ -197,8 +197,8 @@
                                     <td><input name="selected_rows[]" type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
-                                    <td>ABCD-123-BLS</td>
-                                    <td>Yellow Croc</td>
+                                    <td>ABCD-124-BLS</td>
+                                    <td>Brown</td>
                                     <td>Pallet-8</td>
                                     <td>90</td>
                                     <td>123</td>
@@ -212,7 +212,7 @@
                                     <td><input name="selected_rows[]" type="checkbox"></td>
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
-                                    <td>ABCD-123-BLS</td>
+                                    <td>ABCD-1212-BLS</td>
                                     <td>Yellow Croc</td>
                                     <td>Pallet-9</td>
                                     <td>90</td>

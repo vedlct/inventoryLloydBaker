@@ -154,7 +154,7 @@
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-423-BLS</td>
-                                    <td>Yellow Croc</td>
+                                    <td>Blue</td>
                                     <td>pallet-7</td>
                                     <td>90</td>
                                     <td>123</td>
@@ -164,7 +164,7 @@
                                     <td>Cobalt low-back satin gown</td>
                                     <td>Womenswear>Gowns</td>
                                     <td>ABCD-123-BLS</td>
-                                    <td>Yellow Croc</td>
+                                    <td>Brown</td>
                                     <td>pallet-8</td>
                                     <td>90</td>
                                     <td>123</td>
