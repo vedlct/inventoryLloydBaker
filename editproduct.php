@@ -93,7 +93,6 @@
 
                                 <input type="text" class="col-md-8 custom-input-style form-control" placeholder="Location" value="">
 
-
                             </div>
 
                             <div class="col-md-12">

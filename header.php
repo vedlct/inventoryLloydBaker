@@ -34,14 +34,14 @@
         Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
     -->
             <div class="logo">
-                <a href="index.php" class="simple-text logo-normal">
+                <a href="stockinfo.php" class="simple-text logo-normal">
                     LLoyd Baker
                 </a>
             </div>
             <div class="sidebar-wrapper">
                 <ul class="nav">
-                    <li class="active">
-                        <a href="index.php">
+                    <li class="">
+                        <a href="stockinfo.php">
                             <i class="now-ui-icons design_app"></i>
                             <p>Stock info</p>
                         </a>
@@ -71,18 +71,28 @@
 
 
                    
-                    <li>
-                        <a href="forms.php">
-                            <i class="now-ui-icons location_map-big"></i>
-                            <p>Forms</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tables.php">
-                            <i class="now-ui-icons design_bullet-list-67"></i>
-                            <p>Table</p>
-                        </a>
-                    </li>
+<!--                    <li>-->
+<!--                        <a href="forms.php">-->
+<!--                            <i class="now-ui-icons location_map-big"></i>-->
+<!--                            <p>Forms</p>-->
+<!--                        </a>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                        <a href="tables.php">-->
+<!--                            <i class="now-ui-icons design_bullet-list-67"></i>-->
+<!--                            <p>Table</p>-->
+<!--                        </a>-->
+<!--                    </li>-->
                 </ul>
             </div>
         </div>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var url = window.location;
+                $('ul.nav a[href="'+ url +'"]').parent().addClass('active');
+                $('ul.nav a').filter(function() {
+                    return this.href == url;
+                }).parent().addClass('active');
+            });
+        </script>
