@@ -12,80 +12,56 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="title">User Form</h5>
+                        <h5 class="title">Edit User</h5>
                     </div>
                     <div class="card-body">
-                        <form>
-                            <div class="row">
-
-                                <div class="col-md-6 pr-1">
-                                    <div class="form-group">
-                                        <label>First Name</label>
-                                        <input type="text" class="form-control" placeholder="Company" >
-                                    </div>
-                                </div>
-                                <div class="col-md-6 pl-1">
-                                    <div class="form-group">
-                                        <label>Last Name</label>
-                                        <input type="text" class="form-control" placeholder="Last Name" >
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 pr-1">
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">Email address</label>
-                                        <input type="email" class="form-control" placeholder="Email">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 pl-1">
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1"><b>User Role</b></label>
-                                        <select  class="form-control">
-                                            <option selected>Select User Role</option>
-                                            <option>SuperAdmin</option>
-                                            <option>Admin</option>
-                                            <option>Editor</option>
-
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label>Address</label>
-                                        <input type="text" class="form-control" placeholder="Home Address" >
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4 pr-1">
-                                    <div class="form-group">
-                                        <label>City</label>
-                                        <input type="text" class="form-control" placeholder="City" >
-                                    </div>
-                                </div>
-                                <div class="col-md-4 px-1">
-                                    <div class="form-group">
-                                        <label>Country</label>
-                                        <input type="text" class="form-control" placeholder="Country" >
-                                    </div>
-                                </div>
-                                <div class="col-md-4 pl-1">
-                                    <div class="form-group">
-                                        <label>Postal Code</label>
-                                        <input type="number" class="form-control" placeholder="ZIP Code">
-                                    </div>
+                        <form class="form-horizontal">
+                            <div class="form-group ">
+                                <label class="control-label col-md-2 custom-label-style">First Name:</label>
+                                <div class="col-md-8 custom-input-style">
+                                    <input type="text" class="form-control" placeholder="Home Address" value="Shamser">
                                 </div>
                             </div>
 
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <input type="submit" value="Submit" class="btn btn-primary">
+                            <div class="form-group">
+                                <label class="control-label col-md-2 custom-label-style">Last Name:</label>
+                                <div class="col-md-8 custom-input-style">
+                                    <input type="text" class="form-control" placeholder="Home Address" value="Suzon">
                                 </div>
                             </div>
 
+                            <div class="form-group ">
+                                <label class="control-label col-md-2 custom-label-style">Email:</label>
+                                <div class="col-md-8 custom-input-style" >
+                                    <input type="email" class="form-control" placeholder="Home Address" value="shamser.suzon@gmail.com">
+                                </div>
+                            </div>
+
+
+                            <div class="form-group ">
+                                <label class="control-label col-md-2 custom-label-style">Role</label>
+                                <div class="col-md-8 custom-input-style">
+                                    <select class="form-control">
+                                        <option selected disabled>Select Option</option>
+                                        <option>Admin</option>
+                                        <option>SuperAdmin</option>
+                                        <option>Editor</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group ">
+                                <label class="control-label col-md-2 custom-label-style">Address:</label>
+                                <div class="col-md-8 custom-input-style" >
+                                    <textarea rows="4" cols="80" class="form-control" placeholder="Here can be your description" value="Mike">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group ">
+                                <div class="col-md-8 custom-input-style" >
+                                    <button class="btn btn-info">Update</button>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
