@@ -52,6 +52,7 @@
                                     <th>RRP</th>
                                     <th>Stock Quantity</th>
                                     <th>Min Qty Alert</th>
+                                    <th>Action</th>
 
                                 </tr>
                                 </thead>
@@ -68,6 +69,9 @@
                                     <td>90</td>
                                     <td>123</td>
                                     <td><span>2</span></td>
+                                    <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
+                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
+                                    </td>
                                 </tr>
                                 <?php }else{ ?>
                                 <tr>
@@ -79,6 +83,9 @@
                                     <td>90</td>
                                     <td>123</td>
                                     <td>10</td>
+                                    <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
+                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
+                                    </td>
                                 </tr>
                                 <?php }} ?>
 <!--                                <tr style="color: red;">-->

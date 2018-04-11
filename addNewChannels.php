@@ -32,6 +32,13 @@
                             </div>
 
                             <div class="form-group ">
+                                <label class="control-label col-md-2 custom-label-style">Chanel Address</label>
+                                <div class="col-md-8 custom-input-style" >
+                                    <textarea rows="4" cols="80" class="form-control" placeholder="Address" ></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group ">
                                 <label class="control-label col-md-2 custom-label-style">Phone:</label>
                                 <div class="col-md-8 custom-input-style">
                                     <input type="text" class="form-control" placeholder="Phone Number" >

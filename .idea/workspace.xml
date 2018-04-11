@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b7ffc8f-5d1d-4a1c-baa9-63e6d8579844" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addCategory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addColor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addSize.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editCategory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editChanel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editColor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editSize.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editSupplier.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addLocation.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editLocation.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addNewChannels.php" afterPath="$PROJECT_DIR$/addNewChannels.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addNewSupplier.php" afterPath="$PROJECT_DIR$/addNewSupplier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addproduct.php" afterPath="$PROJECT_DIR$/addproduct.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/allProducts.php" afterPath="$PROJECT_DIR$/allProducts.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/channelList.php" afterPath="$PROJECT_DIR$/channelList.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colour.php" afterPath="$PROJECT_DIR$/colour.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productCategory.php" afterPath="$PROJECT_DIR$/productCategory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/size.php" afterPath="$PROJECT_DIR$/size.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editChanel.php" afterPath="$PROJECT_DIR$/editChanel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editSupplier.php" afterPath="$PROJECT_DIR$/editSupplier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editproduct.php" afterPath="$PROJECT_DIR$/editproduct.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/location.php" afterPath="$PROJECT_DIR$/location.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minimumStocksAlert.php" afterPath="$PROJECT_DIR$/minimumStocksAlert.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recentlyAddedProducts.php" afterPath="$PROJECT_DIR$/recentlyAddedProducts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stockByChannels.php" afterPath="$PROJECT_DIR$/stockByChannels.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stockinfo.php" afterPath="$PROJECT_DIR$/stockinfo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supplierList.php" afterPath="$PROJECT_DIR$/supplierList.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,101 +33,86 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="addNewChannels.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addNewChannels.php">
+      <file leaf-file-name="addproduct.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addproduct.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="103" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="allProducts.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/allProducts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="73" column="41" lean-forward="false" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+              <caret line="87" column="41" lean-forward="false" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editproduct.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/editproduct.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="808">
+              <caret line="103" column="34" lean-forward="false" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="minimumStocksAlert.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/minimumStocksAlert.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1896">
+              <caret line="150" column="58" lean-forward="true" selection-start-line="150" selection-start-column="58" selection-end-line="150" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recentlyAddedProducts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recentlyAddedProducts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="73" selection-end-column="41" />
+              <folding>
+                <marker date="1523446378998" expanded="false" signature="4713:4724" ph="..." />
+                <marker date="1523446378998" expanded="false" signature="6548:6559" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="size.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/size.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+              <caret line="53" column="41" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="53" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addNewSupplier.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addNewSupplier.php">
+      <file leaf-file-name="stockByChannels.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stockByChannels.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="29" column="110" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="86" column="41" lean-forward="false" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
+              <caret line="100" column="41" lean-forward="false" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addSize.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addSize.php">
+      <file leaf-file-name="stockinfo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stockinfo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="channelList.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/channelList.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="79" column="67" lean-forward="false" selection-start-line="79" selection-start-column="67" selection-end-line="79" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colour.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/colour.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="20" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editCategory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editCategory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="49" column="71" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editChanel.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/editChanel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="53" column="71" lean-forward="false" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editSize.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editSize.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="58" column="71" lean-forward="false" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="editSupplier.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editSupplier.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="53" column="71" lean-forward="false" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="supplierList.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/supplierList.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="70" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="68" column="111" lean-forward="false" selection-start-line="68" selection-start-column="111" selection-end-line="68" selection-end-column="111" />
               <folding />
             </state>
           </provider>
@@ -140,16 +126,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/recentlyAddedProducts.php" />
-        <option value="$PROJECT_DIR$/minimumStocksAlert.php" />
-        <option value="$PROJECT_DIR$/stockByChannels.php" />
-        <option value="$PROJECT_DIR$/allProducts.php" />
         <option value="$PROJECT_DIR$/stocksBulkUpdate.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/editUserRole.php" />
         <option value="$PROJECT_DIR$/userRoles.php" />
         <option value="$PROJECT_DIR$/addUserRole.php" />
-        <option value="$PROJECT_DIR$/addNewSupplier.php" />
         <option value="$PROJECT_DIR$/addCategory.php" />
         <option value="$PROJECT_DIR$/productCategory.php" />
         <option value="$PROJECT_DIR$/editCategory.php" />
@@ -159,12 +140,23 @@
         <option value="$PROJECT_DIR$/size.php" />
         <option value="$PROJECT_DIR$/addSize.php" />
         <option value="$PROJECT_DIR$/editSize.php" />
-        <option value="$PROJECT_DIR$/supplierList.php" />
-        <option value="$PROJECT_DIR$/editSupplier.php" />
         <option value="$PROJECT_DIR$/addShop.php" />
-        <option value="$PROJECT_DIR$/addNewChannels.php" />
-        <option value="$PROJECT_DIR$/channelList.php" />
+        <option value="$PROJECT_DIR$/location.php" />
+        <option value="$PROJECT_DIR$/addLocation.php" />
+        <option value="$PROJECT_DIR$/editLocation.php" />
+        <option value="$PROJECT_DIR$/addproduct.php" />
+        <option value="$PROJECT_DIR$/editSupplier.php" />
         <option value="$PROJECT_DIR$/editChanel.php" />
+        <option value="$PROJECT_DIR$/addNewSupplier.php" />
+        <option value="$PROJECT_DIR$/addNewChannels.php" />
+        <option value="$PROJECT_DIR$/supplierList.php" />
+        <option value="$PROJECT_DIR$/channelList.php" />
+        <option value="$PROJECT_DIR$/stockinfo.php" />
+        <option value="$PROJECT_DIR$/recentlyAddedProducts.php" />
+        <option value="$PROJECT_DIR$/editproduct.php" />
+        <option value="$PROJECT_DIR$/minimumStocksAlert.php" />
+        <option value="$PROJECT_DIR$/stockByChannels.php" />
+        <option value="$PROJECT_DIR$/allProducts.php" />
       </list>
     </option>
   </component>
@@ -285,12 +277,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523428435626</updated>
-      <workItem from="1523428437404" duration="13803000" />
+      <workItem from="1523428437404" duration="15796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13803000" />
+    <option name="totallyTimeSpent" value="15796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1612" height="876" extended-state="0" />
@@ -335,59 +327,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minimumStocksAlert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#4;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recentlyAddedProducts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="59" column="51" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <marker date="1523430331407" expanded="false" signature="4101:4112" ph="..." />
-            <marker date="1523430331407" expanded="false" signature="5936:5947" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allProducts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="58" column="55" lean-forward="false" selection-start-line="58" selection-start-column="55" selection-end-line="58" selection-end-column="55" />
-          <folding>
-            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stocksBulkUpdate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stockByChannels.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-977">
-          <caret line="29" column="56" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/location.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -443,34 +383,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addColor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/editColor.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="227" column="60" lean-forward="false" selection-start-line="227" selection-start-column="45" selection-end-line="227" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stockinfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -483,26 +399,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/size.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="45" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="25" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/editSize.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="58" column="71" lean-forward="false" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/editSupplier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="53" column="71" lean-forward="false" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -515,30 +415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/supplierList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="70" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colour.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="20" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addNewChannels.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/addSize.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -547,26 +423,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/channelList.php">
+    <entry file="file://$PROJECT_DIR$/colour.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="79" column="67" lean-forward="false" selection-start-line="79" selection-start-column="67" selection-end-line="79" selection-end-column="67" />
+          <caret line="43" column="41" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="43" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addNewSupplier.php">
+    <entry file="file://$PROJECT_DIR$/addColor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="29" column="110" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="51" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/location.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="39" column="65" lean-forward="false" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addLocation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="54" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editLocation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3332">
+          <caret line="227" column="60" lean-forward="false" selection-start-line="227" selection-start-column="45" selection-end-line="227" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editSupplier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/editChanel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="53" column="71" lean-forward="false" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
+        <state relative-caret-position="443">
+          <caret line="33" column="95" lean-forward="false" selection-start-line="33" selection-start-column="95" selection-end-line="33" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addNewSupplier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addNewChannels.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="95" lean-forward="false" selection-start-line="34" selection-start-column="95" selection-end-line="34" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplierList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="32" selection-end-line="42" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/channelList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="32" lean-forward="false" selection-start-line="34" selection-start-column="32" selection-end-line="45" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/size.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="53" column="41" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="53" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="68" column="111" lean-forward="false" selection-start-line="68" selection-start-column="111" selection-end-line="68" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addproduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="103" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editproduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="103" column="34" lean-forward="false" selection-start-line="103" selection-start-column="34" selection-end-line="103" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recentlyAddedProducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="73" selection-end-column="41" />
+          <folding>
+            <marker date="1523446378998" expanded="false" signature="4713:4724" ph="..." />
+            <marker date="1523446378998" expanded="false" signature="6548:6559" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minimumStocksAlert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1896">
+          <caret line="150" column="58" lean-forward="true" selection-start-line="150" selection-start-column="58" selection-end-line="150" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockByChannels.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="86" column="41" lean-forward="false" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
+          <caret line="100" column="41" lean-forward="false" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allProducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="73" column="41" lean-forward="false" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+          <caret line="87" column="41" lean-forward="false" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
           <folding />
         </state>
       </provider>
