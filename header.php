@@ -41,32 +41,221 @@
             <div class="sidebar-wrapper">
                 <ul class="nav">
                     <li class="">
-                        <a href="stockinfo.php">
+<!--                        <a href="stockinfo.php">-->
+<!--                            <i class="now-ui-icons design_app"></i>-->
+<!--                            <p>Stock info</p>-->
+<!--                        </a>-->
+                        <a data-toggle="collapse" href="#stocInfo">
                             <i class="now-ui-icons design_app"></i>
-                            <p>Stock info</p>
+                            <p>Stock info<b class="caret"></b></p>
                         </a>
-                    </li>
 
-                    <li >
-                        <a href="addproduct.php">
-                            <i class="now-ui-icons location_map-big"></i>
-                            <p>Add Product</p>
-                        </a>
+                        <div class="collapse " id="stocInfo">
+                            <ul class="nav">
+
+                                <li>
+                                    <a href="recentlyAddedProducts.php">
+
+                                        <span class="sidebar-normal"> Recently Added Products </span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="minimumStocksAlert.php">
+
+                                        <span class="sidebar-normal"> Minimum Stocks Alert</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="stockByChannels.php">
+
+                                        <span class="sidebar-normal"> Stock by Channels </span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="allProducts.php">
+
+                                        <span class="sidebar-normal"> All Products </span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
                     </li>
 
                     <li>
-                        <a href="product.php">
+                        <a data-toggle="collapse" href="#productManagement">
                             <i class="now-ui-icons design_app"></i>
-                            <p>Product list</p>
+                            <p>Products Management<b class="caret"></b></p>
                         </a>
+
+                        <div class="collapse " id="productManagement">
+                            <ul class="nav">
+
+                                <li>
+                                    <a href="addproduct.php">
+
+                                        <span class="sidebar-normal"> Enter Products </span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="stocksBulkUpdate.php">
+
+                                        <span class="sidebar-normal"> Update Stocks in bulk</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </li>
+<!--                    <li>-->
+<!--                        <a href="product.php">-->
+<!--                            <i class="now-ui-icons design_app"></i>-->
+<!--                            <p>Product list</p>-->
+<!--                        </a>-->
+<!--                    </li>-->
+
+<!--                    <li>-->
+<!--                        <a href="user.php">-->
+<!--                            <i class="now-ui-icons design_app"></i>-->
+<!--                            <p>User list</p>-->
+<!--                        </a>-->
+<!--                    </li>-->
+                    <li>
+                        <a data-toggle="collapse" href="#userManagement">
+                            <i class="now-ui-icons design_app"></i>
+                            <p>User Management<b class="caret"></b></p>
+                        </a>
+
+                        <div class="collapse " id="userManagement">
+                            <ul class="nav">
+
+                                <li>
+                                    <a href="user.php">
+
+                                        <span class="sidebar-normal"> User List </span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="addUser.php">
+
+                                        <span class="sidebar-normal"> Add New user</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="userRoles.php">
+
+                                        <span class="sidebar-normal"> User roles</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#channelManagement">
+                            <i class="now-ui-icons design_app"></i>
+                            <p>Channel Management<b class="caret"></b></p>
+                        </a>
+
+                        <div class="collapse " id="channelManagement">
+                            <ul class="nav">
+
+                                <li>
+                                    <a href="channelList.php">
+
+                                        <span class="sidebar-normal"> Channel List </span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="addNewChannels.php">
+
+                                        <span class="sidebar-normal"> Add new Channels</span>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#supplierManagement">
+                            <i class="now-ui-icons design_app"></i>
+                            <p>Supplier/Manufacturer<b class="caret"></b></p>
+                        </a>
+
+                        <div class="collapse " id="supplierManagement">
+                            <ul class="nav">
+
+                                <li>
+                                    <a href="supplierList.php">
+
+                                        <span class="sidebar-normal"> Supplier List </span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="addNewSupplier.php">
+
+                                        <span class="sidebar-normal"> Add new Supplier</span>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li>
+                        <a data-toggle="collapse" href="#Settings">
+                            <i class="now-ui-icons design_app"></i>
+                            <p>Settings<b class="caret"></b></p>
+                        </a>
+
+                        <div class="collapse " id="Settings">
+                            <ul class="nav">
+
+                                <li>
+                                    <a href="productCategory.php">
+
+                                        <span class="sidebar-normal"> Product Category </span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="location.php">
+
+                                        <span class="sidebar-normal"> Location</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="colour.php">
+
+                                        <span class="sidebar-normal"> Colour</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="size.php">
+
+                                        <span class="sidebar-normal"> Size</span>
+                                    </a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+
                     </li>
 
-                    <li>
-                        <a href="user.php">
-                            <i class="now-ui-icons design_app"></i>
-                            <p>User list</p>
-                        </a>
-                    </li>
 
 
 
