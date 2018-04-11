@@ -12,7 +12,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="title">Add Shop</h5>
+                        <h5 class="title">Edit Supplier</h5>
                     </div>
                     <div class="card-body">
                         <form class="form-horizontal">
@@ -51,7 +51,7 @@
 
                             <div class="form-group ">
                                 <div class="col-md-8 custom-input-style" >
-                                    <button class="btn btn-info">Create</button>
+                                    <button class="btn btn-info">Update</button>
                                 </div>
                             </div>
 

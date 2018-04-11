@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b7ffc8f-5d1d-4a1c-baa9-63e6d8579844" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addUserRole.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editUserRole.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addCategory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addColor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/addSize.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editCategory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editChanel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editColor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editSize.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editSupplier.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/userRoles.php" afterPath="$PROJECT_DIR$/userRoles.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addNewChannels.php" afterPath="$PROJECT_DIR$/addNewChannels.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addNewSupplier.php" afterPath="$PROJECT_DIR$/addNewSupplier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/channelList.php" afterPath="$PROJECT_DIR$/channelList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colour.php" afterPath="$PROJECT_DIR$/colour.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productCategory.php" afterPath="$PROJECT_DIR$/productCategory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/size.php" afterPath="$PROJECT_DIR$/size.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supplierList.php" afterPath="$PROJECT_DIR$/supplierList.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,61 +32,101 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="addUser.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addUser.php">
+      <file leaf-file-name="addNewChannels.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addNewChannels.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addUserRole.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addUserRole.php">
+      <file leaf-file-name="addNewSupplier.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addNewSupplier.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="35" column="71" lean-forward="false" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
+            <state relative-caret-position="230">
+              <caret line="29" column="110" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editUserRole.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editUserRole.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="35" column="71" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2219">
-              <caret line="256" column="25" lean-forward="true" selection-start-line="256" selection-start-column="25" selection-end-line="256" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user.php">
+      <file leaf-file-name="addSize.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addSize.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="channelList.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/channelList.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="79" column="67" lean-forward="false" selection-start-line="79" selection-start-column="67" selection-end-line="79" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colour.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/colour.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
               <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="20" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userRoles.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userRoles.php">
+      <file leaf-file-name="editCategory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/editCategory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="48" />
+            <state relative-caret-position="578">
+              <caret line="49" column="71" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editChanel.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/editChanel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="53" column="71" lean-forward="false" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editSize.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/editSize.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="58" column="71" lean-forward="false" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editSupplier.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/editSupplier.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="53" column="71" lean-forward="false" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="supplierList.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/supplierList.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="70" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -93,13 +145,26 @@
         <option value="$PROJECT_DIR$/stockByChannels.php" />
         <option value="$PROJECT_DIR$/allProducts.php" />
         <option value="$PROJECT_DIR$/stocksBulkUpdate.php" />
-        <option value="$PROJECT_DIR$/channelList.php" />
-        <option value="$PROJECT_DIR$/addNewChannels.php" />
-        <option value="$PROJECT_DIR$/supplierList.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/editUserRole.php" />
         <option value="$PROJECT_DIR$/userRoles.php" />
         <option value="$PROJECT_DIR$/addUserRole.php" />
+        <option value="$PROJECT_DIR$/addNewSupplier.php" />
+        <option value="$PROJECT_DIR$/addCategory.php" />
+        <option value="$PROJECT_DIR$/productCategory.php" />
+        <option value="$PROJECT_DIR$/editCategory.php" />
+        <option value="$PROJECT_DIR$/addColor.php" />
+        <option value="$PROJECT_DIR$/colour.php" />
+        <option value="$PROJECT_DIR$/editColor.php" />
+        <option value="$PROJECT_DIR$/size.php" />
+        <option value="$PROJECT_DIR$/addSize.php" />
+        <option value="$PROJECT_DIR$/editSize.php" />
+        <option value="$PROJECT_DIR$/supplierList.php" />
+        <option value="$PROJECT_DIR$/editSupplier.php" />
+        <option value="$PROJECT_DIR$/addShop.php" />
+        <option value="$PROJECT_DIR$/addNewChannels.php" />
+        <option value="$PROJECT_DIR$/channelList.php" />
+        <option value="$PROJECT_DIR$/editChanel.php" />
       </list>
     </option>
   </component>
@@ -220,12 +285,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523428435626</updated>
-      <workItem from="1523428437404" duration="5120000" />
+      <workItem from="1523428437404" duration="13803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5120000" />
+    <option name="totallyTimeSpent" value="13803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1612" height="876" extended-state="0" />
@@ -322,98 +387,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/channelList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addNewChannels.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/supplierList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addNewSupplier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/productCategory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/location.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colour.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/size.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2219">
-          <caret line="256" column="25" lean-forward="true" selection-start-line="256" selection-start-column="25" selection-end-line="256" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stockinfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="29" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/addUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="20" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -428,16 +405,168 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/editUserRole.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" column="71" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addUserRole.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="71" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="54" column="112" lean-forward="true" selection-start-line="53" selection-start-column="40" selection-end-line="54" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="61" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="28" column="128" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addColor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editColor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="52" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="227" column="60" lean-forward="false" selection-start-line="227" selection-start-column="45" selection-end-line="227" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stockinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="40" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/size.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="45" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="25" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editSize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="58" column="71" lean-forward="false" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editSupplier.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
-          <caret line="35" column="71" lean-forward="false" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
+          <caret line="53" column="71" lean-forward="false" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="49" column="71" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supplierList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="70" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colour.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="20" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addNewChannels.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addSize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/channelList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="79" column="67" lean-forward="false" selection-start-line="79" selection-start-column="67" selection-end-line="79" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addNewSupplier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="29" column="110" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editChanel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="53" column="71" lean-forward="false" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
           <folding />
         </state>
       </provider>
