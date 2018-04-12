@@ -12,7 +12,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="title">Add Supplier</h5>
+                        <h5 class="title">Add Category</h5>
                     </div>
                     <div class="card-body">
                         <form class="form-horizontal">
@@ -23,38 +23,27 @@
                                 </div>
                             </div>
 
-
                             <div class="form-group ">
-                                <label class="control-label col-md-2 custom-label-style">Description</label>
+                                <label class="control-label col-md-2 custom-label-style">Description:</label>
                                 <div class="col-md-8 custom-input-style" >
-                                    <textarea rows="4" cols="80" class="form-control" placeholder="Description" ></textarea>
+                                    <textarea rows="4" cols="80" class="form-control" placeholder="Here can be your description"></textarea>
                                 </div>
                             </div>
 
-                            <div class="form-group ">
-                                <label class="control-label col-md-2 custom-label-style">Supplier Address</label>
-                                <div class="col-md-8 custom-input-style" >
-                                    <textarea rows="4" cols="80" class="form-control" placeholder="Address" ></textarea>
-                                </div>
-                            </div>
-
-                            <div class="form-group ">
-                                <label class="control-label col-md-2 custom-label-style">Phone:</label>
-                                <div class="col-md-8 custom-input-style">
-                                    <input type="text" class="form-control" placeholder="Phone Number" >
-                                </div>
-                            </div>
 
                             <div class="form-group ">
                                 <label class="control-label col-md-2 custom-label-style">Status</label>
                                 <div class="col-md-8 custom-input-style">
                                     <select class="form-control">
-                                        <option selected >Select Status</option>
+                                        <option selected disabled>Select Status</option>
                                         <option>Active</option>
-                                        <option>InActive</option>
+                                        <option>Inactive</option>
+
                                     </select>
                                 </div>
                             </div>
+
+
 
                             <div class="form-group ">
                                 <div class="col-md-8 custom-input-style" >

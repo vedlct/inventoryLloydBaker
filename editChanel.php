@@ -12,7 +12,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="title">Add Supplier</h5>
+                        <h5 class="title">Edit Supplier</h5>
                     </div>
                     <div class="card-body">
                         <form class="form-horizontal">
@@ -30,9 +30,8 @@
                                     <textarea rows="4" cols="80" class="form-control" placeholder="Description" ></textarea>
                                 </div>
                             </div>
-
                             <div class="form-group ">
-                                <label class="control-label col-md-2 custom-label-style">Supplier Address</label>
+                                <label class="control-label col-md-2 custom-label-style">Chanel Address</label>
                                 <div class="col-md-8 custom-input-style" >
                                     <textarea rows="4" cols="80" class="form-control" placeholder="Address" ></textarea>
                                 </div>
@@ -58,7 +57,7 @@
 
                             <div class="form-group ">
                                 <div class="col-md-8 custom-input-style" >
-                                    <button class="btn btn-info">Create</button>
+                                    <button class="btn btn-info">Update</button>
                                 </div>
                             </div>
 

@@ -90,7 +90,16 @@
 
                                 <label class="control-label col-md-2 custom-label-style">Product Stored Location</label>
 
-                                <input type="text" class="col-md-8 custom-input-style form-control" placeholder="Location" value="">
+                                <!--                                <input type="text" class="col-md-8 custom-input-style form-control" placeholder="Location" value="">-->
+
+                                <select class="form-control col-md-8 custom-input-style" >
+                                    <option value="">Select Product Location</option>
+                                    <option value="">Pallet-1</option>
+                                    <option value="">Pallet-2</option>
+                                    <option value="">Pallet-3</option>
+                                    <option value="">Pallet-4</option>
+                                </select>
+
 
                             </div>
 
