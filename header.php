@@ -55,7 +55,7 @@
 
                                 <li>
                                     <a href="recentlyAddedProducts.php">
-                                        <i class="fas fa-edit"></i>
+                                        <i class="fas fa-align-justify"></i>
                                         <span class="sidebar-normal"> Recently Added Products </span>
                                     </a>
                                 </li>
@@ -205,7 +205,7 @@
 
                                 <li>
                                     <a href="addNewSupplier.php">
-                                        <i class="fas fa-edit"></i>
+                                        <i class="fas fa-plus-square"></i>
                                         <span class="sidebar-normal"> Add new Supplier</span>
                                     </a>
                                 </li>
