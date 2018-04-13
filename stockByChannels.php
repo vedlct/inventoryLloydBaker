@@ -1,5 +1,11 @@
 
 <?php include ("header.php"); ?>
+<script>
+    $(document).ready(function() {
+
+        $("#stocInfodrop").click();
+    } );
+</script>
 
 <div class="main-panel">
     <!-- Navbar -->
@@ -159,9 +165,13 @@
     <script>
 
         $(document).ready(function() {
+
             $('#example').DataTable({
                 "aaSorting" : []
             });
+
+            $("#stocInfodrop").click();
+
         } );
 
     </script>

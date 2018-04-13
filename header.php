@@ -45,8 +45,8 @@
 <!--                            <i class="now-ui-icons design_app"></i>-->
 <!--                            <p>Stock info</p>-->
 <!--                        </a>-->
-                        <a data-toggle="collapse" href="#stocInfo">
-                            <i class="now-ui-icons design_app"></i>
+                        <a data-toggle="collapse" href="#stocInfo" id="stocInfodrop">
+                           
                             <p>Stock info<b class="caret"></b></p>
                         </a>
 
@@ -55,28 +55,28 @@
 
                                 <li>
                                     <a href="recentlyAddedProducts.php">
-
+                                        <i class="fas fa-align-justify"></i>
                                         <span class="sidebar-normal"> Recently Added Products </span>
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="minimumStocksAlert.php">
-
+                                        <i class="far fa-bell"></i>
                                         <span class="sidebar-normal"> Minimum Stocks Alert</span>
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="stockByChannels.php">
-
+                                        <i class="fab fa-stack-overflow"></i>
                                         <span class="sidebar-normal"> Stock by Channels </span>
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="allProducts.php">
-
+                                        <i class="fas fa-align-center"></i>
                                         <span class="sidebar-normal"> All Products </span>
                                     </a>
                                 </li>
@@ -87,8 +87,8 @@
                     </li>
 
                     <li>
-                        <a data-toggle="collapse" href="#productManagement">
-                            <i class="now-ui-icons design_app"></i>
+                        <a data-toggle="collapse" href="#productManagement" id="productManagementdrop">
+                          
                             <p>Products Management<b class="caret"></b></p>
                         </a>
 
@@ -97,14 +97,14 @@
 
                                 <li>
                                     <a href="addproduct.php">
-
+                                        <i class="fas fa-angle-double-right"></i>
                                         <span class="sidebar-normal"> Enter Products </span>
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="stocksBulkUpdate.php">
-
+                                        <i class="fas fa-wrench"></i>
                                         <span class="sidebar-normal"> Update Stocks in bulk</span>
                                     </a>
                                 </li>
@@ -127,8 +127,8 @@
 <!--                        </a>-->
 <!--                    </li>-->
                     <li>
-                        <a data-toggle="collapse" href="#userManagement">
-                            <i class="now-ui-icons design_app"></i>
+                        <a data-toggle="collapse" href="#userManagement" id="userManagementDrop">
+                            
                             <p>User Management<b class="caret"></b></p>
                         </a>
 
@@ -137,20 +137,20 @@
 
                                 <li>
                                     <a href="user.php">
-
+                                        <i class="fas fa-align-center"></i>
                                         <span class="sidebar-normal"> User List </span>
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="addUser.php">
-
+                                        <i class="fas fa-user-plus"></i>
                                         <span class="sidebar-normal"> Add New user</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="userRoles.php">
-
+                                        <i class="fas fa-address-book"></i>
                                         <span class="sidebar-normal"> User roles</span>
                                     </a>
                                 </li>
@@ -160,8 +160,8 @@
 
                     </li>
                     <li>
-                        <a data-toggle="collapse" href="#channelManagement">
-                            <i class="now-ui-icons design_app"></i>
+                        <a data-toggle="collapse" href="#channelManagement" id="channelManagementDrop">
+                          
                             <p>Channel Management<b class="caret"></b></p>
                         </a>
 
@@ -170,14 +170,14 @@
 
                                 <li>
                                     <a href="channelList.php">
-
+                                        <i class="fas fa-align-right"></i>
                                         <span class="sidebar-normal"> Channel List </span>
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="addNewChannels.php">
-
+                                        <i class="fas fa-plus-square"></i>
                                         <span class="sidebar-normal"> Add new Channels</span>
                                     </a>
                                 </li>
@@ -188,8 +188,8 @@
 
                     </li>
                     <li>
-                        <a data-toggle="collapse" href="#supplierManagement">
-                            <i class="now-ui-icons design_app"></i>
+                        <a data-toggle="collapse" href="#supplierManagement" id="supplierManagementDrop">
+                          
                             <p>Supplier/Manufacturer<b class="caret"></b></p>
                         </a>
 
@@ -198,14 +198,14 @@
 
                                 <li>
                                     <a href="supplierList.php">
-
+                                        <i class="fas fa-align-justify"></i>
                                         <span class="sidebar-normal"> Supplier List </span>
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="addNewSupplier.php">
-
+                                        <i class="fas fa-plus-square"></i>
                                         <span class="sidebar-normal"> Add new Supplier</span>
                                     </a>
                                 </li>
@@ -217,7 +217,7 @@
                     </li>
                     <li>
                         <a data-toggle="collapse" href="#Settings">
-                            <i class="now-ui-icons design_app"></i>
+                           
                             <p>Settings<b class="caret"></b></p>
                         </a>
 
@@ -226,26 +226,26 @@
 
                                 <li>
                                     <a href="productCategory.php">
-
+                                        <i class="fas fa-archive"></i>
                                         <span class="sidebar-normal"> Product Category </span>
                                     </a>
                                 </li>
 
                                 <li>
                                     <a href="location.php">
-
+                                        <i class="fas fa-map-marker"></i>
                                         <span class="sidebar-normal"> Location</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="colour.php">
-
+                                        <i class="fas fa-adjust"></i>
                                         <span class="sidebar-normal"> Colour</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="size.php">
-
+                                        <i class="far fa-clone"></i>
                                         <span class="sidebar-normal"> Size</span>
                                     </a>
                                 </li>

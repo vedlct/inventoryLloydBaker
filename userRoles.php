@@ -63,6 +63,7 @@ define('USERROLE',array("Admin",'SuperAdmin','Editor'));
 
         $(document).ready(function() {
             $('#example').DataTable();
+            $("#userManagementDrop").click();
         } );
 
     </script>

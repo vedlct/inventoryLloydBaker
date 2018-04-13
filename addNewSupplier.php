@@ -44,6 +44,12 @@
                                     <input type="text" class="form-control" placeholder="Phone Number" >
                                 </div>
                             </div>
+                            <div class="form-group ">
+                                <label class="control-label col-md-2 custom-label-style">Email:</label>
+                                <div class="col-md-8 custom-input-style">
+                                    <input type="email" class="form-control" placeholder="Email" >
+                                </div>
+                            </div>
 
                             <div class="form-group ">
                                 <label class="control-label col-md-2 custom-label-style">Status</label>
@@ -70,3 +76,11 @@
     </div>
 
     <?php include ("footer.php"); ?>
+    <script>
+
+        $(document).ready(function() {
+
+            $("#supplierManagementDrop").click();
+        } );
+
+    </script>

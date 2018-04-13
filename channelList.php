@@ -64,6 +64,7 @@
                                     <th>Shop Name</th>
 <!--                                    <th>Location</th>-->
                                     <th>Phone</th>
+                                    <th>Email</th>
                                     <th>Status</th>
                                     <th>Action</th>
 
@@ -76,6 +77,7 @@
                                         <td>Shop Name <?php echo $i ?></td>
 <!--                                        <td>--><?php //echo "Location-".$i ?><!--</td>-->
                                         <td><?php echo(rand(0,100))?></td>
+                                        <td>user<?php echo $i?>@email.com</td>
                                         <td>Active</td>
                                         <td><a href="editChanel.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
                                             <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
@@ -105,6 +107,7 @@
 
         $(document).ready(function() {
             $('#example').DataTable();
+            $("#channelManagementDrop").click();
         } );
 
     </script>

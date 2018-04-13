@@ -71,3 +71,13 @@
     </div>
 
     <?php include ("footer.php"); ?>
+
+    <script>
+
+        $(document).ready(function() {
+
+            $("#userManagementDrop").click();
+        } );
+
+    </script>
+

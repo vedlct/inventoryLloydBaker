@@ -135,3 +135,11 @@
     </div>
 
     <?php include ("footer.php"); ?>
+    <script>
+
+        $(document).ready(function() {
+
+            $("#productManagementdrop").click();
+        } );
+
+    </script>

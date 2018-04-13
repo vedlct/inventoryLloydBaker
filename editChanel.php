@@ -45,6 +45,13 @@
                             </div>
 
                             <div class="form-group ">
+                                <label class="control-label col-md-2 custom-label-style">Email:</label>
+                                <div class="col-md-8 custom-input-style">
+                                    <input type="email" class="form-control" placeholder="Email" >
+                                </div>
+                            </div>
+
+                            <div class="form-group ">
                                 <label class="control-label col-md-2 custom-label-style">Status</label>
                                 <div class="col-md-8 custom-input-style">
                                     <select class="form-control">
