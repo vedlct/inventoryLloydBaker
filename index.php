@@ -114,7 +114,7 @@
 
 
                             <div class="card-footer ">
-                                <a href="stockinfo.php" class="btn btn-primary btn-round btn-lg btn-block mb-3">Log In</a>
+                                <a href="allProducts.php" class="btn btn-primary btn-round btn-lg btn-block mb-3">Log In</a>
 
                             </div>
 

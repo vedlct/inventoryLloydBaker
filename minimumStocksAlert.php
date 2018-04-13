@@ -126,7 +126,7 @@
                                <?php } ?>
 
 
-                                <?php for($i=0;$i<=1000;$i++)
+                                <?php for($i=0;$i<=50;$i++)
                                 {
                                          $random = rand(1, 3);
                                         // echo $random;

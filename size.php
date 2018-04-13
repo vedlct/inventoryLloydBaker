@@ -20,7 +20,7 @@
                                 <div class="form-group">
                                     <label>Size Category</label>
                                     <select class="form-control" >
-                                        <option value="">Select Product Category</option>
+                                        <option value="">Select Size Category</option>
                                         <option value="">Men->Pant</option>
                                         <option value="">Women->Gown</option>
                                     </select>

@@ -31,18 +31,79 @@
 
                                 </tr>
                                 </thead>
-                                <tbody>
-                                <?php for ($i=0;$i<25;$i++){?>
-                                <tr >
-                                    <td>Cobalt low-back satin gown</td>
-                                    <td>Category Description</td>
-                                    <td>Active</td>
-                                    <td><a href="editCategory.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
-                                    </td>
+<!--                                <tbody>-->
+<!--                                --><?php //for ($i=0;$i<25;$i++){?>
+<!--                                <tr >-->
+<!--                                    <td>Cobalt low-back satin gown</td>-->
+<!--                                    <td>Category Description</td>-->
+<!--                                    <td>Active</td>-->
+<!--                                    <td><a href="editCategory.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>-->
+<!--                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>-->
+<!--                                    </td>-->
+<!---->
+<!--                                </tr>-->
+<!--                                --><?php //} ?>
+<!---->
+<!---->
+<!--                                </tbody>-->
 
-                                </tr>
+                                <tbody>
+
+                                <?php
+                                function myfunction($value) {
+                                    if ($value==1) {
+                                        echo $r = "
+                                    <tr>
+                                            <td>Womenswear>Gowns</td>
+                                            <td>Category Description-1</td>
+                                            <td>Active</td>
+                                            <td><a href=\"editCategory.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                        <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
+                                    </td>
+                                        </tr>
+                                        ";
+                                    }else if ($value==2){
+                                        echo $rd="
+                                        <tr>
+                                            <td>Women.Accessories.Purses</td>
+                                            <td>Category Description-2</td>
+                                            <td>Inactive</td>
+                                            <td><a href=\"editCategory.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                        <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
+                                    </td>
+                                        </tr>
+                                        ";
+                                    }else if ($value==3){
+
+                                        echo $rd="
+                                        <tr>
+                                            
+                                            <td>Womenswear Accessories.Bags.Cross-body Bags</td>
+                                            <td>Category Description-3</td>
+                                            <td>Active</td>
+                                            <td><a href=\"editCategory.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                        <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
+                                    </td>
+                                            
+                                        </tr>
+                                        ";
+
+
+
+                                    }?>
+
+
+
                                 <?php } ?>
+
+
+                                <?php for($i=0;$i<1000;$i++)
+                                {
+                                    $random = rand(1, 3);
+                                    // echo $random;
+                                    myfunction($random); //may you was intended to pass $val here?
+
+                                }?>
 
 
                                 </tbody>
@@ -63,7 +124,11 @@
     <script>
 
         $(document).ready(function() {
-            $('#example').DataTable();
+
+            $('#example').DataTable({
+                "aaSorting" : []
+            });
+            $("#Settingsdrop").click();
         } );
 
     </script>
