@@ -128,7 +128,7 @@
             $('#example').DataTable({
                 "aaSorting" : []
             });
-            $("#Settings").click();
+            $("#Settingsdrop").click();
         } );
 
     </script>
