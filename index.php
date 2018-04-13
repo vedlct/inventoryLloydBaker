@@ -35,90 +35,90 @@
 <body class=" sidebar-mini">
 
 <!--<img src="assets/img/bg14.jpg">-->
-        
-        <!-- Navbar -->
+
+<!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-transparent  navbar-absolute bg-primary fixed-top">
-	<div class="container-fluid">
-    <div class="navbar-wrapper">
-			<div class="navbar-toggle">
-				<button type="button" class="navbar-toggler">
-					<span class="navbar-toggler-bar bar1"></span>
-					<span class="navbar-toggler-bar bar2"></span>
-					<span class="navbar-toggler-bar bar3"></span>
-				</button>
-			</div>
+    <div class="container-fluid">
+        <div class="navbar-wrapper">
+            <div class="navbar-toggle">
+                <button type="button" class="navbar-toggler">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </button>
+            </div>
 
-		</div>
+        </div>
 
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-bar navbar-kebab"></span>
-			<span class="navbar-toggler-bar navbar-kebab"></span>
-			<span class="navbar-toggler-bar navbar-kebab"></span>
-		</button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+        </button>
 
 
-	</div>
+    </div>
 </nav>
 <!-- End Navbar -->
 
-        
 
-        <div class="wrapper wrapper-full-page ">
-          
-            
-            <div class="full-page login-page section-image" filter-color="black">
+
+<div class="wrapper wrapper-full-page ">
+
+
+    <div class="full-page login-page section-image" filter-color="black">
         <!--   you can change the color of the filter page using: data-color="blue | purple | green | orange | red | rose " -->
         <div class="content">
             <div class="container">
                 <div class="col-md-4 ml-auto mr-auto">
                     <form class="form" method="" action="">
-                        
+
 
 
 
 
 
                         <div class="card card-login card-plain">
-    
 
-    <div class="logo-container" style="text-align: center;margin-top: 70%;">
-                          <h1><b style="color: white;">LloydBaker</b></h1>
-                        </div>
 
-    <div class="card-body ">
-        
+                            <div class="logo-container" style="text-align: center;margin-top: 70%;">
+                                <h1><b style="color: white;">LloydBaker</b></h1>
+                            </div>
 
-        
+                            <div class="card-body ">
 
-        
 
-        
-            <div class="input-group no-border form-control-lg">
+
+
+
+
+
+                                <div class="input-group no-border form-control-lg">
                                 <span class="input-group-addon">
                                     <i class="now-ui-icons users_circle-08"></i>
                                 </span>
-                                <input type="text" class="form-control" placeholder="email...">
-                              </div>
+                                    <input type="text" class="form-control" placeholder="email...">
+                                </div>
 
-                              <div class="input-group no-border form-control-lg">
+                                <div class="input-group no-border form-control-lg">
                                 <span class="input-group-addon">
                                     <i class="now-ui-icons text_caps-small"></i>
                                 </span>
-                                <input type="text" placeholder="password..." class="form-control">
-                              </div>
-        
+                                    <input type="text" placeholder="password..." class="form-control">
+                                </div>
 
-        
-    </div>
-    
-    
-    
-    <div class="card-footer ">
-        <a href="stockinfo.php" class="btn btn-primary btn-round btn-lg btn-block mb-3">Log In</a>
 
-    </div>
-    
-</div>
+
+                            </div>
+
+
+
+                            <div class="card-footer ">
+                                <a href="stockinfo.php" class="btn btn-primary btn-round btn-lg btn-block mb-3">Log In</a>
+
+                            </div>
+
+                        </div>
 
 
 
@@ -134,9 +134,9 @@
 
     </div>
 
-          
-        </div>
-        
+
+</div>
+
 
 </body>
 <!---->

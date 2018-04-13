@@ -1,5 +1,11 @@
 
 <?php include ("header.php"); ?>
+<script>
+    $(document).ready(function() {
+
+        $("#stocInfodrop").click();
+    } );
+</script>
 
 <div class="main-panel">
     <!-- Navbar -->
@@ -12,7 +18,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title"> Stock Info</h4>
+                        <h4 class="card-title"> Stock By Channels</h4>
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -122,6 +128,7 @@
 
         $(document).ready(function() {
             $('#example').DataTable();
+//            $("#stocInfodrop").click();
         } );
 
     </script>

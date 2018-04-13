@@ -45,7 +45,7 @@
 <!--                            <i class="now-ui-icons design_app"></i>-->
 <!--                            <p>Stock info</p>-->
 <!--                        </a>-->
-                        <a data-toggle="collapse" href="#stocInfo">
+                        <a data-toggle="collapse" href="#stocInfo" id="stocInfodrop">
                            
                             <p>Stock info<b class="caret"></b></p>
                         </a>
@@ -87,7 +87,7 @@
                     </li>
 
                     <li>
-                        <a data-toggle="collapse" href="#productManagement">
+                        <a data-toggle="collapse" href="#productManagement" id="productManagementdrop">
                           
                             <p>Products Management<b class="caret"></b></p>
                         </a>
@@ -127,7 +127,7 @@
 <!--                        </a>-->
 <!--                    </li>-->
                     <li>
-                        <a data-toggle="collapse" href="#userManagement">
+                        <a data-toggle="collapse" href="#userManagement" id="userManagementDrop">
                             
                             <p>User Management<b class="caret"></b></p>
                         </a>
@@ -160,7 +160,7 @@
 
                     </li>
                     <li>
-                        <a data-toggle="collapse" href="#channelManagement">
+                        <a data-toggle="collapse" href="#channelManagement" id="channelManagementDrop">
                           
                             <p>Channel Management<b class="caret"></b></p>
                         </a>
@@ -188,7 +188,7 @@
 
                     </li>
                     <li>
-                        <a data-toggle="collapse" href="#supplierManagement">
+                        <a data-toggle="collapse" href="#supplierManagement" id="supplierManagementDrop">
                           
                             <p>Supplier/Manufacturer<b class="caret"></b></p>
                         </a>

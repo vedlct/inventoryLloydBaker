@@ -16,19 +16,19 @@
                     </div>
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-md-4 pr-1">
-                                <div class="form-group">
-                                    <label>Supplier Name</label>
-                                    <select class="form-control" >
-                                        <option value="">Select Supplier Name</option>
-                                        <option value="">Name-1</option>
-                                        <option value="">Name-2</option>
-                                        <option value="">Name-3</option>
-                                        <option value="">Name-4</option>
-
-                                    </select>
-                                </div>
-                            </div>
+<!--                            <div class="col-md-4 pr-1">-->
+<!--                                <div class="form-group">-->
+<!--                                    <label>Supplier Name</label>-->
+<!--                                    <select class="form-control" >-->
+<!--                                        <option value="">Select Supplier Name</option>-->
+<!--                                        <option value="">Name-1</option>-->
+<!--                                        <option value="">Name-2</option>-->
+<!--                                        <option value="">Name-3</option>-->
+<!--                                        <option value="">Name-4</option>-->
+<!---->
+<!--                                    </select>-->
+<!--                                </div>-->
+<!--                            </div>-->
 <!--                            <div class="col-md-4 pl-1">-->
 <!--                                <div class="form-group">-->
 <!--                                    <label>Location</label>-->
@@ -41,7 +41,7 @@
 <!--                                    </select>-->
 <!--                                </div>-->
 <!--                            </div>-->
-                            <div class="col-md-4 pl-1">
+                            <div class="col-md-4">
                                 <div class="form-group">
                                     <label>Status</label>
                                     <select class="form-control" >
@@ -72,7 +72,7 @@
                                 <tr>
                                     <td>Supplier Name <?php echo $i ?></td>
 <!--                                    <td>--><?php //echo "Location-".$i ?><!--</td>-->
-                                    <td><?php echo(rand(0,100))?></td>
+                                    <td><?php echo(rand(112345646,999999999))?></td>
                                     <td>Active</td>
                                     <td><a href="editSupplier.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
                                         <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
@@ -102,6 +102,7 @@
 
         $(document).ready(function() {
             $('#example').DataTable();
+            $("#supplierManagementDrop").click();
         } );
 
     </script>

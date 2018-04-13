@@ -12,7 +12,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title"> Stock Info</h4>
+                        <h4 class="card-title"> All Products</h4>
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -57,11 +57,15 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <?php for ($i=0;$i<1000;$i++){
-                                    if ($i%3==1){?>
+                                <?php for ($i=0;$i<1000;$i++){?>
 
-                                        <tr style="color: red;">
-                                            <td>Cobalt low-back satin gown</td>
+                                <?php
+                                            $rand=rand(1,5);
+                                            switch ($rand) {
+                                                case 1:
+                                                    echo '
+                                                <tr>
+                                             <td>Cobalt low-back satin gown</td>
                                             <td>Womenswear>Gowns</td>
                                             <td>ABCD-123-BLS</td>
                                             <td>Yellow Croc</td>
@@ -71,23 +75,62 @@
                                             <td><span>2</span></td>
                                             <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
                                         <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
-                                    </td>
-                                        </tr>
-                                    <?php }else{ ?>
-                                        <tr>
-                                            <td>Bordeaux low-back satin gown</td>
-                                            <td>WW Accessories Mirakl / Bags / Shoulder Bags</td>
-                                            <td>ABCD-124-BLS</td>
-                                            <td>Yellow Croc</td>
-                                            <td>pallet-2</td>
-                                            <td>90</td>
-                                            <td>123</td>
-                                            <td>10</td>
-                                            <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
-                                    </td>
-                                        </tr>
-                                    <?php }} ?>
+                                         </tr>
+                                                    ';
+                                                    break;
+                                                case 2:
+                                                    echo '<tr>
+                                                         <td>AMANDAW MP</td>
+                                                        <td>WW Accessories Mirakl / Bags / Shoulder Bags</td>
+                                                        <td>BLK-6543</td>
+                                                        <td>Black</td>
+                                                        <td>pallet-1</td>
+                                                        <td>90</td>
+                                                        <td>123</td>
+                                                        <td><span>2</span></td>
+                                                        <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
+                                                    <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
+                                                         </tr>
+                                                                ';
+                                                    break;
+                                                case 3:
+                                                    echo '<tr>
+                                                         <td>Bordeaux low-back satin gown</td>
+                                                        <td>Womenswear>Gowns</td>
+                                                        <td>ABCD-123-BLS</td>
+                                                        <td>Yellow Croc</td>
+                                                        <td>pallet-1</td>
+                                                        <td>90</td>
+                                                        <td>123</td>
+                                                        <td><span>2</span></td>
+                                                        <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
+                                                    <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
+                                                     </tr>
+                                                                ';
+                                                break;
+
+                                                default:
+                                                    echo '
+                                                              <tr style="color: red;">
+                                                            <td>Cobalt low-back satin gown</td>
+                                                            <td>Womenswear>Gowns</td>
+                                                            <td>ABCD-123-BLS</td>
+                                                            <td>Yellow Croc</td>
+                                                            <td>pallet-1</td>
+                                                            <td>90</td>
+                                                            <td>123</td>
+                                                            <td><span>2</span></td>
+                                                            <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
+                                                            <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
+                                                             </tr>
+                                                                    ';
+                                            }}
+
+
+                                            ?>
+
+
+
 
 
                                 </tbody>
@@ -107,8 +150,14 @@
 
     <script>
 
+
+
         $(document).ready(function() {
             $('#example').DataTable();
+
+//            $("#stocInfo").on("focus",function() {
+                $("#stocInfodrop").click();
+//            });
         } );
 
     </script>

@@ -16,22 +16,22 @@
                     </div>
                     <div class="card-body">
                         <div style="text-align: right;margin-right: 20px">
-                            <a href="addNewChannels.php" class="btn btn-info"><i class="fa fa-plus"></i><span class="title">Add Color</span></a>
+                            <a href="addNewChannels.php" class="btn btn-info"><i class="fa fa-plus"></i><span class="title">Add Channel</span></a>
                         </div>
                         <div class="row">
-                            <div class="col-md-4 pr-1">
-                                <div class="form-group">
-                                    <label>Shop Name</label>
-                                    <select class="form-control" >
-                                        <option value="">Select Shop Name</option>
-                                        <option value="">Name-1</option>
-                                        <option value="">Name-2</option>
-                                        <option value="">Name-3</option>
-                                        <option value="">Name-4</option>
-
-                                    </select>
-                                </div>
-                            </div>
+<!--                            <div class="col-md-4 pr-1">-->
+<!--                                <div class="form-group">-->
+<!--                                    <label>Shop Name</label>-->
+<!--                                    <select class="form-control" >-->
+<!--                                        <option value="">Select Shop Name</option>-->
+<!--                                        <option value="">Name-1</option>-->
+<!--                                        <option value="">Name-2</option>-->
+<!--                                        <option value="">Name-3</option>-->
+<!--                                        <option value="">Name-4</option>-->
+<!---->
+<!--                                    </select>-->
+<!--                                </div>-->
+<!--                            </div>-->
 <!--                            <div class="col-md-4 pl-1">-->
 <!--                                <div class="form-group">-->
 <!--                                    <label>Location</label>-->
@@ -44,7 +44,7 @@
 <!--                                    </select>-->
 <!--                                </div>-->
 <!--                            </div>-->
-                            <div class="col-md-4 pl-1">
+                            <div class="col-md-4">
                                 <div class="form-group">
                                     <label>Status</label>
                                     <select class="form-control" >
@@ -75,7 +75,7 @@
                                     <tr>
                                         <td>Shop Name <?php echo $i ?></td>
 <!--                                        <td>--><?php //echo "Location-".$i ?><!--</td>-->
-                                        <td><?php echo(rand(0,100))?></td>
+                                        <td><?php echo(rand(112345646,999999999))?></td>
                                         <td>Active</td>
                                         <td><a href="editChanel.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
                                             <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
@@ -105,6 +105,7 @@
 
         $(document).ready(function() {
             $('#example').DataTable();
+            $("#channelManagementDrop").click();
         } );
 
     </script>
