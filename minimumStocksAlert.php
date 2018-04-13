@@ -190,6 +190,7 @@
 
         $(document).ready(function() {
             $('#example').DataTable();
+            $("#stocInfodrop").click();
         } );
 
     </script>

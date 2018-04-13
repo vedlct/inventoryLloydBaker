@@ -105,6 +105,7 @@
 
         $(document).ready(function() {
             $('#example').DataTable();
+            $("#channelManagementDrop").click();
         } );
 
     </script>

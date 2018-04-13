@@ -70,3 +70,11 @@
     </div>
 
     <?php include ("footer.php"); ?>
+    <script>
+
+        $(document).ready(function() {
+
+            $("#supplierManagementDrop").click();
+        } );
+
+    </script>

@@ -102,6 +102,7 @@
 
         $(document).ready(function() {
             $('#example').DataTable();
+            $("#userManagementDrop").click();
         } );
 
     </script>

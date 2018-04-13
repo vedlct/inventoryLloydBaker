@@ -1,5 +1,11 @@
 
 <?php include ("header.php"); ?>
+<script>
+    $(document).ready(function() {
+
+        $("#stocInfodrop").click();
+    } );
+</script>
 
 <div class="main-panel">
     <!-- Navbar -->
@@ -122,6 +128,7 @@
 
         $(document).ready(function() {
             $('#example').DataTable();
+//            $("#stocInfodrop").click();
         } );
 
     </script>
