@@ -7,6 +7,7 @@
     }
 </style>
 
+
 <div class="main-panel">
     <!-- Navbar -->
     <?php include ('navigation.php');?>
@@ -64,112 +65,75 @@
                                 </thead>
                                 <tbody>
 
-
-                                        <tr style="color: red;">
+                                <?php
+                                function myfunction($value) {
+                                    if ($value==1) {
+                                        echo $r = "
+                                    <tr style=\"color: red;\">
                                             <td>Cobalt low-back satin gown</td>
                                             <td>Womenswear>Gowns</td>
                                             <td>ABCD-123-BLS</td>
                                             <td>Yellow Croc</td>
                                             <td>pallet-1</td>
                                             <td>90</td>
-                                            <td>123</td>
-                                            <td><span>2</span></td>
-                                            <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                                <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
+                                            <td>12</td>
+                                            <td><span>10</span></td>
+                                            <td><a href=\"editproduct.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                                <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
                                             </td>
                                         </tr>
+                                        ";
+                                    }else if ($value==2){
+                                        echo $rd="
+                                        <tr>
+                                            <td>The Niven</td>
+                                            <td>Womenswear Accessories.Bags.Cross-body Bags</td>
+                                            <td>LB6623Y</td>
+                                            <td>Mineral/Mineral Stingray</td>
+                                            <td>pallet-2</td>
+                                            <td>295</td>
+                                            <td>13</td>
+                                            <td><span>12</span></td>
+                                            <td><a href=\"editproduct.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                                <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
+                                            </td>
+                                        </tr>
+                                        ";
+                                    }else if ($value==3){
 
-                                        <tr style="color: red;">
-                                            <td>Bordeaux low-back satin gown</td>
-                                            <td>WW Accessories Mirakl / Bags / Shoulder Bags</td>
-                                            <td>ABCD-125-BLS</td>
+                                        echo $rd="
+                                        <tr>
+                                            <td>The Jagger with Studs</td>
+                                            <td>Women.Accessories.Purses</td>
+                                            <td>LW3641X</td>
                                             <td>Black</td>
                                             <td>pallet-3</td>
-                                            <td>90</td>
-                                            <td>123</td>
-                                            <td><span>5</span></td>
-                                            <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
-                                    </td>
+                                            <td>95</td>
+                                            <td>23</td>
+                                            <td><span>20</span></td>
+                                            <td><a href=\"editproduct.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                                <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
+                                            </td>
                                         </tr>
-                                        <tr>
-                                            <td>Cobalt low-back satin gown</td>
-                                            <td>Womenswear>Gowns</td>
-                                            <td>ABCD-126-BLS</td>
-                                            <td>Yellow Croc</td>
-                                            <td>pallet-4</td>
-                                            <td>90</td>
-                                            <td>123</td>
-                                            <td>10</td>
-                                            <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
-                                    </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Cobalt low-back satin gown</td>
-                                            <td>Womenswear>Gowns</td>
-                                            <td>ABCD-127-BLS</td>
-                                            <td>Yellow Croc</td>
-                                            <td>pallet-5</td>
-                                            <td>90</td>
-                                            <td>123</td>
-                                            <td>10</td>
-                                            <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
-                                    </td>
-                                        </tr>
-                                        <tr style="color: red;">
-                                            <td>Cobalt low-back satin gown</td>
-                                            <td>Womenswear>Gowns</td>
-                                            <td>ABCD-223-BLS</td>
-                                            <td>Yellow Croc</td>
-                                            <td>pallet-6</td>
-                                            <td>90</td>
-                                            <td>123</td>
-                                            <td><span>4</span></td>
-                                            <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
-                                    </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Cobalt low-back satin gown</td>
-                                            <td>Womenswear>Gowns</td>
-                                            <td>ABCD-423-BLS</td>
-                                            <td>Blue</td>
-                                            <td>pallet-7</td>
-                                            <td>90</td>
-                                            <td>123</td>
-                                            <td>10</td>
-                                            <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
-                                    </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Cobalt low-back satin gown</td>
-                                            <td>Womenswear>Gowns</td>
-                                            <td>ABCD-123-BLS</td>
-                                            <td>Brown</td>
-                                            <td>pallet-8</td>
-                                            <td>90</td>
-                                            <td>123</td>
-                                            <td>10</td>
-                                            <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
-                                    </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Cobalt low-back satin gown</td>
-                                            <td>Womenswear>Gowns</td>
-                                            <td>ABCD-332-BLS</td>
-                                            <td>Yellow Croc</td>
-                                            <td>pallet-9</td>
-                                            <td>90</td>
-                                            <td>123</td>
-                                            <td>10</td>
-                                            <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
-                                    </td>
-                                        </tr>
+                                        ";
+
+
+
+                                    }?>
+
+
+
+                               <?php } ?>
+
+
+                                <?php for($i=0;$i<=1000;$i++)
+                                {
+                                         $random = rand(1, 3);
+                                        // echo $random;
+                                    myfunction($random); //may you was intended to pass $val here?
+
+                                }?>
+
 
                                 </tbody>
 
@@ -189,7 +153,9 @@
     <script>
 
         $(document).ready(function() {
-            $('#example').DataTable();
+            $('#example').DataTable({
+                "aaSorting" : []
+            });
         } );
 
     </script>

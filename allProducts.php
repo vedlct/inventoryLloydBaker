@@ -70,7 +70,7 @@
                                             <td>123</td>
                                             <td><span>2</span></td>
                                             <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
+                                                <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
                                     </td>
                                         </tr>
                                     <?php }else{ ?>
@@ -84,7 +84,7 @@
                                             <td>123</td>
                                             <td>10</td>
                                             <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
+                                                <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
                                     </td>
                                         </tr>
                                     <?php }} ?>
