@@ -76,37 +76,75 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <?php for ($i=0;$i<100;$i++){
-                                    if ($i%3==1){?>
 
-                                        <tr style="color: red;">
+                                <?php
+                                function myfunction($value) {
+                                    if ($value==1) {
+                                        echo $r = "
+                                    <tr style=\"color: red;\">
                                             <td>Cobalt low-back satin gown</td>
                                             <td>Womenswear>Gowns</td>
                                             <td>ABCD-123-BLS</td>
                                             <td>Yellow Croc</td>
                                             <td>pallet-1</td>
                                             <td>90</td>
-                                            <td>123</td>
-                                            <td><span>2</span></td>
-                                            <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
-                                    </td>
+                                            <td>12</td>
+                                            <td><span>10</span></td>
+                                            <td><a href=\"editproduct.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                                <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
+                                            </td>
                                         </tr>
-                                    <?php }else{ ?>
+                                        ";
+                                    }else if ($value==2){
+                                        echo $rd="
                                         <tr>
-                                            <td>Bordeaux low-back satin gown</td>
-                                            <td>WW Accessories Mirakl / Bags / Shoulder Bags</td>
-                                            <td>ABCD-124-BLS</td>
-                                            <td>Yellow Croc</td>
+                                            <td>The Niven</td>
+                                            <td>Womenswear Accessories.Bags.Cross-body Bags</td>
+                                            <td>LB6623Y</td>
+                                            <td>Mineral/Mineral Stingray</td>
                                             <td>pallet-2</td>
-                                            <td>90</td>
-                                            <td>123</td>
-                                            <td>10</td>
-                                            <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
-                                    </td>
+                                            <td>295</td>
+                                            <td>13</td>
+                                            <td><span>12</span></td>
+                                            <td><a href=\"editproduct.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                                <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
+                                            </td>
                                         </tr>
-                                    <?php }} ?>
+                                        ";
+                                    }else if ($value==3){
+
+                                        echo $rd="
+                                        <tr>
+                                            <td>The Jagger with Studs</td>
+                                            <td>Women.Accessories.Purses</td>
+                                            <td>LW3641X</td>
+                                            <td>Black</td>
+                                            <td>pallet-3</td>
+                                            <td>95</td>
+                                            <td>23</td>
+                                            <td><span>20</span></td>
+                                            <td><a href=\"editproduct.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                                <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
+                                            </td>
+                                        </tr>
+                                        ";
+
+
+
+                                    }?>
+
+
+
+                                <?php } ?>
+
+
+                                <?php for($i=0;$i<=1000;$i++)
+                                {
+                                    $random = rand(1, 3);
+                                    // echo $random;
+                                    myfunction($random); //may you was intended to pass $val here?
+
+                                }?>
 
 
                                 </tbody>
@@ -127,8 +165,13 @@
     <script>
 
         $(document).ready(function() {
-            $('#example').DataTable();
-//            $("#stocInfodrop").click();
+
+            $('#example').DataTable({
+                "aaSorting" : []
+            });
+
+            $("#stocInfodrop").click();
+
         } );
 
     </script>

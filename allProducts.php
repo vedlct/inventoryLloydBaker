@@ -1,4 +1,3 @@
-
 <?php include ("header.php"); ?>
 
 <div class="main-panel">
@@ -59,11 +58,11 @@
                                 <tbody>
                                 <?php for ($i=0;$i<1000;$i++){?>
 
-                                <?php
-                                            $rand=rand(1,5);
-                                            switch ($rand) {
-                                                case 1:
-                                                    echo '
+                                    <?php
+                                    $rand=rand(1,5);
+                                    switch ($rand) {
+                                        case 1:
+                                            echo '
                                                 <tr>
                                              <td>Cobalt low-back satin gown</td>
                                             <td>Womenswear>Gowns</td>
@@ -77,9 +76,9 @@
                                         <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
                                          </tr>
                                                     ';
-                                                    break;
-                                                case 2:
-                                                    echo '<tr>
+                                            break;
+                                        case 2:
+                                            echo '<tr>
                                                          <td>AMANDAW MP</td>
                                                         <td>WW Accessories Mirakl / Bags / Shoulder Bags</td>
                                                         <td>BLK-6543</td>
@@ -92,9 +91,9 @@
                                                     <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
                                                          </tr>
                                                                 ';
-                                                    break;
-                                                case 3:
-                                                    echo '<tr>
+                                            break;
+                                        case 3:
+                                            echo '<tr>
                                                          <td>Bordeaux low-back satin gown</td>
                                                         <td>Womenswear>Gowns</td>
                                                         <td>ABCD-123-BLS</td>
@@ -107,10 +106,9 @@
                                                     <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
                                                      </tr>
                                                                 ';
-                                                break;
-
-                                                default:
-                                                    echo '
+                                            break;
+                                        default:
+                                            echo '
                                                               <tr style="color: red;">
                                                             <td>Cobalt low-back satin gown</td>
                                                             <td>Womenswear>Gowns</td>
@@ -124,10 +122,8 @@
                                                             <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
                                                              </tr>
                                                                     ';
-                                            }}
-
-
-                                            ?>
+                                    }}
+                                ?>
 
 
 
@@ -149,17 +145,13 @@
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
 
     <script>
-
-
-
         $(document).ready(function() {
-            $('#example').DataTable();
 
-//            $("#stocInfo").on("focus",function() {
-                $("#stocInfodrop").click();
-//            });
+            $('#example').DataTable({
+                "aaSorting" : []
+            });
+
+            $("#stocInfodrop").click();
+
         } );
-
     </script>
-
-

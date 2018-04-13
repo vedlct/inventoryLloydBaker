@@ -15,6 +15,11 @@
                         <h4 class="card-title"> Supplier List</h4>
                     </div>
                     <div class="card-body">
+
+                        <div style="text-align: right;margin-right: 20px">
+                            <a href="addNewSupplier.php" class="btn btn-info"><i class="fa fa-plus"></i><span class="title">Add Supplier</span></a>
+                        </div>
+
                         <div class="row">
 <!--                            <div class="col-md-4 pr-1">-->
 <!--                                <div class="form-group">-->
@@ -61,6 +66,7 @@
                                     <th>Supplier Name</th>
 <!--                                    <th>Location</th>-->
                                     <th>Phone</th>
+                                    <th>Email</th>
                                     <th>Status</th>
                                     <th>Action</th>
 
@@ -73,6 +79,8 @@
                                     <td>Supplier Name <?php echo $i ?></td>
 <!--                                    <td>--><?php //echo "Location-".$i ?><!--</td>-->
                                     <td><?php echo(rand(112345646,999999999))?></td>
+                                    <td><?php echo(rand(0,100))?></td>
+                                    <td>user<?php echo $i?>@email.com</td>
                                     <td>Active</td>
                                     <td><a href="editSupplier.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
                                         <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>

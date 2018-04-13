@@ -18,7 +18,7 @@
                         <div class="row">
                             <div class="col-md-4 pr-1">
                                 <div class="form-group">
-                                    <label>Product Category</label>
+                                    <label>Size Category</label>
                                     <select class="form-control" >
                                         <option value="">Select Product Category</option>
                                         <option value="">Men->Pant</option>
@@ -44,17 +44,78 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <?php for ($i=0;$i<25;$i++){?>
-                                <tr>
-                                    <td>Bordeaux low-back satin gown</td>
+
+                                <?php
+                                function myfunction($value) {
+                                    if ($value==1) {
+                                        echo $r = "
+                                    <tr>
+                                    <td>XL</td>
                                     <td>Description demo</td>
                                     <td>Active</td>
-                                    <td><a href="editSize.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
+                                    <td><a href=\"editSize.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                        <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
+                                    </td>
+
+                                    </tr>
+                                        ";
+                                    }else if ($value==2){
+                                        echo $rd="
+                                         <tr>
+                                    <td>M</td>
+                                    <td>Description demo</td>
+                                    <td>Active</td>
+                                    <td><a href=\"editSize.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                        <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
                                     </td>
 
                                 </tr>
+                                        ";
+                                    }else if ($value==3){
+
+                                        echo $rd="
+                                        <tr>
+                                    <td>L</td>
+                                    <td>Description demo</td>
+                                    <td>Active</td>
+                                    <td><a href=\"editSize.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                        <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
+                                    </td>
+
+                                </tr>
+                                        ";
+
+
+
+                                    }?>
+
+
+
                                 <?php } ?>
+
+
+                                <?php for($i=0;$i<=100;$i++)
+                                {
+                                    $random = rand(1, 3);
+                                    // echo $random;
+                                    myfunction($random); //may you was intended to pass $val here?
+
+                                }?>
+
+
+
+
+<!--                                --><?php //for ($i=0;$i<25;$i++){?>
+<!--                                <tr>-->
+<!--                                    <td>Bordeaux low-back satin gown</td>-->
+<!--                                    <td>Description demo</td>-->
+<!--                                    <td>Active</td>-->
+<!--                                    <td><a href="editSize.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>-->
+<!--                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>-->
+<!--                                    </td>-->
+<!---->
+<!--                                </tr>-->
+<!--                                --><?php //} ?>
 
                                 </tbody>
 
@@ -72,9 +133,14 @@
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
 
     <script>
-
         $(document).ready(function() {
-            $('#example').DataTable();
+
+            $('#example').DataTable({
+                "aaSorting" : []
+            });
+
+            $("#Settingsdrop").click();
+
         } );
 
     </script>

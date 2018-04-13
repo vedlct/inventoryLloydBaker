@@ -216,7 +216,7 @@
 
                     </li>
                     <li>
-                        <a data-toggle="collapse" href="#Settings">
+                        <a data-toggle="collapse" href="#Settings" id="Settingsdrop">
                            
                             <p>Settings<b class="caret"></b></p>
                         </a>
