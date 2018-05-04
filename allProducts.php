@@ -103,13 +103,20 @@
                                                         <td>123</td>
                                                         <td><span>2</span></td>
                                                         <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                                    <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
+                                                                <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
                                                      </tr>
                                                                 ';
+<<<<<<< HEAD
+                                                break;
+
+                                                default:
+                                                    echo '<tr style="color: red;">
+=======
                                             break;
                                         default:
                                             echo '
                                                               <tr style="color: red;">
+>>>>>>> 8fa14a5a4f8a617f73534a3eda1c248eb97cb27e
                                                             <td>Cobalt low-back satin gown</td>
                                                             <td>Womenswear>Gowns</td>
                                                             <td>ABCD-123-BLS</td>
@@ -146,6 +153,12 @@
 
     <script>
         $(document).ready(function() {
+<<<<<<< HEAD
+            $('#example').DataTable({
+                "aaSorting": []
+            });
+=======
+>>>>>>> 8fa14a5a4f8a617f73534a3eda1c248eb97cb27e
 
             $("#stocInfodrop").click();
             $('#example').DataTable({

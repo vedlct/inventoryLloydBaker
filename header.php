@@ -282,6 +282,22 @@
                                 </li>
 
 
+                                <li>
+                                    <a href="brand.php">
+                                        <i class="far fa-clone"></i>
+                                        <span class="sidebar-normal"> Brand</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="style.php">
+                                        <i class="far fa-clone"></i>
+                                        <span class="sidebar-normal">Style</span>
+                                    </a>
+                                </li>
+
+
+
                             </ul>
                         </div>
 
