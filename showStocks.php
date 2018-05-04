@@ -11,17 +11,18 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title"> All Products</h4>
+                        <h4 class="card-title"> All Stocks</h4>
                     </div>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-4 pr-1">
                                 <div class="form-group">
-                                    <label>Product Category</label>
-                                    <select class="form-control" >
-                                        <option value="">Select Product Category</option>
-                                        <option value="">Men->Pant</option>
-                                        <option value="">Women->Gown</option>
+                                    <label>Brand Name</label>
+                                    <select  class="form-control" >
+                                        <option value="">Select Brand Name</option>
+                                        <option value="">PAUL COSTELLOE</option>
+                                        <option value="">LLOYD BAKER</option>
+                                        <option value="">AMANDA WAKELEY</option>
                                     </select>
                                 </div>
                             </div>
@@ -29,7 +30,7 @@
                                 <div class="form-group">
                                     <label>Location</label>
                                     <select class="form-control" >
-                                        <option value="">Select Product Location</option>
+                                        <option value="">Select Stock Location</option>
                                         <option value="">Pallet-1</option>
                                         <option value="">Pallet-2</option>
                                         <option value="">Pallet-3</option>
@@ -43,14 +44,14 @@
                             <table id="example" class="table table-striped table-bordered" style="width:100%">
                                 <thead>
                                 <tr>
-                                    <th>Product Name</th>
-                                    <th>Category</th>
-                                    <th>SKU</th>
-                                    <th>Color</th>
-                                    <th>Location</th>
-                                    <th>RRP</th>
-                                    <th>Stock Quantity</th>
-                                    <th>Min Qty Alert</th>
+                                    <th>BRAND</th>
+                                    <th>STYLE NO</th>
+                                    <th>IMAGE</th>
+                                    <th>SALE LOCATION</th>
+                                    <th>IN STOCK</th>
+                                    <th>LOCATION</th>
+                                    <th>LAST STK TAKE</th>
+                                    <th>QTY</th>
                                     <th>Action</th>
 
                                 </tr>
@@ -64,45 +65,45 @@
                                         case 1:
                                             echo '
                                                 <tr>
-                                             <td>Cobalt low-back satin gown</td>
-                                            <td>Womenswear>Gowns</td>
-                                            <td>ABCD-123-BLS</td>
-                                            <td>Yellow Croc</td>
-                                            <td>pallet-1</td>
-                                            <td>90</td>
-                                            <td>123</td>
-                                            <td><span>2</span></td>
-                                            <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
+                                             <td>PAUL COSTELLOE</td>
+                                            <td>PC001</td>
+                                            <td><img width="100px" height="80px" src="assets/img/dummy.png"></td>
+                                            <td>WEBSITE</td>
+                                            <td>Y</td>
+                                            <td>BAY 2C</td>
+                                            <td></td>
+                                            <td><span>100</span></td>
+                                            <td><a href="editStock.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
                                         <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
                                          </tr>
                                                     ';
                                             break;
                                         case 2:
                                             echo '<tr>
-                                                         <td>AMANDAW MP</td>
-                                                        <td>WW Accessories Mirakl / Bags / Shoulder Bags</td>
-                                                        <td>BLK-6543</td>
-                                                        <td>Black</td>
-                                                        <td>pallet-1</td>
-                                                        <td>90</td>
-                                                        <td>123</td>
-                                                        <td><span>2</span></td>
-                                                        <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
+                                                         <td>LLOYD BAKER</td>
+                                                        <td>LB002</td>
+                                                        <td><img  width="100px" height="80px"src="assets/img/dummy.png"></td>
+                                                        <td>BOUNDARY MILLS</td>
+                                                        <td>Y</td>
+                                                        <td>PALLET 1</td>
+                                                        <td></td>
+                                                        <td><span>50</span></td>
+                                                        <td><a href="editStock.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
                                                     <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
                                                          </tr>
                                                                 ';
                                             break;
                                         case 3:
                                             echo '<tr>
-                                                         <td>Bordeaux low-back satin gown</td>
-                                                        <td>Womenswear>Gowns</td>
-                                                        <td>ABCD-123-BLS</td>
-                                                        <td>Yellow Croc</td>
-                                                        <td>pallet-1</td>
-                                                        <td>90</td>
-                                                        <td>123</td>
-                                                        <td><span>2</span></td>
-                                                        <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
+                                                         <td>PAUL COSTELLOE</td>
+                                                        <td>PC002</td>
+                                                        <td><img width="100px" height="80px" src="assets/img/dummy.png"></td>
+                                                        <td>TK MAXX</td>
+                                                        <td>Y</td>
+                                                        <td>BAY 5C</td>
+                                                        <td></td>
+                                                        <td><span>10</span></td>
+                                                        <td><a href="editStock.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
                                                     <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
                                                      </tr>
                                                                 ';
@@ -110,15 +111,15 @@
                                         default:
                                             echo '
                                                               <tr style="color: red;">
-                                                            <td>Cobalt low-back satin gown</td>
-                                                            <td>Womenswear>Gowns</td>
-                                                            <td>ABCD-123-BLS</td>
-                                                            <td>Yellow Croc</td>
-                                                            <td>pallet-1</td>
-                                                            <td>90</td>
-                                                            <td>123</td>
-                                                            <td><span>2</span></td>
-                                                            <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
+                                                            <td>AMANDA WAKELEY</td>
+                                                            <td>AW003</td>
+                                                            <td><img  width="100px" height="80px"src="assets/img/dummy.png"></td>
+                                                            <td>ASHFORD</td>
+                                                            <td>N</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td><span>5</span></td>
+                                                            <td><a href="editStock.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
                                                             <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
                                                              </tr>
                                                                     ';
@@ -147,7 +148,7 @@
     <script>
         $(document).ready(function() {
 
-            $("#stocInfodrop").click();
+            $("#stockManagement").click();
             $('#example').DataTable({
                 "aaSorting" : []
             });
