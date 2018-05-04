@@ -160,11 +160,12 @@
 =======
 >>>>>>> 8fa14a5a4f8a617f73534a3eda1c248eb97cb27e
 
+            $("#stocInfodrop").click();
             $('#example').DataTable({
                 "aaSorting" : []
             });
+            
 
-            $("#stocInfodrop").click();
 
-        } );
+        });
     </script>
