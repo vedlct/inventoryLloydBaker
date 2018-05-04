@@ -51,18 +51,19 @@
                             <ul class="nav">
 
                                 <li>
+                                    <a href="showStocks.php">
+                                        <i class="fas fa-wrench"></i>
+                                        <span class="sidebar-normal"> Show Stock</span>
+                                    </a>
+                                </li>
+
+                                <li>
                                     <a href="addStock.php">
                                         <i class="fas fa-angle-double-right"></i>
                                         <span class="sidebar-normal"> Enter Stock </span>
                                     </a>
                                 </li>
 
-                                <li>
-                                    <a href="showStocks.php">
-                                        <i class="fas fa-wrench"></i>
-                                        <span class="sidebar-normal"> Show Stock</span>
-                                    </a>
-                                </li>
 
                             </ul>
                         </div>

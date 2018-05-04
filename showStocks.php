@@ -11,7 +11,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title"> All Stocks</h4>
+                        <h4 class="card-title">Stocks</h4>
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -67,7 +67,7 @@
                                                 <tr>
                                              <td>PAUL COSTELLOE</td>
                                             <td>PC001</td>
-                                            <td><img width="100px" height="80px" src="assets/img/dummy.png"></td>
+                                            <td><img width="100px" height="80px" src="assets/img/21main.jpg"></td>
                                             <td>WEBSITE</td>
                                             <td>Y</td>
                                             <td>BAY 2C</td>
@@ -82,7 +82,7 @@
                                             echo '<tr>
                                                          <td>LLOYD BAKER</td>
                                                         <td>LB002</td>
-                                                        <td><img  width="100px" height="80px"src="assets/img/dummy.png"></td>
+                                                        <td><img  width="100px" height="80px"src="assets/img/25main.jpg"></td>
                                                         <td>BOUNDARY MILLS</td>
                                                         <td>Y</td>
                                                         <td>PALLET 1</td>
@@ -97,7 +97,7 @@
                                             echo '<tr>
                                                          <td>PAUL COSTELLOE</td>
                                                         <td>PC002</td>
-                                                        <td><img width="100px" height="80px" src="assets/img/dummy.png"></td>
+                                                        <td><img width="100px" height="80px" src="assets/img/18main.jpg"></td>
                                                         <td>TK MAXX</td>
                                                         <td>Y</td>
                                                         <td>BAY 5C</td>
@@ -113,7 +113,7 @@
                                                               <tr style="color: red;">
                                                             <td>AMANDA WAKELEY</td>
                                                             <td>AW003</td>
-                                                            <td><img  width="100px" height="80px"src="assets/img/dummy.png"></td>
+                                                            <td><img  width="100px" height="80px"src="assets/img/28main.jpg"></td>
                                                             <td>ASHFORD</td>
                                                             <td>N</td>
                                                             <td></td>
