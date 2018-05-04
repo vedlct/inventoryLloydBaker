@@ -104,14 +104,13 @@
                                                         <td>123</td>
                                                         <td><span>2</span></td>
                                                         <td><a href="editproduct.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                                    <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
+                                                                <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
                                                      </tr>
                                                                 ';
                                                 break;
 
                                                 default:
-                                                    echo '
-                                                              <tr style="color: red;">
+                                                    echo '<tr style="color: red;">
                                                             <td>Cobalt low-back satin gown</td>
                                                             <td>Womenswear>Gowns</td>
                                                             <td>ABCD-123-BLS</td>
@@ -153,7 +152,9 @@
 
 
         $(document).ready(function() {
-            $('#example').DataTable();
+            $('#example').DataTable({
+                "aaSorting": []
+            });
 
 //            $("#stocInfo").on("focus",function() {
                 $("#stocInfodrop").click();
