@@ -190,7 +190,7 @@
                     <li>
                         <a data-toggle="collapse" href="#supplierManagement" id="supplierManagementDrop">
                           
-                            <p>Supplier/Manufacturer<b class="caret"></b></p>
+                            <p>Supplier / Manufacturer<b class="caret"></b></p>
                         </a>
 
                         <div class="collapse " id="supplierManagement">
@@ -216,7 +216,9 @@
 
                     </li>
                     <li>
-                        <a data-toggle="collapse" href="#Settings">
+
+                        <a data-toggle="collapse" href="#Settings" id="Settingsdrop">
+
                            
                             <p>Settings<b class="caret"></b></p>
                         </a>
@@ -259,7 +261,6 @@
 
 
 
-                   
 <!--                    <li>-->
 <!--                        <a href="forms.php">-->
 <!--                            <i class="now-ui-icons location_map-big"></i>-->

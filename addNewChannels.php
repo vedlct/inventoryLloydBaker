@@ -12,7 +12,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="title">Add Shop</h5>
+                        <h5 class="title">Add Channels</h5>
                     </div>
                     <div class="card-body">
                         <form class="form-horizontal">
@@ -42,6 +42,12 @@
                                 <label class="control-label col-md-2 custom-label-style">Phone:</label>
                                 <div class="col-md-8 custom-input-style">
                                     <input type="text" class="form-control" placeholder="Phone Number" >
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class="control-label col-md-2 custom-label-style">Email:</label>
+                                <div class="col-md-8 custom-input-style">
+                                    <input type="email" class="form-control" placeholder="Email" >
                                 </div>
                             </div>
 

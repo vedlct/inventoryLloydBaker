@@ -47,30 +47,30 @@
                                 <tbody>
                                 <tr>
 
-                                    <td>Sakib Rahman</td>
+                                    <td>James Mark</td>
                                     <td>SuperAdmin</td>
                                     <td>0168000000</td>
-                                    <td>sakib@gmail.com</td>
+                                    <td>James@gmail.com</td>
                                     <td><a href="editUser.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
                                         <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
                                     </td>
                                 </tr>
                                 <tr>
 
-                                    <td>Mujtaba Rafid Rumi</td>
+                                    <td>Richard Daniel</td>
                                     <td>Admin</td>
                                     <td>0168000000</td>
-                                    <td>rumi@gmail.com</td>
+                                    <td>Richard@gmail.com</td>
                                     <td><a href="editUser.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
                                         <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
                                     </td>
                                 </tr>
                                 <tr>
 
-                                    <td>Farzad</td>
+                                    <td>Kenneth Anthony</td>
                                     <td>Admin</td>
                                     <td>0168000000</td>
-                                    <td>farzad@gmail.com</td>
+                                    <td>Kenneth@gmail.com</td>
 
                                     <td><a href="editUser.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
                                         <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>

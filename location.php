@@ -64,6 +64,7 @@
 
         $(document).ready(function() {
             $('#example').DataTable();
+            $("#Settingsdrop").click();
         } );
 
     </script>
