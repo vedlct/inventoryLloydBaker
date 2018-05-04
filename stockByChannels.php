@@ -18,7 +18,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title"> Stock Info</h4>
+                        <h4 class="card-title"> Stock By Channels</h4>
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -138,7 +138,7 @@
                                 <?php } ?>
 
 
-                                <?php for($i=0;$i<=1000;$i++)
+                                <?php for($i=0;$i<500;$i++)
                                 {
                                     $random = rand(1, 3);
                                     // echo $random;

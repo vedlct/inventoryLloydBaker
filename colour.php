@@ -32,6 +32,62 @@
                                 </tr>
                                 </thead>
                                 <tbody>
+                                <?php
+                                function myfunction($value) {
+                                    if ($value==1) {
+                                        echo $r = "
+                                   <tr >
+                                        <td>Red</td>
+                                        <td>Color Description</td>
+                                        <td>Active</td>
+                                        <td><a href=\"editColor.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                            <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
+                                        </td>
+
+                                    </tr>
+                                        ";
+                                    }else if ($value==2){
+                                        echo $rd="
+                                        <tr >
+                                        <td>Blue</td>
+                                        <td>Color Description</td>
+                                        <td>Active</td>
+                                        <td><a href=\"editColor.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                            <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
+                                        </td>
+
+                                    </tr>
+                                        ";
+                                    }else if ($value==3){
+
+                                        echo $rd="
+                                       <tr >
+                                        <td>Green</td>
+                                        <td>Color Description</td>
+                                        <td>Active</td>
+                                        <td><a href=\"editColor.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                            <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
+                                        </td>
+
+                                    </tr>
+                                        ";
+
+
+
+                                    }?>
+
+
+
+                                <?php } ?>
+
+
+                                <?php for($i=0;$i<=100;$i++)
+                                {
+                                    $random = rand(1, 3);
+                                    // echo $random;
+                                    myfunction($random); //may you was intended to pass $val here?
+
+                                }?>
                                 <?php for ($i=0;$i<25;$i++){?>
                                     <tr >
                                         <td>Red</td>
@@ -63,9 +119,14 @@
     <script>
 
         $(document).ready(function() {
-            $('#example').DataTable();
-        } );
 
+            $('#example').DataTable({
+                "aaSorting" : []
+            });
+
+            $("#Settingsdrop").click();
+
+        } );
     </script>
 
 

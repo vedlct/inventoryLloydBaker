@@ -11,7 +11,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title"> Stock Info</h4>
+                        <h4 class="card-title"> All Products</h4>
                     </div>
                     <div class="card-body">
                         <div class="row">
@@ -146,10 +146,13 @@
 
     <script>
         $(document).ready(function() {
+
             $("#stocInfodrop").click();
             $('#example').DataTable({
                 "aaSorting" : []
             });
+            
 
-        } );
+
+        });
     </script>
