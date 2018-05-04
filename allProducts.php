@@ -146,9 +146,10 @@
 
     <script>
         $(document).ready(function() {
-            $('#example').DataTable();
-//            $("#stocInfo").on("focus",function() {
             $("#stocInfodrop").click();
-//            });
+            $('#example').DataTable({
+                "aaSorting" : []
+            });
+
         } );
     </script>
