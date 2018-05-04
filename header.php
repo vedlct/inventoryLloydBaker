@@ -40,6 +40,35 @@
             </div>
             <div class="sidebar-wrapper">
                 <ul class="nav">
+
+                    <li>
+                        <a data-toggle="collapse" href="#stockManagementDrop" id="stockManagement">
+
+                            <p>Stock Management<b class="caret"></b></p>
+                        </a>
+
+                        <div class="collapse " id="stockManagementDrop">
+                            <ul class="nav">
+
+                                <li>
+                                    <a href="addStock.php">
+                                        <i class="fas fa-angle-double-right"></i>
+                                        <span class="sidebar-normal"> Enter Stock </span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="showStocks.php">
+                                        <i class="fas fa-wrench"></i>
+                                        <span class="sidebar-normal"> Show Stock</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </li>
+
                     <li class="">
 <!--                        <a href="stockinfo.php">-->
 <!--                            <i class="now-ui-icons design_app"></i>-->
@@ -251,6 +280,22 @@
                                         <span class="sidebar-normal"> Size</span>
                                     </a>
                                 </li>
+
+
+                                <li>
+                                    <a href="brand.php">
+                                        <i class="far fa-clone"></i>
+                                        <span class="sidebar-normal"> Brand</span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="style.php">
+                                        <i class="far fa-clone"></i>
+                                        <span class="sidebar-normal">Style</span>
+                                    </a>
+                                </li>
+
 
 
                             </ul>
