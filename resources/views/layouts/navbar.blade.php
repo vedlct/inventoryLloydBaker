@@ -13,7 +13,7 @@
                     <a href="#"><i class="ti-light-bulb"></i>GOODS IN</a>
                     <ul class="submenu">
                         <li><a href="{{route('goods-in.add')}}">Add</a></li>
-                        <li><a href="ui-cards.html">Show</a></li>
+                        <li><a href="{{route('goods-in')}}">Show</a></li>
 
 
 

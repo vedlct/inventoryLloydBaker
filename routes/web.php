@@ -25,7 +25,8 @@ Route::view('/Main-Screen','mainscreen')->name('mainsreen');
 
 
 //Goods In
-Route::view('/goods-in','goods-in.add')->name('goods-in.add');
+Route::view('/goods-in/add','goods-in.add')->name('goods-in.add');
+Route::view('/goods-in/','mainscreen')->name('goods-in');
 
 Route::view('/stock/out','stock.out')->name('stock.out');
 Route::view('/stock/out/add','stock.add')->name('stock.out.add');

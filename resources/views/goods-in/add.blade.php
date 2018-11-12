@@ -24,6 +24,10 @@
                 <label>Style Code</label>
                 <input type="text" class="form-control" placeholder="STYLE CODE">
             </div>
+            <div class="form-group col-md-6">
+                <label>Barcode</label>
+                <input type="text" class="form-control" placeholder="Barcode">
+            </div>
 
             <div class="form-group col-md-6">
                 <label>Description</label>
