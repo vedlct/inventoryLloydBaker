@@ -6,7 +6,7 @@
             <ul class="navigation-menu">
 
                 <li class="has-submenu">
-                    <a href="{{route('main')}}"><i class="ti-home"></i>MAIN SCREEN</a>
+                    <a href="{{route('mainsreen')}}"><i class="ti-home"></i>MAIN SCREEN</a>
                 </li>
 
                 <li class="has-submenu">
