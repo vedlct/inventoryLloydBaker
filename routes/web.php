@@ -20,11 +20,15 @@ Route::view('/form','form')->name('form');
 Route::view('/datatable','datatable')->name('datatable');
 Route::view('/onlyDatatable','onlyDatatable')->name('only.datatable');
 Route::view('/stock/out','stock.out')->name('stock.out');
+
+Route::view('/stock/out/add','stock.add')->name('stock.out.add');
+
 Route::view('/Main-Screen','mainscreen')->name('mainsreen');
 
 
 Route::view('profit/profitCalculation','profit.profitCalculation')->name('profit.profitCalculation');
 Route::view('Report/product/Shop','report.productperShop')->name('report.productperShop');
+
 
 
 
