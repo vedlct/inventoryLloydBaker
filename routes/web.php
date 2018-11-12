@@ -21,6 +21,23 @@ Route::view('/datatable','datatable')->name('datatable');
 Route::view('/onlyDatatable','onlyDatatable')->name('only.datatable');
 Route::view('/stock/out','stock.out')->name('stock.out');
 
+
+
+
+Route::view('/settings/product-category','settings.productCategory')->name('settings.productCategory');
+Route::view('/settings/product-category/add','settings.addProductCategory')->name('settings.productCategory.add');
+
+Route::view('/settings/location','settings.location')->name('settings.location');
+Route::view('/settings/location/add','settings.addLocation')->name('settings.location.add');
+
+
+Route::view('/settings/color','settings.color')->name('settings.color');
+Route::view('/settings/color/add','settings.addColor')->name('settings.color.add');
+
+Route::view('/settings/size','settings.size')->name('settings.size');
+Route::view('/settings/size/add','settings.addSize')->name('settings.size.add');
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
