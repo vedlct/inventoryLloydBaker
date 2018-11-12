@@ -88,6 +88,9 @@
                         <table id="datatable" class="table table-bordered">
                             <thead>
                             <tr>
+                                <th>BRAND</th>
+                                <th>FACT</th>
+                                <th>CATEGORY</th>
                                 <th>PHOTO</th>
                                 <th>NAME</th>
                                 <th>FACTORY CODE</th>
@@ -108,6 +111,334 @@
 
                             <tbody>
                             <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>LADIES</td>
+                                <td><img width="80px" height="80px" src="{{url('public/image/image1.jpeg')}}"></td>
+                                <td>THE AURORA PC6148</td>
+                                <td>01-61481BQ</td>
+                                <td>TAUPE BROWN 1BQ</td>
+                                <td></td>
+                                <td></td>
+                                <td>£69.99</td>
+                                <td>£230.00</td>
+                                <td>7</td>
+                                <td>YES</td>
+                                <td>5</td>
+                                <td>15</td>
+                                <td>3</td>
+
+                            </tr>
+                            <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>LADIES</td>
+                                <td><img width="80px" height="80px" src="{{url('public/image/image2.jpeg')}}"></td>
+                                <td>THE AURORA PC6148</td>
+                                <td>01-61484A</td>
+                                <td>NAVY</td>
+                                <td></td>
+                                <td></td>
+                                <td>£69.99</td>
+                                <td>£230.00</td>
+                                <td>7</td>
+                                <td>YES</td>
+                                <td>5</td>
+                                <td>15</td>
+                                <td>3</td>
+
+                            </tr>
+                            <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>LADIES</td>
+                                <td><img width="80px" height="80px" src="{{url('public/image/image3.jpeg')}}"></td>
+                                <td>THE MARIELLE KEYRING PC3151</td>
+                                <td>02-3151BLK</td>
+                                <td>BLACK</td>
+                                <td>5060615064915</td>
+                                <td></td>
+                                <td>£12.99</td>
+                                <td>£34.99</td>
+                                <td>4</td>
+                                <td>YES</td>
+                                <td>5</td>
+                                <td>5</td>
+                                <td>3</td>
+
+                            </tr>
+                            <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>F- SLG</td>
+                                <td><img width="80px" height="80px" src="{{url('public/image/image5.jpeg')}}"></td>
+                                <td>THE AURORA PC6148</td>
+                                <td>01-61481BQ</td>
+                                <td>TAUPE BROWN 1BQ</td>
+                                <td></td>
+                                <td></td>
+                                <td>£69.99</td>
+                                <td>£230.00</td>
+                                <td>10</td>
+                                <td>YES</td>
+                                <td>15</td>
+                                <td>3</td>
+                                <td>2</td>
+
+                            </tr>
+                            <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>F- SLG</td>
+                                <td><img width="80px" height="80px" src="{{url('public/image/image155.jpeg')}}"></td>
+                                <td>LB6421X</td>
+                                <td>3-6421XTAN</td>
+                                <td>TAUPE BROWN 1BQ</td>
+                                <td></td>
+                                <td></td>
+                                <td>£69.99</td>
+                                <td>£230.00</td>
+                                <td>7</td>
+                                <td>YES</td>
+                                <td>5</td>
+                                <td>15</td>
+                                <td>3</td>
+
+                            </tr>
+                            <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>F- SLG</td>
+                                <td><img width="80px" height="80px" src="{{url('public/image/image1.jpeg')}}"></td>
+                                <td>THE AURORA PC6148</td>
+                                <td>01-61481BQ</td>
+                                <td>TAUPE BROWN 1BQ</td>
+                                <td></td>
+                                <td></td>
+                                <td>£69.99</td>
+                                <td>£230.00</td>
+                                <td>7</td>
+                                <td>YES</td>
+                                <td>5</td>
+                                <td>15</td>
+                                <td>3</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>F- SLG</td>
+                                <td><img width="80px" height="80px" src="{{url('public/image/image1.jpeg')}}"></td>
+                                <td>THE AURORA PC6148</td>
+                                <td>01-61481BQ</td>
+                                <td>TAUPE BROWN 1BQ</td>
+                                <td></td>
+                                <td></td>
+                                <td>£69.99</td>
+                                <td>£230.00</td>
+                                <td>7</td>
+                                <td>YES</td>
+                                <td>5</td>
+                                <td>15</td>
+                                <td>3</td>
+
+                            </tr>
+                            <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>F- SLG</td>
+                                <td><img width="80px" height="80px" src="{{url('public/image/image1.jpeg')}}"></td>
+                                <td>THE AURORA PC6148</td>
+                                <td>01-61481BQ</td>
+                                <td>TAUPE BROWN 1BQ</td>
+                                <td></td>
+                                <td></td>
+                                <td>£69.99</td>
+                                <td>£230.00</td>
+                                <td>7</td>
+                                <td>YES</td>
+                                <td>5</td>
+                                <td>15</td>
+                                <td>3</td>
+
+                            </tr>
+                            <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>F- SLG</td>
+                                <td><img width="80px" height="80px" src="{{url('public/image/image1.jpeg')}}"></td>
+                                <td>THE AURORA PC6148</td>
+                                <td>01-61481BQ</td>
+                                <td>TAUPE BROWN 1BQ</td>
+                                <td></td>
+                                <td></td>
+                                <td>£69.99</td>
+                                <td>£230.00</td>
+                                <td>7</td>
+                                <td>YES</td>
+                                <td>5</td>
+                                <td>15</td>
+                                <td>3</td>
+
+                            </tr>git a
+                            <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>LADIES</td>
+                                <td><img width="80px" height="80px" src="{{url('public/image/image1.jpeg')}}"></td>
+                                <td>THE AURORA PC6148</td>
+                                <td>01-61481BQ</td>
+                                <td>TAUPE BROWN 1BQ</td>
+                                <td></td>
+                                <td></td>
+                                <td>£69.99</td>
+                                <td>£230.00</td>
+                                <td>7</td>
+                                <td>YES</td>
+                                <td>5</td>
+                                <td>15</td>
+                                <td>3</td>
+
+                            </tr>
+                            <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>LADIES</td>
+                                <td><img width="80px" height="80px" src="{{url('public/image/image2.jpeg')}}"></td>
+                                <td>THE AURORA PC6148</td>
+                                <td>01-61484A</td>
+                                <td>NAVY</td>
+                                <td></td>
+                                <td></td>
+                                <td>£69.99</td>
+                                <td>£230.00</td>
+                                <td>7</td>
+                                <td>YES</td>
+                                <td>5</td>
+                                <td>15</td>
+                                <td>3</td>
+
+                            </tr>
+                            <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>LADIES</td>
+                                <td><img width="80px" height="80px" src="{{url('public/image/image3.jpeg')}}"></td>
+                                <td>THE MARIELLE KEYRING PC3151</td>
+                                <td>02-3151BLK</td>
+                                <td>BLACK</td>
+                                <td>5060615064915</td>
+                                <td></td>
+                                <td>£12.99</td>
+                                <td>£34.99</td>
+                                <td>4</td>
+                                <td>YES</td>
+                                <td>5</td>
+                                <td>5</td>
+                                <td>3</td>
+
+                            </tr>
+                            <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>F- SLG</td>
+                                <td><img width="80px" height="80px" src="{{url('public/image/image5.jpeg')}}"></td>
+                                <td>THE AURORA PC6148</td>
+                                <td>01-61481BQ</td>
+                                <td>TAUPE BROWN 1BQ</td>
+                                <td></td>
+                                <td></td>
+                                <td>£69.99</td>
+                                <td>£230.00</td>
+                                <td>10</td>
+                                <td>YES</td>
+                                <td>15</td>
+                                <td>3</td>
+                                <td>2</td>
+
+                            </tr>
+                            <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>F- SLG</td>
+                                <td><img width="80px" height="80px" src="{{url('public/image/image155.jpeg')}}"></td>
+                                <td>LB6421X</td>
+                                <td>3-6421XTAN</td>
+                                <td>TAUPE BROWN 1BQ</td>
+                                <td></td>
+                                <td></td>
+                                <td>£69.99</td>
+                                <td>£230.00</td>
+                                <td>7</td>
+                                <td>YES</td>
+                                <td>5</td>
+                                <td>15</td>
+                                <td>3</td>
+
+                            </tr>
+                            <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>F- SLG</td>
+                                <td><img width="80px" height="80px" src="{{url('public/image/image1.jpeg')}}"></td>
+                                <td>THE AURORA PC6148</td>
+                                <td>01-61481BQ</td>
+                                <td>TAUPE BROWN 1BQ</td>
+                                <td></td>
+                                <td></td>
+                                <td>£69.99</td>
+                                <td>£230.00</td>
+                                <td>7</td>
+                                <td>YES</td>
+                                <td>5</td>
+                                <td>15</td>
+                                <td>3</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>F- SLG</td>
+                                <td><img width="80px" height="80px" src="{{url('public/image/image1.jpeg')}}"></td>
+                                <td>THE AURORA PC6148</td>
+                                <td>01-61481BQ</td>
+                                <td>TAUPE BROWN 1BQ</td>
+                                <td></td>
+                                <td></td>
+                                <td>£69.99</td>
+                                <td>£230.00</td>
+                                <td>7</td>
+                                <td>YES</td>
+                                <td>5</td>
+                                <td>15</td>
+                                <td>3</td>
+
+                            </tr>
+                            <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>F- SLG</td>
+                                <td><img width="80px" height="80px" src="{{url('public/image/image1.jpeg')}}"></td>
+                                <td>THE AURORA PC6148</td>
+                                <td>01-61481BQ</td>
+                                <td>TAUPE BROWN 1BQ</td>
+                                <td></td>
+                                <td></td>
+                                <td>£69.99</td>
+                                <td>£230.00</td>
+                                <td>7</td>
+                                <td>YES</td>
+                                <td>5</td>
+                                <td>15</td>
+                                <td>3</td>
+
+                            </tr>
+                            <tr>
+                                <td>PC</td>
+                                <td></td>
+                                <td>F- SLG</td>
                                 <td><img width="80px" height="80px" src="{{url('public/image/image1.jpeg')}}"></td>
                                 <td>THE AURORA PC6148</td>
                                 <td>01-61481BQ</td>
@@ -151,10 +482,7 @@
     <script>
         $(document).ready( function () {
             $('#datatable').DataTable({
-                rowReorder: {
-                    selector: 'td:nth-child(2)'
-                },
-                responsive: true
+
             } );
 
 
