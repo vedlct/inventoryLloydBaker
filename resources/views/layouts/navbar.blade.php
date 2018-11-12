@@ -38,13 +38,17 @@
                     </ul>
                 </li>
 
-
-
                 <li class="has-submenu">
                     <a href="#"><i class="ti-bookmark-alt"></i>Reporting</a>
                     <ul class="submenu">
-                        <li><a href="advanced-animation.html">Report</a></li>
-                        <li><a href="advanced-highlight.html">Performance</a></li>
+                        <li class="has-submenu"><a href="#">Profit</a>
+                            <ul class="submenu">
+                                <li><a href="{{route('profit.profitCalculation')}}">Profit Calculation</a></li>
+                                <li><a href="advanced-animation.html">Most Profitable Product</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="advanced-highlight.html">Sell data</a></li>
+                        <li><a href="advanced-highlight.html">Product per Shop</a></li>
 
                     </ul>
                 </li>

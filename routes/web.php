@@ -21,6 +21,8 @@ Route::view('/datatable','datatable')->name('datatable');
 Route::view('/onlyDatatable','onlyDatatable')->name('only.datatable');
 Route::view('/stock/out','stock.out')->name('stock.out');
 
+Route::view('profit/profitCalculation','profit.profitCalculation')->name('profit.profitCalculation');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
