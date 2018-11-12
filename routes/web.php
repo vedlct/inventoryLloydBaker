@@ -19,15 +19,16 @@ Route::view('/main','main')->name('main');
 Route::view('/form','form')->name('form');
 Route::view('/datatable','datatable')->name('datatable');
 Route::view('/onlyDatatable','onlyDatatable')->name('only.datatable');
-Route::view('/stock/out','stock.out')->name('stock.out');
 
-Route::view('/stock/out/add','stock.add')->name('stock.out.add');
 
 Route::view('/Main-Screen','mainscreen')->name('mainsreen');
 
 
+//Goods In
+Route::view('/goods-in','goods-in.add')->name('goods-in.add');
 
-
+Route::view('/stock/out','stock.out')->name('stock.out');
+Route::view('/stock/out/add','stock.add')->name('stock.out.add');
 
 Route::view('/settings/product-category','settings.productCategory')->name('settings.productCategory');
 Route::view('/settings/product-category/add','settings.addProductCategory')->name('settings.productCategory.add');

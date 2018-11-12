@@ -12,8 +12,8 @@
                 <li class="has-submenu">
                     <a href="#"><i class="ti-light-bulb"></i>GOODS IN</a>
                     <ul class="submenu">
-                        <li><a href="ui-buttons.html">Information</a></li>
-                        <li><a href="ui-cards.html">Pending Job</a></li>
+                        <li><a href="{{route('goods-in.add')}}">Add</a></li>
+                        <li><a href="ui-cards.html">Show</a></li>
 
 
 
