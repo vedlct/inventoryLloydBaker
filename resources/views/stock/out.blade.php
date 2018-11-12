@@ -18,10 +18,24 @@
 <div class="card">
     <div class="card-header">
         <h4>Store Stock</h4>
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label>Store</label>
+                <select class="form-control">
+                    <option>Select Shop</option>
+                    <option>Shop 1</option>
+                    <option>Shop 2</option>
+                    <option>Shop 3</option>
+                </select>
+            </div>
 
-        <div class="form-group pull-right">
-            <a href="{{route('stock.out.add')}}" class="btn btn-sm btn-info"><i class="fa fa-plus"></i></a>
+
+            <div class="form-group col-md-6">
+                <a href="{{route('stock.out.add')}}" class="btn btn-sm btn-info pull-right"><i class="fa fa-plus"></i></a>
+            </div>
+
         </div>
+
     </div>
     <div class="card-body">
        <table class="table table-striped" id="example">

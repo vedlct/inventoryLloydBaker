@@ -19,15 +19,24 @@ Route::view('/main','main')->name('main');
 Route::view('/form','form')->name('form');
 Route::view('/datatable','datatable')->name('datatable');
 Route::view('/onlyDatatable','onlyDatatable')->name('only.datatable');
-Route::view('/stock/out','stock.out')->name('stock.out');
 
-Route::view('/stock/out/add','stock.add')->name('stock.out.add');
 
 Route::view('/Main-Screen','mainscreen')->name('mainsreen');
 
 
+<<<<<<< HEAD
+Route::view('profit/profitCalculation','profit.profitCalculation')->name('profit.profitCalculation');
+Route::view('Report/product/Shop','report.productperShop')->name('report.productperShop');
 
 
+=======
+//Goods In
+Route::view('/goods-in/add','goods-in.add')->name('goods-in.add');
+Route::view('/goods-in/','mainscreen')->name('goods-in');
+>>>>>>> 2528aa53347db9de5b61525f9c87eddf614fc6da
+
+Route::view('/stock/out','stock.out')->name('stock.out');
+Route::view('/stock/out/add','stock.add')->name('stock.out.add');
 
 Route::view('/settings/product-category','settings.productCategory')->name('settings.productCategory');
 Route::view('/settings/product-category/add','settings.addProductCategory')->name('settings.productCategory.add');
@@ -47,6 +56,7 @@ Route::view('/settings/brand/add','settings.addBrand')->name('settings.brand.add
 
 Route::view('/settings/style','settings.style')->name('settings.style');
 Route::view('/settings/style/add','settings.addStyle')->name('settings.style.add');
+
 
 Auth::routes();
 

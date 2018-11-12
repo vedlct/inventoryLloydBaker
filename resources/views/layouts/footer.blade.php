@@ -32,6 +32,8 @@
 {{--<script src="{{url('public/assets/pages/dashborad.js')}}"></script>--}}
 <script src="{{url('public/assets/js/app.js')}}"></script>
 
+<script src="{{url('public/assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js')}}"></script>
+
     @yield('foot-js')
 
 </body>

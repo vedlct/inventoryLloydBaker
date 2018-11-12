@@ -12,8 +12,8 @@
                 <li class="has-submenu">
                     <a href="#"><i class="ti-light-bulb"></i>GOODS IN</a>
                     <ul class="submenu">
-                        <li><a href="ui-buttons.html">Information</a></li>
-                        <li><a href="ui-cards.html">Pending Job</a></li>
+                        <li><a href="{{route('goods-in.add')}}">Add</a></li>
+                        <li><a href="{{route('goods-in')}}">Show</a></li>
 
 
 
@@ -38,13 +38,17 @@
                     </ul>
                 </li>
 
-
-
                 <li class="has-submenu">
                     <a href="#"><i class="ti-bookmark-alt"></i>Reporting</a>
                     <ul class="submenu">
-                        <li><a href="advanced-animation.html">Report</a></li>
-                        <li><a href="advanced-highlight.html">Performance</a></li>
+                        <li class="has-submenu"><a href="#">Profit</a>
+                            <ul class="submenu">
+                                <li><a href="{{route('profit.profitCalculation')}}">Profit Calculation</a></li>
+                                <li><a href="advanced-animation.html">Most Profitable Product</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="advanced-highlight.html">Sell data</a></li>
+                        <li><a href="{{route('report.productperShop')}}">Product per Shop</a></li>
 
                     </ul>
                 </li>

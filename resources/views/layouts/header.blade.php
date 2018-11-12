@@ -21,6 +21,7 @@
     <link href="{{url('public/assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{url('public/assets/css/icons.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{url('public/assets/css/style.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{url('public/assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css')}}" rel="stylesheet">
 
     @yield('header')
 
