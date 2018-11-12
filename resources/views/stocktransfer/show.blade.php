@@ -36,16 +36,9 @@
         <div class="col-md-2">
             <div style="background-color: white;margin-bottom: 20px;" class="card-body">
 
-                <h4 class="mt-0 header-title">Search</h4>
+                <h4 class="mt-0 header-title">Insert</h4>
                 <form class="" action="#">
-                    <div class="form-group">
-                        <label>Date From</label>
-                        <input type="date" class="form-control" required placeholder="Type something"/>
-                    </div>
-                    <div class="form-group">
-                        <label>Date To</label>
-                        <input type="date" class="form-control" required placeholder="Type something"/>
-                    </div>
+
                     <div class="form-group">
                         <label>Shop</label>
                         <div>
@@ -59,6 +52,43 @@
                                 <option>Shop 6</option>
                             </select>
                         </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Product</label>
+                        <div>
+                            <select class="form-control">
+                                <option>Select A Product</option>
+                                <option>THE AURORA PC6148</option>
+                                <option>THE MARIELLE KEYRING PC3151</option>
+                                <option>LB6421X</option>
+                                <option>THE ETICHETTA SIGNAGE PC5161</option>
+                                <option>LB5754</option>
+                                <option>LB5860</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Quantity</label>
+                        <input type="text" class="form-control" required placeholder="Type something"/>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">
+                                Submit
+                            </button>
+                            <button type="reset" class="btn btn-secondary waves-effect m-l-5">
+                                Cancel
+                            </button>
+                        </div>
+                    </div>
+                    <br>
+                    <hr>
+
+                    <div class="form-group">
+                        <label>BULK INSERT</label>
+                        <input type="file" class="form-control"  />
                     </div>
 
                     <div class="form-group">

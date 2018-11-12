@@ -32,7 +32,7 @@
         <div class="card-body">
 
             <h3 class="text-center mt-0 m-b-15">
-                <b class="waves-effect waves-light">PMS</b>
+                <b class="waves-effect waves-light">Inventory</b>
             </h3>
 
             <h4 class="text-muted text-center font-18"><b>Sign In</b></h4>

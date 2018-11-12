@@ -19,21 +19,17 @@
 
                     </ul>
                 </li>
+
                 <li class="has-submenu">
-                    <a href="#"><i class="ti-light-bulb"></i>STOCK TRANSFER</a>
-                    <ul class="submenu">
-                        <li><a href="ui-buttons.html">Information</a></li>
-                        <li><a href="ui-cards.html">Pending Job</a></li>
-
-
-
-                    </ul>
+                    <a href="{{route('stocktransfer.show')}}"><i class="ti-home"></i>STOCK TRANSFER</a>
                 </li>
+
 
                 <li class="has-submenu">
                     <a href="#"><i class="ti-bookmark-alt"></i>STOCK OUT</a>
                     <ul class="submenu">
                         <li><a href="{{route('stock.out')}}">SALES</a></li>
+                        <li><a href="{{route('stock.out.add')}}">ADD</a></li>
 
                     </ul>
                 </li>
