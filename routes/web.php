@@ -19,6 +19,7 @@ Route::view('/main','main')->name('main');
 Route::view('/form','form')->name('form');
 Route::view('/datatable','datatable')->name('datatable');
 Route::view('/onlyDatatable','onlyDatatable')->name('only.datatable');
+Route::view('/stock/out','stock.out')->name('stock.out');
 
 Auth::routes();
 
