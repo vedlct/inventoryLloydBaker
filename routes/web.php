@@ -24,16 +24,17 @@ Route::view('/onlyDatatable','onlyDatatable')->name('only.datatable');
 Route::view('/Main-Screen','mainscreen')->name('mainsreen');
 
 
-<<<<<<< HEAD
+
 Route::view('profit/profitCalculation','profit.profitCalculation')->name('profit.profitCalculation');
+Route::view('profit/MostProfitableProduct','profit.mostProfitableProduct')->name('profit.mostProfitableProduct');
 Route::view('Report/product/Shop','report.productperShop')->name('report.productperShop');
 
 
-=======
+
 //Goods In
 Route::view('/goods-in/add','goods-in.add')->name('goods-in.add');
 Route::view('/goods-in/','mainscreen')->name('goods-in');
->>>>>>> 2528aa53347db9de5b61525f9c87eddf614fc6da
+
 
 Route::view('/stock/out','stock.out')->name('stock.out');
 Route::view('/stock/out/add','stock.add')->name('stock.out.add');
