@@ -48,7 +48,20 @@
                             </ul>
                         </li>
                         <li><a href="advanced-highlight.html">Sell data</a></li>
-                        <li><a href="advanced-highlight.html">Product per Shop</a></li>
+                        <li><a href="{{route('report.productperShop')}}">Product per Shop</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="has-submenu">
+                    <a href="#"><i class="ti-bookmark-alt"></i>Settings</a>
+                    <ul class="submenu">
+                        <li><a href="{{route('settings.productCategory')}}">Product Category</a></li>
+                        <li><a href="{{route('settings.location')}}">Location</a></li>
+                        <li><a href="{{route('settings.color')}}">Color</a></li>
+                        <li><a href="{{route('settings.size')}}">Size</a></li>
+                        <li><a href="advanced-highlight.html">Brand</a></li>
+                        <li><a href="advanced-highlight.html">Style</a></li>
 
                     </ul>
                 </li>

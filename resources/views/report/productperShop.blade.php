@@ -36,28 +36,13 @@
 
                 {{--<h4 class="mt-0 header-title">Validation type</h4>--}}
                 {{--<p class="text-muted m-b-30 font-14">Parsley is a javascript form validation--}}
-                    {{--library. It helps you provide your users with feedback on their form--}}
-                    {{--submission before sending it to your server.</p>--}}
+                {{--library. It helps you provide your users with feedback on their form--}}
+                {{--submission before sending it to your server.</p>--}}
                 <div class=" form-group ">
-                <label style="text-align: center" class="col-12">Period</label>
-                <div class=" form-group ">
-                    <label>From</label>
-                    <input class="form-control date" id="ageFromFilter" name="ageFromFilter" onkeypress="return isNumberKey(event)" type="text">
-                </div>
-                <div class=" form-group ">
-                    <label>To</label>
-                    <input class="form-control date" id="ageToFilter" name="ageToFilter" onkeypress="return isNumberKey(event)" type="text">
-                </div>
+
                     <div class=" form-group ">
-                        <label>Vendor</label>
-                        <select name="genderFilter" id="genderFilter" class="form-control">
-                            <option value="">Select a Vendor</option>
-                            <option value="">web</option>
-                            <option value="">warehouse</option>
-                            <option value="">shop</option>
-
-
-                        </select>
+                        <label>days in stock</label>
+                        <input class="form-control" id="ageFromFilter" name="ageFromFilter" onkeypress="return isNumberKey(event)" type="text">
                     </div>
 
                     <div class=" form-group ">
