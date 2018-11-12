@@ -41,6 +41,11 @@ Route::view('/settings/color/add','settings.addColor')->name('settings.color.add
 Route::view('/settings/size','settings.size')->name('settings.size');
 Route::view('/settings/size/add','settings.addSize')->name('settings.size.add');
 
+Route::view('/settings/brand','settings.brand')->name('settings.brand');
+Route::view('/settings/brand/add','settings.addBrand')->name('settings.brand.add');
+
+Route::view('/settings/style','settings.style')->name('settings.style');
+Route::view('/settings/style/add','settings.addStyle')->name('settings.style.add');
 
 
 Auth::routes();

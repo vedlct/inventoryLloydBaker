@@ -60,8 +60,8 @@
                         <li><a href="{{route('settings.location')}}">Location</a></li>
                         <li><a href="{{route('settings.color')}}">Color</a></li>
                         <li><a href="{{route('settings.size')}}">Size</a></li>
-                        <li><a href="advanced-highlight.html">Brand</a></li>
-                        <li><a href="advanced-highlight.html">Style</a></li>
+                        <li><a href="{{route('settings.brand')}}">Brand</a></li>
+                        <li><a href="{{route('settings.style')}}">Style</a></li>
 
                     </ul>
                 </li>

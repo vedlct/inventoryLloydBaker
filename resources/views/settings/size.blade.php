@@ -13,6 +13,7 @@
 
 
 @endsection
+@section('content')
 <div class="content">
     <div class="row">
         <div class="col-md-12">
@@ -133,7 +134,7 @@
 
     </div>
 </div>
-@section('content')
+
 
 @endsection
 @section('foot-js')
