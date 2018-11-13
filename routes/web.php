@@ -14,17 +14,17 @@
 //Route::get('/', function () {
 //    return view('welcome');
 //});
-Route::view('/','login');
+Route::view('/','login')->name('/');
 Route::view('/main','main')->name('main');
 Route::view('/form','form')->name('form');
 Route::view('/datatable','datatable')->name('datatable');
 Route::view('/onlyDatatable','onlyDatatable')->name('only.datatable');
 
-
 Route::view('/Main-Screen','mainscreen')->name('mainsreen');
 
 
 Route::view('profit/profitCalculation','profit.profitCalculation')->name('profit.profitCalculation');
+Route::view('profit/MostProfitableProduct','profit.mostProfitableProduct')->name('profit.mostProfitableProduct');
 Route::view('Report/product/Shop','report.productperShop')->name('report.productperShop');
 
 //Goods In

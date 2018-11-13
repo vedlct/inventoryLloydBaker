@@ -40,7 +40,7 @@
                         <li class="has-submenu"><a href="#">Profit</a>
                             <ul class="submenu">
                                 <li><a href="{{route('profit.profitCalculation')}}">Profit Calculation</a></li>
-                                <li><a href="advanced-animation.html">Most Profitable Product</a></li>
+                                <li><a href="{{route('profit.mostProfitableProduct')}}">Most Profitable Product</a></li>
                             </ul>
                         </li>
                         <li><a href="advanced-highlight.html">Sell data</a></li>

@@ -134,7 +134,7 @@
                             <a class="dropdown-item" href="#"><i class="dripicons-wallet text-muted"></i>Team</a>
                             <a class="dropdown-item" href="#"><i class="dripicons-gear text-muted"></i>Change Password</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#"><i class="dripicons-exit text-muted"></i> Logout</a>
+                            <a class="dropdown-item" href="{{route('/')}}"><i class="dripicons-exit text-muted"></i> Logout</a>
                         </div>
                     </li>
                     <li class="menu-item list-inline-item">
