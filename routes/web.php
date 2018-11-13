@@ -28,6 +28,7 @@ Route::view('/Main-Screen','mainscreen')->name('mainsreen');
 Route::view('profit/profitCalculation','profit.profitCalculation')->name('profit.profitCalculation');
 Route::view('profit/MostProfitableProduct','profit.mostProfitableProduct')->name('profit.mostProfitableProduct');
 Route::view('Report/product/Shop','report.productperShop')->name('report.productperShop');
+Route::view('Report/product/Sell-Information','report.sellInformation')->name('report.sellData');
 
 
 

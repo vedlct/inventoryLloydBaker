@@ -45,8 +45,8 @@
                         <input class="form-control date" id="ageToFilter" name="ageToFilter" onkeypress="return isNumberKey(event)" type="text">
                     </div>
                     <div class=" form-group ">
-                    <label>days in stock</label>
-                    <input class="form-control" id="ageFromFilter" name="ageFromFilter" onkeypress="return isNumberKey(event)" type="text">
+                        <label>days in stock</label>
+                        <input class="form-control" id="ageFromFilter" name="ageFromFilter" onkeypress="return isNumberKey(event)" type="text">
                     </div>
 
                     <div class=" form-group ">
@@ -120,16 +120,15 @@
                                 <td>6</td>
                                 <td>£230.00</td>
                                 <td>7</td>
-                                <td>YES</td>
                                 <td>
                                     <table class="table table-bordered">
                                         <thead>
                                         <th>QTY SOLD</th>
-                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
                                         </thead>
                                         <tbody>
                                         <td>7</td>
-                                        <td>6</td>
+                                        <td>£69.99</td>
                                         </tbody>
                                     </table>
                                 </td>
@@ -138,10 +137,12 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
                                         </tbody>
                                     </table>
                                 </td>
@@ -150,10 +151,28 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                        <th>QTY SOLD</th>
+                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
+
+                                        </thead>
+                                        <tbody>
+                                        <td>7</td>
+                                        <td>6</td>
+                                        <td>£75</td>
                                         </tbody>
                                     </table>
                                 </td>
@@ -179,10 +198,12 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
                                         </tbody>
                                     </table>
                                 </td>
@@ -191,10 +212,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -203,10 +228,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -225,16 +254,31 @@
                                 <td>£12.99</td>
                                 <td>£34.99</td>
                                 <td>4</td>
-                                <td>YES</td>
+                                <td>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                        <th>QTY SOLD</th>
+                                        <th>profit</th>
+                                        </thead>
+                                        <tbody>
+                                        <td>7</td>
+                                        <td>£69.99</td>
+                                        </tbody>
+                                    </table>
+                                </td>
                                 <td>
                                     <table class="table table-bordered">
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>5</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -243,10 +287,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -255,10 +303,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -283,10 +335,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -295,10 +351,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -307,10 +367,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -329,16 +393,15 @@
                                 <td>6</td>
                                 <td>£230.00</td>
                                 <td>7</td>
-                                <td>YES</td>
                                 <td>
                                     <table class="table table-bordered">
                                         <thead>
                                         <th>QTY SOLD</th>
-                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
                                         </thead>
                                         <tbody>
                                         <td>7</td>
-                                        <td>6</td>
+                                        <td>£69.99</td>
                                         </tbody>
                                     </table>
                                 </td>
@@ -347,10 +410,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -359,10 +426,30 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                        <th>QTY SOLD</th>
+                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
+                                        </thead>
+                                        <tbody>
+                                        <td>7</td>
+                                        <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -387,10 +474,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -399,10 +490,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -411,10 +506,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -434,16 +533,15 @@
                                 <td>£39.99</td>
                                 <td>£150.00</td>
                                 <td>14</td>
-                                <td>YES</td>
                                 <td>
                                     <table class="table table-bordered">
                                         <thead>
                                         <th>QTY SOLD</th>
-                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
                                         </thead>
                                         <tbody>
                                         <td>7</td>
-                                        <td>6</td>
+                                        <td>£69.99</td>
                                         </tbody>
                                     </table>
                                 </td>
@@ -452,10 +550,12 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
                                         </tbody>
                                     </table>
                                 </td>
@@ -464,10 +564,30 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                        <th>QTY SOLD</th>
+                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
+                                        </thead>
+                                        <tbody>
+                                        <td>7</td>
+                                        <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -486,16 +606,15 @@
                                 <td>£49.99</td>
                                 <td>£200.00</td>
                                 <td>14</td>
-                                <td>YES</td>
                                 <td>
                                     <table class="table table-bordered">
                                         <thead>
                                         <th>QTY SOLD</th>
-                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
                                         </thead>
                                         <tbody>
                                         <td>7</td>
-                                        <td>6</td>
+                                        <td>£69.99</td>
                                         </tbody>
                                     </table>
                                 </td>
@@ -504,10 +623,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -516,10 +639,30 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                        <th>QTY SOLD</th>
+                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
+                                        </thead>
+                                        <tbody>
+                                        <td>7</td>
+                                        <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -538,16 +681,15 @@
                                 <td>£89.99</td>
                                 <td>£225.00</td>
                                 <td>80</td>
-                                <td>YES</td>
                                 <td>
                                     <table class="table table-bordered">
                                         <thead>
                                         <th>QTY SOLD</th>
-                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
                                         </thead>
                                         <tbody>
                                         <td>7</td>
-                                        <td>6</td>
+                                        <td>£69.99</td>
                                         </tbody>
                                     </table>
                                 </td>
@@ -556,10 +698,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -568,10 +714,30 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                        <th>QTY SOLD</th>
+                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
+                                        </thead>
+                                        <tbody>
+                                        <td>7</td>
+                                        <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -590,16 +756,20 @@
                                 <td>£59.99</td>
                                 <td>£175.00</td>
                                 <td>25</td>
-                                <td>YES</td>
+                                <td>NO</td>
                                 <td>
                                     <table class="table table-bordered">
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -608,10 +778,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -620,10 +794,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -660,10 +838,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -672,10 +854,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -694,16 +880,15 @@
                                 <td>£59.99</td>
                                 <td>£175.00</td>
                                 <td>14</td>
-                                <td>YES</td>
                                 <td>
                                     <table class="table table-bordered">
                                         <thead>
                                         <th>QTY SOLD</th>
-                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
                                         </thead>
                                         <tbody>
                                         <td>7</td>
-                                        <td>6</td>
+                                        <td>£69.99</td>
                                         </tbody>
                                     </table>
                                 </td>
@@ -712,10 +897,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -724,10 +913,30 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                        <th>QTY SOLD</th>
+                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
+                                        </thead>
+                                        <tbody>
+                                        <td>7</td>
+                                        <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -746,16 +955,15 @@
                                 <td>£79.99</td>
                                 <td>£175.00</td>
                                 <td>24</td>
-                                <td>YES</td>
                                 <td>
                                     <table class="table table-bordered">
                                         <thead>
                                         <th>QTY SOLD</th>
-                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
                                         </thead>
                                         <tbody>
                                         <td>7</td>
-                                        <td>6</td>
+                                        <td>£69.99</td>
                                         </tbody>
                                     </table>
                                 </td>
@@ -764,10 +972,15 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -776,10 +989,30 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                        <th>QTY SOLD</th>
+                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
+                                        </thead>
+                                        <tbody>
+                                        <td>7</td>
+                                        <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -798,16 +1031,20 @@
                                 <td>£79.99</td>
                                 <td>£175.00</td>
                                 <td>17</td>
-                                <td>YES</td>
+                                <td>NO</td>
                                 <td>
                                     <table class="table table-bordered">
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -816,10 +1053,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -828,10 +1069,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -856,10 +1101,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -868,10 +1117,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -880,10 +1133,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -903,16 +1160,15 @@
                                 <td>£49.99</td>
                                 <td>£200.00</td>
                                 <td>27</td>
-                                <td>YES</td>
                                 <td>
                                     <table class="table table-bordered">
                                         <thead>
                                         <th>QTY SOLD</th>
-                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
                                         </thead>
                                         <tbody>
                                         <td>7</td>
-                                        <td>6</td>
+                                        <td>£69.99</td>
                                         </tbody>
                                     </table>
                                 </td>
@@ -921,10 +1177,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -933,10 +1193,30 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                        <th>QTY SOLD</th>
+                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
+                                        </thead>
+                                        <tbody>
+                                        <td>7</td>
+                                        <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -961,10 +1241,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -973,10 +1257,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -985,10 +1273,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -1007,16 +1299,15 @@
                                 <td>£79.99</td>
                                 <td>£175.00</td>
                                 <td>14</td>
-                                <td>YES</td>
                                 <td>
                                     <table class="table table-bordered">
                                         <thead>
                                         <th>QTY SOLD</th>
-                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
                                         </thead>
                                         <tbody>
                                         <td>7</td>
-                                        <td>6</td>
+                                        <td>£69.99</td>
                                         </tbody>
                                     </table>
                                 </td>
@@ -1025,10 +1316,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -1037,10 +1332,30 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                        <th>QTY SOLD</th>
+                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
+                                        </thead>
+                                        <tbody>
+                                        <td>7</td>
+                                        <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -1059,16 +1374,15 @@
                                 <td>£79.99</td>
                                 <td>£225.00</td>
                                 <td>47</td>
-                                <td>YES</td>
                                 <td>
                                     <table class="table table-bordered">
                                         <thead>
                                         <th>QTY SOLD</th>
-                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
                                         </thead>
                                         <tbody>
                                         <td>7</td>
-                                        <td>6</td>
+                                        <td>£69.99</td>
                                         </tbody>
                                     </table>
                                 </td>
@@ -1077,10 +1391,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -1089,10 +1407,30 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table class="table table-bordered">
+                                        <thead>
+                                        <th>QTY SOLD</th>
+                                        <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
+                                        </thead>
+                                        <tbody>
+                                        <td>7</td>
+                                        <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -1117,10 +1455,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -1129,10 +1471,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>
@@ -1141,10 +1487,14 @@
                                         <thead>
                                         <th>QTY SOLD</th>
                                         <th>DAYS IN STOCK</th>
+                                        <th>profit</th>
+
                                         </thead>
                                         <tbody>
                                         <td>7</td>
                                         <td>6</td>
+                                        <td>£75</td>
+
                                         </tbody>
                                     </table>
                                 </td>

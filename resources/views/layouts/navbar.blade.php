@@ -47,7 +47,7 @@
                                 <li><a href="{{route('profit.mostProfitableProduct')}}">Most Profitable Product</a></li>
                             </ul>
                         </li>
-                        <li><a href="advanced-highlight.html">Sell data</a></li>
+                        <li><a href="{{route('report.sellData')}}">Sell data</a></li>
                         <li><a href="{{route('report.productperShop')}}">Product per Shop</a></li>
 
                     </ul>
