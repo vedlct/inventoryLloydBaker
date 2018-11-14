@@ -44,6 +44,11 @@
                     <label>To</label>
                     <input class="form-control date" id="ageToFilter" name="ageToFilter" onkeypress="return isNumberKey(event)" type="text">
                 </div>
+                    {{--<div class=" form-group ">--}}
+                        {{--<label>days in stock</label>--}}
+                        {{--<input class="form-control" id="ageFromFilter" name="ageFromFilter" onkeypress="return isNumberKey(event)" type="text">--}}
+                    {{--</div>--}}
+
                     <div class=" form-group ">
                         <label>Vendor</label>
                         <select name="genderFilter" id="genderFilter" class="form-control">
