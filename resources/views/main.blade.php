@@ -20,7 +20,7 @@
                 <a href="{{route('main')}}" class="logo">
                     <img src="assets/images/logo-sm.png" alt="" height="22" class="logo-small">
                     
-                    <h3>Inventory</h3>
+                    <h3>LLoydBaker WareHouse Stock Control System</h3>
 <!--                    <img src="assets/images/logo.png" alt="" height="24" class="logo-large">-->
                 </a>
 

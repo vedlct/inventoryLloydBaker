@@ -33,47 +33,68 @@
     <div class="row">
         <div class="col-md-2">
             <div style="background-color: white;margin-bottom: 20px;" class="card-body">
-
-                <div class=" form-group ">
-                <label style="text-align: center" class="col-12">Period</label>
-                <div class=" form-group ">
-                    <label>From</label>
-                    <input class="form-control date" id="ageFromFilter" name="ageFromFilter" onkeypress="return isNumberKey(event)" type="text">
-                </div>
-                <div class=" form-group ">
-                    <label>To</label>
-                    <input class="form-control date" id="ageToFilter" name="ageToFilter" onkeypress="return isNumberKey(event)" type="text">
-                </div>
-                    {{--<div class=" form-group ">--}}
-                        {{--<label>days in stock</label>--}}
-                        {{--<input class="form-control" id="ageFromFilter" name="ageFromFilter" onkeypress="return isNumberKey(event)" type="text">--}}
-                    {{--</div>--}}
-
-                    <div class=" form-group ">
-                        <label>Vendor</label>
-                        <select name="genderFilter" id="genderFilter" class="form-control">
-                            <option value="">Select a Vendor</option>
-                            <option value="">web</option>
-                            <option value="">warehouse</option>
-                            <option value="">shop</option>
-
-
-                        </select>
+                <h4 class="mt-0 header-title">Search</h4>
+                <form class="" action="#">
+                    <div class="form-group">
+                        <label>Date From</label>
+                        <input type="date" class="form-control" required placeholder="Type something"/>
+                    </div>
+                    <div class="form-group">
+                        <label>Date To</label>
+                        <input type="date" class="form-control" required placeholder="Type something"/>
                     </div>
 
-                    <div class=" form-group ">
+
+                    <div class="form-group">
+                        <label>Period</label>
+                        <div>
+                            <select class="form-control">
+                                <option>Select A period</option>
+                                <option>Last 30 days</option>
+                                <option>Last 60 days</option>
+                                <option>Last 90 days</option>
+                                <option>Last 120 days</option>
+                                <option>Last 150 days</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Select Store</label>
+                        <div>
+                            <input type="checkbox"> WEB
+                            <input type="checkbox"> WAREHOUSE
+                            <input type="checkbox"> SHOP
+                        </div>
+                    </div>
+
+                    <div class="form-group">
                         <label>Shop</label>
-                        <select name="genderFilter" id="genderFilter" class="form-control">
-                            <option value="">All Shop</option>
-                            @for($i=1;$i<10;$i++)
-                                <option value="">Shop-{{$i}}</option>
-                            @endfor
-
-
-                        </select>
+                        <div>
+                            <select class="form-control">
+                                <option>Select A Shop</option>
+                                <option>Shop 1</option>
+                                <option>Shop 2</option>
+                                <option>Shop 3</option>
+                                <option>Shop 4</option>
+                                <option>Shop 5</option>
+                                <option>Shop 6</option>
+                            </select>
+                        </div>
                     </div>
 
-                </div>
+                    <div class="form-group">
+                        <div>
+                            <button type="submit" class="btn btn-primary waves-effect waves-light">
+                                Submit
+                            </button>
+                            <button type="reset" class="btn btn-secondary waves-effect m-l-5">
+                                Cancel
+                            </button>
+                        </div>
+                    </div>
+                </form>
 
 
             </div>

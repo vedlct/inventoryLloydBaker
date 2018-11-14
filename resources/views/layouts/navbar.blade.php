@@ -10,10 +10,11 @@
                 </li>
 
                 <li class="has-submenu">
-                    <a href="#"><i class="ti-light-bulb"></i>GOODS IN</a>
+                    <a href=""><i class="ti-light-bulb"></i>GOODS IN</a>
                     <ul class="submenu">
-                        <li><a href="{{route('goods-in.add')}}">Add</a></li>
-                        <li><a href="{{route('goods-in')}}">Show</a></li>
+                        <li><a href="{{route('goods-in.add')}}">Add Individual Product</a></li>
+                        <li><a href="{{route('goods-in.bulk')}}"> Insert Bulk Products </a></li>
+                        <li><a href="{{route('goods-in.show')}}">Edit/Delete Product </a></li>
 
 
 
@@ -21,36 +22,39 @@
                 </li>
 
                 <li class="has-submenu">
-                    <a href="{{route('stocktransfer.show')}}"><i class="ti-home"></i>STOCK TRANSFER</a>
+                    <a href=""><i class="ti-light-bulb"></i>STOCK TRANSFER</a>
+                    <ul class="submenu">
+                        <li> <a href="{{route('stocktransfer.show')}}">Stock Transfer</a></li>
+                        <li><a href="{{route('goods-in.bulk')}}">Stock Transfer in Bulk</a></li>
+                    </ul>
+
                 </li>
 
 
                 <li class="has-submenu">
-                    <a href="#"><i class="ti-bookmark-alt"></i>STOCK OUT</a>
+                    <a href=""><i class="ti-bookmark-alt"></i>STOCK OUT</a>
                     <ul class="submenu">
-                        <li><a href="{{route('stock.out')}}">SALES</a></li>
-                        <li><a href="{{route('stock.out.add')}}">ADD</a></li>
-
+                        <li><a href="{{route('goods-in.bulk')}}">Import Sales</a></li>
+                        <li><a href="{{route('stock.out')}}">Show Sales</a></li>
                     </ul>
                 </li>
 
                 <li class="has-submenu">
-                    <a href="#"><i class="ti-bookmark-alt"></i>Reporting</a>
+                    <a href=""><i class="ti-bookmark-alt"></i>Reporting</a>
                     <ul class="submenu">
-                        <li class="has-submenu"><a href="#">Profit</a>
+                        <li class="has-submenu"><a href="">Profit</a>
                             <ul class="submenu">
                                 <li><a href="{{route('profit.profitCalculation')}}">Profit Calculation</a></li>
                                 <li><a href="{{route('profit.mostProfitableProduct')}}">Most Profitable Product</a></li>
                             </ul>
                         </li>
-                        <li><a href="{{route('report.sellData')}}">Sell data</a></li>
-                        <li><a href="{{route('report.productperShop')}}">Product per Shop</a></li>
+                        <li><a href="{{route('report.sellData')}}">Stock Valuation</a></li>
 
                     </ul>
                 </li>
 
                 <li class="has-submenu">
-                    <a href="#"><i class="ti-bookmark-alt"></i>Settings</a>
+                    <a href=""><i class="ti-bookmark-alt"></i>Settings</a>
                     <ul class="submenu">
                         <li><a href="{{route('settings.productCategory')}}">Product Category</a></li>
                         <li><a href="{{route('settings.location')}}">Location</a></li>
@@ -58,23 +62,10 @@
                         <li><a href="{{route('settings.size')}}">Size</a></li>
                         <li><a href="{{route('settings.brand')}}">Brand</a></li>
                         <li><a href="{{route('settings.style')}}">Style</a></li>
+                        <li><a href="{{route('settings.user')}}">User</a></li>
 
                     </ul>
                 </li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             </ul>
             <!-- End navigation menu -->

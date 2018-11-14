@@ -46,6 +46,32 @@
                         <label>Date To</label>
                         <input type="date" class="form-control" required placeholder="Type something"/>
                     </div>
+
+
+                    <div class="form-group">
+                        <label>Period</label>
+                        <div>
+                            <select class="form-control">
+                                <option>Select A period</option>
+                                <option>Last 30 days</option>
+                                <option>Last 60 days</option>
+                                <option>Last 90 days</option>
+                                <option>Last 120 days</option>
+                                <option>Last 150 days</option>
+
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Select Store</label>
+                        <div>
+                            <input type="checkbox"> WEB
+                            <input type="checkbox"> WAREHOUSE
+                            <input type="checkbox"> SHOP
+                        </div>
+                    </div>
+
                     <div class="form-group">
                         <label>Shop</label>
                         <div>

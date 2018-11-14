@@ -29,8 +29,9 @@ Route::view('Report/product/Shop','report.productperShop')->name('report.product
 Route::view('Report/product/Sell-Information','report.sellInformation')->name('report.sellData');
 
 //Goods In
-Route::view('/goods-in/add','goods-in.add')->name('goods-in.add');
-Route::view('/goods-in/','mainscreen')->name('goods-in');
+Route::view('/goods-in/Add-Individual-Goods','goods-in.add')->name('goods-in.add');
+Route::view('/goods-in/Add-Bulk-Goods','goods-in.addbulk')->name('goods-in.bulk');
+Route::view('/goods-in/Show-Goods','goods-in.showgoods')->name('goods-in.show');
 
 
 Route::view('/stock/out','stock.out')->name('stock.out');
@@ -59,6 +60,9 @@ Route::view('/settings/brand/add','settings.addBrand')->name('settings.brand.add
 
 Route::view('/settings/style','settings.style')->name('settings.style');
 Route::view('/settings/style/add','settings.addStyle')->name('settings.style.add');
+
+Route::view('/settings/user','settings.user')->name('settings.user');
+Route::view('/settings/user/add','settings.addUser')->name('settings.user.add');
 
 
 Auth::routes();
