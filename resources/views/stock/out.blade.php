@@ -29,11 +29,6 @@
                 </select>
             </div>
 
-
-            <div class="form-group col-md-6">
-                <a href="{{route('stock.out.add')}}" class="btn btn-sm btn-info pull-right"><i class="fa fa-plus"></i></a>
-            </div>
-
         </div>
 
     </div>

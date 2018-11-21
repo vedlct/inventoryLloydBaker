@@ -14,22 +14,33 @@
 //Route::get('/', function () {
 //    return view('welcome');
 //});
-Route::view('/','login');
+Route::view('/','login')->name('/');
 Route::view('/main','main')->name('main');
 Route::view('/form','form')->name('form');
 Route::view('/datatable','datatable')->name('datatable');
 Route::view('/onlyDatatable','onlyDatatable')->name('only.datatable');
 
-
 Route::view('/Main-Screen','mainscreen')->name('mainsreen');
 
 
+Route::view('profit/profitCalculation','profit.profitCalculation')->name('profit.profitCalculation');
+Route::view('profit/MostProfitableProduct','profit.mostProfitableProduct')->name('profit.mostProfitableProduct');
+Route::view('Report/product/Shop','report.productperShop')->name('report.productperShop');
+Route::view('Report/product/Sell-Information','report.sellInformation')->name('report.sellData');
+
 //Goods In
-Route::view('/goods-in/add','goods-in.add')->name('goods-in.add');
-Route::view('/goods-in/','mainscreen')->name('goods-in');
+Route::view('/goods-in/Add-Individual-Goods','goods-in.add')->name('goods-in.add');
+Route::view('/goods-in/Add-Bulk-Goods','goods-in.addbulk')->name('goods-in.bulk');
+Route::view('/goods-in/Show-Goods','goods-in.showgoods')->name('goods-in.show');
+
 
 Route::view('/stock/out','stock.out')->name('stock.out');
 Route::view('/stock/out/add','stock.add')->name('stock.out.add');
+
+
+Route::view('/stocktransfer','stocktransfer.show')->name('stocktransfer.show');
+Route::view('/stocktransfer/bulk','stocktransfer.bulkinsert')->name('stocktransfer.bulk');
+
 
 Route::view('/settings/product-category','settings.productCategory')->name('settings.productCategory');
 Route::view('/settings/product-category/add','settings.addProductCategory')->name('settings.productCategory.add');
@@ -49,6 +60,10 @@ Route::view('/settings/brand/add','settings.addBrand')->name('settings.brand.add
 
 Route::view('/settings/style','settings.style')->name('settings.style');
 Route::view('/settings/style/add','settings.addStyle')->name('settings.style.add');
+
+Route::view('/settings/user','settings.user')->name('settings.user');
+Route::view('/settings/user/add','settings.addUser')->name('settings.user.add');
+
 
 Auth::routes();
 

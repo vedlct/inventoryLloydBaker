@@ -2,12 +2,10 @@
 @section('header')
 
     <!-- DataTables -->
-    <link href="assets/plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{url('public/assets/plugins/datatables/dataTables.bootstrap4.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{url('public/assets/plugins/datatables/buttons.bootstrap4.min.css')}}" rel="stylesheet" type="text/css" />
     <!-- Responsive datatable examples -->
-    <link href="assets/plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.datatables.net/rowreorder/1.2.3/css/rowReorder.dataTables.min.css" rel="stylesheet" type="text/css" />
-    <link href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{url('public/assets/plugins/datatables/responsive.bootstrap4.min.css')}}" rel="stylesheet" type="text/css" />
     {{--https://cdn.datatables.net/rowreorder/1.2.3/css/rowReorder.dataTables.min.css--}}
     {{--https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css--}}
 
@@ -36,68 +34,43 @@
         <div class="col-md-2">
             <div style="background-color: white;margin-bottom: 20px;" class="card-body">
 
-                <h4 class="mt-0 header-title">Search</h4>
-                <form class="" action="#">
-                    <div class="form-group">
-                        <label>Date From</label>
-                        <input type="date" class="form-control" required placeholder="Type something"/>
+                <div class=" form-group ">
+                    <label style="text-align: center" class="col-12">Period</label>
+                    <div class=" form-group ">
+                        <label>From</label>
+                        <input class="form-control date" id="ageFromFilter" name="ageFromFilter" onkeypress="return isNumberKey(event)" type="text">
                     </div>
-                    <div class="form-group">
-                        <label>Date To</label>
-                        <input type="date" class="form-control" required placeholder="Type something"/>
-                    </div>
-
-
-                    <div class="form-group">
-                        <label>Period</label>
-                        <div>
-                            <select class="form-control">
-                                <option>Select A period</option>
-                                <option>Last 30 days</option>
-                                <option>Last 60 days</option>
-                                <option>Last 90 days</option>
-                                <option>Last 120 days</option>
-                                <option>Last 150 days</option>
-
-                            </select>
-                        </div>
+                    <div class=" form-group ">
+                        <label>To</label>
+                        <input class="form-control date" id="ageToFilter" name="ageToFilter" onkeypress="return isNumberKey(event)" type="text">
                     </div>
 
-                    <div class="form-group">
-                        <label>Select Store</label>
-                        <div>
-                            <input type="checkbox"> WEB
-                            <input type="checkbox"> WAREHOUSE
-                            <input type="checkbox"> SHOP
-                        </div>
-                    </div>
+                    {{--<div class=" form-group ">--}}
+                        {{--<label>Vendor</label>--}}
+                        {{--<select name="genderFilter" id="genderFilter" class="form-control">--}}
+                            {{--<option value="">Select a Vendor</option>--}}
+                            {{--<option value="">web</option>--}}
+                            {{--<option value="">warehouse</option>--}}
+                            {{--<option value="">shop</option>--}}
 
-                    <div class="form-group">
-                        <label>Shop</label>
-                        <div>
-                           <select class="form-control">
-                               <option>Select A Shop</option>
-                               <option>Shop 1</option>
-                               <option>Shop 2</option>
-                               <option>Shop 3</option>
-                               <option>Shop 4</option>
-                               <option>Shop 5</option>
-                               <option>Shop 6</option>
-                           </select>
-                        </div>
-                    </div>
 
-                    <div class="form-group">
-                        <div>
-                            <button type="submit" class="btn btn-primary waves-effect waves-light">
-                                Submit
-                            </button>
-                            <button type="reset" class="btn btn-secondary waves-effect m-l-5">
-                                Cancel
-                            </button>
-                        </div>
-                    </div>
-                </form>
+                        {{--</select>--}}
+                    {{--</div>--}}
+
+                    {{--<div class=" form-group ">--}}
+                        {{--<label>Shop</label>--}}
+                        {{--<select name="genderFilter" id="genderFilter" class="form-control">--}}
+                            {{--<option value="">All Shop</option>--}}
+                            {{--@for($i=1;$i<10;$i++)--}}
+                                {{--<option value="">Shop-{{$i}}</option>--}}
+                            {{--@endfor--}}
+
+
+                        {{--</select>--}}
+                    {{--</div>--}}
+
+                </div>
+
 
             </div>
         </div>
@@ -105,8 +78,6 @@
             <div class="card">
                 <div class="card-body">
 
-                    <h4 class="mt-0 header-title">Main Screen</h4>
-                    <p>Search Result for <b>SHOP 1</b></p>
                     <div class="table table-responsive">
                         <table id="datatable" class="table table-bordered">
                             <thead>
@@ -123,10 +94,9 @@
                                 <th style="font-weight: bold">SP</th>
                                 <th style="font-weight: bold">RRP</th>
                                 <th style="font-weight: bold">QTY IN WAREHOUSE</th>
-                                <th style="font-weight: bold">WEB</th>
-                                <th style="font-weight: bold">QTY STOCK</th>
-                                <th style="font-weight: bold">DAYS IN STOCK</th>
                                 <th style="font-weight: bold">QTY SOLD</th>
+                                <th style="font-weight: bold">profit</th>
+
 
                             </tr>
                             </thead>
@@ -146,10 +116,9 @@
                                 <td>£69.99</td>
                                 <td>£230.00</td>
                                 <td>7</td>
-                                <td>YES</td>
-                                <td>5</td>
-                                <td>15</td>
+
                                 <td>3</td>
+                                <td>£230.00</td>
 
                             </tr>
                             <tr>
@@ -165,10 +134,9 @@
                                 <td>£69.99</td>
                                 <td>£230.00</td>
                                 <td>7</td>
-                                <td>YES</td>
-                                <td>5</td>
-                                <td>15</td>
+
                                 <td>3</td>
+                                <td>£230.00</td>
 
                             </tr>
                             <tr>
@@ -184,10 +152,9 @@
                                 <td>£12.99</td>
                                 <td>£34.99</td>
                                 <td>4</td>
-                                <td>YES</td>
-                                <td>5</td>
-                                <td>5</td>
+
                                 <td>3</td>
+                                <td>£230.00</td>
 
                             </tr>
                             <tr>
@@ -203,10 +170,9 @@
                                 <td>£69.99</td>
                                 <td>£230.00</td>
                                 <td>10</td>
-                                <td>YES</td>
-                                <td>15</td>
-                                <td>3</td>
+
                                 <td>2</td>
+                                <td>£230.00</td>
 
                             </tr>
                             <tr>
@@ -222,10 +188,9 @@
                                 <td>£69.99</td>
                                 <td>£230.00</td>
                                 <td>7</td>
-                                <td>YES</td>
-                                <td>5</td>
-                                <td>15</td>
+
                                 <td>3</td>
+                                <td>£230.00</td>
 
                             </tr>
                             <tr>
@@ -241,10 +206,9 @@
                                 <td>£79.99</td>
                                 <td>£225.00</td>
                                 <td>25</td>
-                                <td>YES</td>
-                                <td>8</td>
-                                <td>12</td>
+
                                 <td>5</td>
+                                <td>£230.00</td>
 
                             </tr>
 
@@ -261,10 +225,9 @@
                                 <td>£39.99</td>
                                 <td>£150.00</td>
                                 <td>14</td>
-                                <td>YES</td>
-                                <td>9</td>
-                                <td>17</td>
+
                                 <td>8</td>
+                                <td>£230.00</td>
 
                             </tr>
                             <tr>
@@ -280,10 +243,9 @@
                                 <td>£49.99</td>
                                 <td>£200.00</td>
                                 <td>14</td>
-                                <td>YES</td>
-                                <td>8</td>
-                                <td>12</td>
+
                                 <td>13</td>
+                                <td>£230.00</td>
 
                             </tr>
                             <tr>
@@ -299,10 +261,9 @@
                                 <td>£89.99</td>
                                 <td>£225.00</td>
                                 <td>80</td>
-                                <td>YES</td>
-                                <td>45</td>
-                                <td>28</td>
+
                                 <td>16</td>
+                                <td>£230.00</td>
 
                             </tr>
                             <tr>
@@ -318,10 +279,9 @@
                                 <td>£59.99</td>
                                 <td>£175.00</td>
                                 <td>25</td>
-                                <td>YES</td>
-                                <td>17</td>
-                                <td>14</td>
+
                                 <td>13</td>
+                                <td>£230.00</td>
 
                             </tr>
                             <tr>
@@ -337,10 +297,9 @@
                                 <td>£79.99</td>
                                 <td>£179.00</td>
                                 <td>58</td>
-                                <td>YES</td>
-                                <td>45</td>
-                                <td>16</td>
+
                                 <td>28</td>
+                                <td>£230.00</td>
 
                             </tr>
                             <tr>
@@ -356,10 +315,9 @@
                                 <td>£59.99</td>
                                 <td>£175.00</td>
                                 <td>14</td>
-                                <td>YES</td>
-                                <td>15</td>
-                                <td>15</td>
+
                                 <td>12</td>
+                                <td>£230.00</td>
 
                             </tr>
                             <tr>
@@ -375,10 +333,9 @@
                                 <td>£79.99</td>
                                 <td>£175.00</td>
                                 <td>24</td>
-                                <td>YES</td>
-                                <td>50</td>
-                                <td>14</td>
+
                                 <td>20</td>
+                                <td>£230.00</td>
 
                             </tr>
                             <tr>
@@ -394,10 +351,9 @@
                                 <td>£79.99</td>
                                 <td>£175.00</td>
                                 <td>17</td>
-                                <td>YES</td>
-                                <td>25</td>
-                                <td>15</td>
+
                                 <td>14</td>
+                                <td>£230.00</td>
 
                             </tr>
                             <tr>
@@ -413,10 +369,9 @@
                                 <td>£79.99</td>
                                 <td>£175.00</td>
                                 <td>17</td>
-                                <td>YES</td>
-                                <td>30</td>
-                                <td>15</td>
+
                                 <td>14</td>
+                                <td>£230.00</td>
 
                             </tr>
 
@@ -433,10 +388,9 @@
                                 <td>£49.99</td>
                                 <td>£200.00</td>
                                 <td>27</td>
-                                <td>YES</td>
-                                <td>15</td>
-                                <td>12</td>
+
                                 <td>17</td>
+                                <td>£230.00</td>
 
                             </tr>
                             <tr>
@@ -452,10 +406,9 @@
                                 <td>£79.99</td>
                                 <td>£175.00</td>
                                 <td>35</td>
-                                <td>YES</td>
-                                <td>25</td>
-                                <td>17</td>
+
                                 <td>3</td>
+                                <td>£230.00</td>
 
                             </tr>
                             <tr>
@@ -471,10 +424,9 @@
                                 <td>£79.99</td>
                                 <td>£175.00</td>
                                 <td>14</td>
-                                <td>YES</td>
-                                <td>6</td>
-                                <td>09</td>
+
                                 <td>8</td>
+                                <td>£230.00</td>
 
                             </tr>
                             <tr>
@@ -490,10 +442,9 @@
                                 <td>£79.99</td>
                                 <td>£225.00</td>
                                 <td>47</td>
-                                <td>YES</td>
-                                <td>35</td>
-                                <td>15</td>
+
                                 <td>30</td>
+                                <td>£230.00</td>
 
                             </tr>
                             <tr>
@@ -509,16 +460,16 @@
                                 <td>£79.99</td>
                                 <td>£125.00</td>
                                 <td>7</td>
-                                <td>YES</td>
-                                <td>5</td>
-                                <td>15</td>
+
                                 <td>3</td>
+                                <td>£230.00</td>
 
                             </tr>
 
                             </tbody>
                         </table>
                     </div>
+
 
                 </div>
             </div>
@@ -542,9 +493,13 @@
     {{--https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js--}}
     <script>
         $(document).ready( function () {
-            $('#datatable').DataTable({
+            $('#datatable').DataTable({});
 
-            } );
+            $('.date').datepicker({
+                format: 'yyyy-m-d',
+                todayHighlight: true,
+                autoclose: true
+            });
 
 
 //            $().DataTable();

@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <title>Upcube - Responsive Flat Admin Dashboard</title>
+    <title>WareHouse Stock Control System</title>
     <meta content="Admin Dashboard" name="description" />
     <meta content="Themesdesign" name="author" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -32,7 +32,9 @@
         <div class="card-body">
 
             <h3 class="text-center mt-0 m-b-15">
-                <b class="waves-effect waves-light">PMS</b>
+
+                <b class="waves-effect waves-light">Warehouse Stock Control </b>
+
             </h3>
 
             <h4 class="text-muted text-center font-18"><b>Sign In</b></h4>
@@ -64,7 +66,7 @@
                     <div class="form-group text-center row m-t-20">
                         <div class="col-12">
                             {{--<button class="btn btn-info btn-block waves-effect waves-light" type="submit">Log In</button>--}}
-                            <a class="btn btn-info btn-block waves-effect waves-light" href="{{route('main')}}">Log In</a>
+                            <a class="btn btn-info btn-block waves-effect waves-light" href="{{route('mainsreen')}}">Log In</a>
                         </div>
                     </div>
 
