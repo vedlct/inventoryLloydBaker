@@ -57,7 +57,7 @@
                     <a href=""><i class="ti-bookmark-alt"></i>Settings</a>
                     <ul class="submenu">
                         <li><a href="{{route('settings.productCategory')}}">Product Category</a></li>
-                        <li><a href="{{route('settings.location')}}">Location</a></li>
+                        <li><a href="{{route('settings.location')}}">Shop</a></li>
                         <li><a href="{{route('settings.color')}}">Color</a></li>
                         <li><a href="{{route('settings.size')}}">Size</a></li>
                         <li><a href="{{route('settings.brand')}}">Brand</a></li>

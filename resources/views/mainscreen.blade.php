@@ -16,6 +16,50 @@
 
 @section('content')
 
+    <div class="modal" id="editModalNationality">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Edit Rang Plan</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form class="" action="#">
+
+                        <div class="form-group">
+                            <label class="control-label">Range Plan</label>
+                            <div>
+                                <input type="text" id="RangePlan"class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div>
+                                <button id="locationReload" type="submit" class="btn btn-primary waves-effect waves-light">
+                                    Submit
+                                </button>
+                                <button id="closemodal" class="btn btn-secondary waves-effect m-l-5">
+                                    Cancel
+                                </button>
+                            </div>
+                        </div>
+
+
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <div class="row">
         <div class="col-sm-12">
             <div class="page-title-box">
@@ -36,55 +80,57 @@
         <div class="col-md-2">
             <div style="background-color: white;margin-bottom: 20px;" class="card-body">
 
-                <h4 class="mt-0 header-title">Search</h4>
+                <h4 style="text-align: center" class="mt-0 header-title">Search</h4>
                 <form class="" action="#">
+                <div class="form-group">
+                    <label>Select Store</label>
+                    <div>
+                        <input type="checkbox"> WEB
+                        <input type="checkbox"> WAREHOUSE
+                        <input type="checkbox"> SHOP
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Shop</label>
+                    <div>
+                        <select class="form-control">
+                            <option>Select A Shop</option>
+                            <option>Shop 1</option>
+                            <option>Shop 2</option>
+                            <option>Shop 3</option>
+                            <option>Shop 4</option>
+                            <option>Shop 5</option>
+                            <option>Shop 6</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Period</label>
+                    <div>
+                        <select class="form-control">
+                            <option>Select A period</option>
+                            <option selected>Current(LIVE)</option>
+                            <option>Last 30 days</option>
+                            <option> Last 7 Days</option>
+                            <option>Last 60 days</option>
+                            <option>Last 90 days</option>
+                            <option>Last 120 days</option>
+                            <option>Last 150 days</option>
+
+                        </select>
+                    </div>
+                </div>
+
+
                     <div class="form-group">
                         <label>Date From</label>
-                        <input type="date" class="form-control" required placeholder="Type something"/>
+                        <input type="date" class="form-control"  placeholder="Type something"/>
                     </div>
                     <div class="form-group">
                         <label>Date To</label>
-                        <input type="date" class="form-control" required placeholder="Type something"/>
-                    </div>
-
-
-                    <div class="form-group">
-                        <label>Period</label>
-                        <div>
-                            <select class="form-control">
-                                <option>Select A period</option>
-                                <option>Last 30 days</option>
-                                <option>Last 60 days</option>
-                                <option>Last 90 days</option>
-                                <option>Last 120 days</option>
-                                <option>Last 150 days</option>
-
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Select Store</label>
-                        <div>
-                            <input type="checkbox"> WEB
-                            <input type="checkbox"> WAREHOUSE
-                            <input type="checkbox"> SHOP
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Shop</label>
-                        <div>
-                           <select class="form-control">
-                               <option>Select A Shop</option>
-                               <option>Shop 1</option>
-                               <option>Shop 2</option>
-                               <option>Shop 3</option>
-                               <option>Shop 4</option>
-                               <option>Shop 5</option>
-                               <option>Shop 6</option>
-                           </select>
-                        </div>
+                        <input type="date" class="form-control"  placeholder="Type something"/>
                     </div>
 
                     <div class="form-group">
@@ -123,6 +169,7 @@
                                 <th style="font-weight: bold">SP</th>
                                 <th style="font-weight: bold">RRP</th>
                                 <th style="font-weight: bold">QTY IN WAREHOUSE</th>
+                                <th style="font-weight: bold">Range Plan</th>
                                 <th style="font-weight: bold">WEB</th>
                                 <th style="font-weight: bold">QTY STOCK</th>
                                 <th style="font-weight: bold">DAYS IN STOCK</th>
@@ -146,6 +193,7 @@
                                 <td>£69.99</td>
                                 <td>£230.00</td>
                                 <td>7</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
                                 <td>YES</td>
                                 <td>5</td>
                                 <td>15</td>
@@ -165,6 +213,7 @@
                                 <td>£69.99</td>
                                 <td>£230.00</td>
                                 <td>7</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
                                 <td>YES</td>
                                 <td>5</td>
                                 <td>15</td>
@@ -184,6 +233,7 @@
                                 <td>£12.99</td>
                                 <td>£34.99</td>
                                 <td>4</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
                                 <td>YES</td>
                                 <td>5</td>
                                 <td>5</td>
@@ -203,8 +253,9 @@
                                 <td>£69.99</td>
                                 <td>£230.00</td>
                                 <td>10</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
                                 <td>YES</td>
-                                <td>15</td>
+                                <td>0</td>
                                 <td>3</td>
                                 <td>2</td>
 
@@ -222,8 +273,9 @@
                                 <td>£69.99</td>
                                 <td>£230.00</td>
                                 <td>7</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
                                 <td>YES</td>
-                                <td>5</td>
+                                <td>0</td>
                                 <td>15</td>
                                 <td>3</td>
 
@@ -241,8 +293,9 @@
                                 <td>£79.99</td>
                                 <td>£225.00</td>
                                 <td>25</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
                                 <td>YES</td>
-                                <td>8</td>
+                                <td>0</td>
                                 <td>12</td>
                                 <td>5</td>
 
@@ -261,6 +314,7 @@
                                 <td>£39.99</td>
                                 <td>£150.00</td>
                                 <td>14</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">9</a></td>
                                 <td>YES</td>
                                 <td>9</td>
                                 <td>17</td>
@@ -280,6 +334,7 @@
                                 <td>£49.99</td>
                                 <td>£200.00</td>
                                 <td>14</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">8</a></td>
                                 <td>YES</td>
                                 <td>8</td>
                                 <td>12</td>
@@ -299,6 +354,7 @@
                                 <td>£89.99</td>
                                 <td>£225.00</td>
                                 <td>80</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">10</a></td>
                                 <td>YES</td>
                                 <td>45</td>
                                 <td>28</td>
@@ -318,8 +374,9 @@
                                 <td>£59.99</td>
                                 <td>£175.00</td>
                                 <td>25</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
                                 <td>YES</td>
-                                <td>17</td>
+                                <td>0</td>
                                 <td>14</td>
                                 <td>13</td>
 
@@ -337,8 +394,9 @@
                                 <td>£79.99</td>
                                 <td>£179.00</td>
                                 <td>58</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
                                 <td>YES</td>
-                                <td>45</td>
+                                <td>0</td>
                                 <td>16</td>
                                 <td>28</td>
 
@@ -356,8 +414,9 @@
                                 <td>£59.99</td>
                                 <td>£175.00</td>
                                 <td>14</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
                                 <td>YES</td>
-                                <td>15</td>
+                                <td>5</td>
                                 <td>15</td>
                                 <td>12</td>
 
@@ -375,8 +434,9 @@
                                 <td>£79.99</td>
                                 <td>£175.00</td>
                                 <td>24</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
                                 <td>YES</td>
-                                <td>50</td>
+                                <td>5</td>
                                 <td>14</td>
                                 <td>20</td>
 
@@ -394,6 +454,7 @@
                                 <td>£79.99</td>
                                 <td>£175.00</td>
                                 <td>17</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">10</a></td>
                                 <td>YES</td>
                                 <td>25</td>
                                 <td>15</td>
@@ -413,6 +474,7 @@
                                 <td>£79.99</td>
                                 <td>£175.00</td>
                                 <td>17</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">10</a></td>
                                 <td>YES</td>
                                 <td>30</td>
                                 <td>15</td>
@@ -433,6 +495,7 @@
                                 <td>£49.99</td>
                                 <td>£200.00</td>
                                 <td>27</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">10</a></td>
                                 <td>YES</td>
                                 <td>15</td>
                                 <td>12</td>
@@ -452,6 +515,7 @@
                                 <td>£79.99</td>
                                 <td>£175.00</td>
                                 <td>35</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">20</a></td>
                                 <td>YES</td>
                                 <td>25</td>
                                 <td>17</td>
@@ -471,6 +535,7 @@
                                 <td>£79.99</td>
                                 <td>£175.00</td>
                                 <td>14</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">1</a></td>
                                 <td>YES</td>
                                 <td>6</td>
                                 <td>09</td>
@@ -490,6 +555,7 @@
                                 <td>£79.99</td>
                                 <td>£225.00</td>
                                 <td>47</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">10</a></td>
                                 <td>YES</td>
                                 <td>35</td>
                                 <td>15</td>
@@ -509,6 +575,7 @@
                                 <td>£79.99</td>
                                 <td>£125.00</td>
                                 <td>7</td>
+                                <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
                                 <td>YES</td>
                                 <td>5</td>
                                 <td>15</td>
@@ -549,6 +616,26 @@
 
 //            $().DataTable();
         } );
+
+        function editNationality(x) {
+
+
+            $("#RangePlan").val(x);
+
+
+            $('#editModalNationality').modal();
+
+
+
+        }
+
+        $('#closemodal').click(function() {
+            $('#editModalNationality').modal('hide');
+        });
+        $('#locationReload').click(function() {
+            location.reload();
+        });
+
     </script>
 
 @endsection

@@ -19,11 +19,11 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title">Location</h4>
+                        <h4 class="card-title">Shop</h4>
                     </div>
                     <div class="card-body">
                         <div style="text-align: right;margin-right: 20px">
-                            <a href="{{route('settings.location.add')}}" class="btn btn-info"><i class="fa fa-plus"></i><span class="title">Add Location</span></a>
+                            <a href="{{route('settings.location.add')}}" class="btn btn-info"><i class="fa fa-plus"></i><span class="title">Add Shop</span></a>
                         </div>
 
                         <div class="table-responsive">
@@ -31,7 +31,7 @@
                                 <thead>
                                 <tr>
                                     <th>Name</th>
-                                    <th>Description</th>
+                                    <th>Location</th>
                                     <th>Status</th>
                                     <th>Action</th>
 
@@ -41,10 +41,10 @@
                                 <tbody>
                                 <?php for ($i=0;$i<25;$i++){?>
                                 <tr >
-                                    <td>Name <?php echo $i ?></td>
-                                    <td>Description</td>
+                                    <td>Shop <?php echo $i ?></td>
+                                    <td>Location</td>
                                     <td>Active</td>
-                                    <td><a href="editLocation.php" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
+                                    <td><a href="{{route('settings.location.editShop')}}" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
                                         <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
                                     </td>
 
