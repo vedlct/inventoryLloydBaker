@@ -28,7 +28,7 @@
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                    <form class="" action="#">
+                    <form class="" action="{{route('mainsreen')}}">
 
                         <div class="form-group">
                             <label class="control-label">Range Plan</label>
@@ -39,7 +39,7 @@
 
                         <div class="form-group">
                             <div>
-                                <button id="locationReload" type="submit" class="btn btn-primary waves-effect waves-light">
+                                <button  type="submit" class="btn btn-primary waves-effect waves-light">
                                     Submit
                                 </button>
                                 <button id="closemodal" class="btn btn-secondary waves-effect m-l-5">
@@ -632,9 +632,7 @@
         $('#closemodal').click(function() {
             $('#editModalNationality').modal('hide');
         });
-        $('#locationReload').click(function() {
-            location.reload();
-        });
+
 
     </script>
 

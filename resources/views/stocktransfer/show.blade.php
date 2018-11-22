@@ -28,7 +28,7 @@
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                    <form class="" action="#">
+                    <form class="" action="{{route('mainsreen')}}">
 
                         <div class="form-group">
                             <label class="control-label">Range Plan</label>
@@ -39,7 +39,7 @@
 
                         <div class="form-group">
                             <div>
-                                <button id="locationReload" type="submit" class="btn btn-primary waves-effect waves-light">
+                                <button  type="submit" class="btn btn-primary waves-effect waves-light">
                                     Submit
                                 </button>
                                 <button id="closemodal" class="btn btn-secondary waves-effect m-l-5">
@@ -65,8 +65,8 @@
             <div class="page-title-box">
                 <div class="btn-group pull-right">
                     <ol class="breadcrumb hide-phone p-0 m-0">
-                        <li class="breadcrumb-item"><a href="#">Upcube</a></li>
-                        <li class="breadcrumb-item"><a href="#">Tables</a></li>
+                        <li class="breadcrumb-item"><a >Upcube</a></li>
+                        <li class="breadcrumb-item"><a >Tables</a></li>
                         <li class="breadcrumb-item active">Datatable</li>
                     </ol>
                 </div>
@@ -621,9 +621,7 @@
         $('#closemodal').click(function() {
             $('#editModalNationality').modal('hide');
         });
-        $('#locationReload').click(function() {
-            location.reload();
-        });
+
     </script>
 
 @endsection
