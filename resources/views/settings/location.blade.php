@@ -39,7 +39,7 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <?php for ($i=0;$i<25;$i++){?>
+                                <?php for ($i=1;$i<7;$i++){?>
                                 <tr >
                                     <td>Shop <?php echo $i ?></td>
                                     <td>Location</td>

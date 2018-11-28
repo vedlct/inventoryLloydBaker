@@ -28,7 +28,7 @@
             <!-- End Logo container-->
 
 
-            <div class="menu-extras topbar-custom">
+             <div class="menu-extras topbar-custom">
 
                 <!-- Search input -->
                 {{--<div class="search-wrap" id="search-wrap">--}}

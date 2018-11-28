@@ -29,9 +29,10 @@ Route::view('Report/product/Shop','report.productperShop')->name('report.product
 Route::view('Report/product/Sell-Information','report.sellInformation')->name('report.sellData');
 
 //Goods In
-Route::view('/goods-in/Add-Individual-Goods','goods-in.add')->name('goods-in.add');
+//Route::view('/goods-in/Add-Individual-Goods','goods-in.add')->name('goods-in.add');
 Route::view('/goods-in/Add-Bulk-Goods','goods-in.addbulk')->name('goods-in.bulk');
-Route::view('/goods-in/Show-Goods','goods-in.showgoods')->name('goods-in.show');
+//Route::view('/goods-in/Show-Goods','goods-in.showgoods')->name('goods-in.show');
+Route::view('/goods-in/Show-Goods','goods-in.goodsin')->name('goods-in.goodsin');
 
 
 Route::view('/stock/out','stock.out')->name('stock.out');
