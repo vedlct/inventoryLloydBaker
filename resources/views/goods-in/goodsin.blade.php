@@ -83,6 +83,7 @@
 
                     <h4 class="mt-0 header-title">Goods In</h4>
 
+
                     <div class="row">
 
                         <div class="col-md-4">
@@ -146,6 +147,7 @@
                                 <th style="font-weight: bold">CP</th>
                                 <th style="font-weight: bold">SP</th>
                                 <th style="font-weight: bold">RRP</th>
+                                <th style="font-weight: bold">STOCK IN</th>
                                 <th style="font-weight: bold">QTY IN WARH</th>
                                 <th style="font-weight: bold">Range Plan</th>
                                 <th style="font-weight: bold">QTY STOCK</th>
@@ -167,10 +169,11 @@
                                 <td></td>
                                 <td>£69.99</td>
                                 <td>£230.00</td>
+                                <td><input type="text"></td>
                                 <td>7</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
                                 <td>5</td>
-                                <td><input type="text"></td>
+                                <td>15</td>
 
 
                             </tr>
@@ -185,10 +188,11 @@
                                 <td></td>
                                 <td>£69.99</td>
                                 <td>£230.00</td>
+                                <td><input type="text"></td>
                                 <td>7</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
                                 <td>5</td>
-                                <td><input type="text"></td>
+                                <td>15</td>
 
                             </tr>
                             <tr>
@@ -202,10 +206,11 @@
                                 <td>£12.99</td>
                                 <td>£12.99</td>
                                 <td>£34.99</td>
+                                <td><input type="text"></td>
                                 <td>4</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
                                 <td>0</td>
-                                <td><input type="text"></td>
+                                <td>5</td>
 
 
                             </tr>
@@ -220,10 +225,12 @@
                                 <td></td>
                                 <td>£69.99</td>
                                 <td>£230.00</td>
+                                <td><input type="text"></td>
                                 <td>10</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
+
                                 <td>0</td>
-                                <td><input type="text"></td>
+                                <td>3</td>
 
                             </tr>
                             <tr>
@@ -237,10 +244,12 @@
                                 <td></td>
                                 <td>£69.99</td>
                                 <td>£230.00</td>
+                                <td><input type="text"></td>
                                 <td>7</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
+
                                 <td>5</td>
-                                <td><input type="text"></td>
+                                <td>15</td>
 
                             </tr>
                             <tr>
@@ -254,10 +263,11 @@
                                 <td></td>
                                 <td>£79.99</td>
                                 <td>£225.00</td>
+                                <td><input type="text"></td>
                                 <td>25</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">8</a></td>
                                 <td>8</td>
-                                <td><input type="text"></td>
+                                <td>12</td>
 
 
                             </tr>
@@ -274,11 +284,12 @@
 
                                 <td>£39.99</td>
                                 <td>£150.00</td>
+                                <td><input type="text"></td>
                                 <td>14</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
 
                                 <td>0</td>
-                                <td><input type="text"></td>
+                                <td>17</td>
 
 
                             </tr>
@@ -295,11 +306,12 @@
 
                                 <td>£49.99</td>
                                 <td>£200.00</td>
+                                <td><input type="text"></td>
                                 <td>14</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">8</a></td>
 
                                 <td>8</td>
-                                <td><input type="text"></td>
+                                <td>12</td>
 
 
                             </tr>
@@ -316,11 +328,12 @@
 
                                 <td>£89.99</td>
                                 <td>£225.00</td>
+                                <td><input type="text"></td>
                                 <td>80</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
 
                                 <td>0</td>
-                                <td><input type="text"></td>
+                                <td>28</td>
 
 
                             </tr>
@@ -337,11 +350,12 @@
 
                                 <td>£59.99</td>
                                 <td>£175.00</td>
+                                <td><input type="text"></td>
                                 <td>25</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">17</a></td>
 
                                 <td>17</td>
-                                <td><input type="text"></td>
+                                <td>14</td>
 
 
                             </tr>
@@ -358,11 +372,12 @@
 
                                 <td>£79.99</td>
                                 <td>£179.00</td>
+                                <td><input type="text"></td>
                                 <td>58</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">20</a></td>
 
                                 <td>45</td>
-                                <td><input type="text"></td>
+                                <td>16</td>
 
 
                             </tr>
@@ -379,11 +394,12 @@
 
                                 <td>£59.99</td>
                                 <td>£175.00</td>
+                                <td><input type="text"></td>
                                 <td>14</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
 
                                 <td>15</td>
-                                <td><input type="text"></td>
+                                <td>15</td>
 
 
                             </tr>
@@ -400,11 +416,12 @@
 
                                 <td>£79.99</td>
                                 <td>£175.00</td>
+                                <td><input type="text"></td>
                                 <td>24</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
 
                                 <td>0</td>
-                                <td><input type="text"></td>
+                                <td>14</td>
 
 
                             </tr>
@@ -421,11 +438,12 @@
 
                                 <td>£79.99</td>
                                 <td>£175.00</td>
+                                <td><input type="text"></td>
                                 <td>17</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
 
                                 <td>0</td>
-                                <td><input type="text"></td>
+                                <td>15</td>
 
 
                             </tr>
@@ -442,11 +460,12 @@
 
                                 <td>£79.99</td>
                                 <td>£175.00</td>
+                                <td><input type="text"></td>
                                 <td>17</td>
 
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">15</a></td>
                                 <td>30</td>
-                                <td><input type="text"></td>
+                                <td>15</td>
 
 
                             </tr>
@@ -464,11 +483,12 @@
 
                                 <td>£49.99</td>
                                 <td>£200.00</td>
+                                <td><input type="text"></td>
                                 <td>27</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
 
                                 <td>15</td>
-                                <td><input type="text"></td>
+                                <td>12</td>
 
 
                             </tr>
@@ -485,11 +505,12 @@
                                 <td></td>
                                 <td>£79.99</td>
                                 <td>£175.00</td>
+                                <td><input type="text"></td>
                                 <td>35</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
 
                                 <td>25</td>
-                                <td><input type="text"></td>
+                                <td>17</td>
 
 
                             </tr>
@@ -506,11 +527,12 @@
 
                                 <td>£79.99</td>
                                 <td>£175.00</td>
+                                <td><input type="text"></td>
                                 <td>14</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
 
                                 <td>6</td>
-                                <td><input type="text"></td>
+                                <td>09</td>
 
 
                             </tr>
@@ -527,11 +549,12 @@
 
                                 <td>£79.99</td>
                                 <td>£225.00</td>
+                                <td><input type="text"></td>
                                 <td>47</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
 
                                 <td>35</td>
-                                <td><input type="text"></td>
+                                <td>15</td>
 
 
                             </tr>
@@ -548,23 +571,25 @@
 
                                 <td>£79.99</td>
                                 <td>£125.00</td>
+                                <td><input type="text"></td>
                                 <td>7</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
 
                                 <td>0</td>
-                                <td><input type="text"></td>
+                                <td>15</td>
 
 
                             </tr>
 
                             </tbody>
                         </table>
+
+
                     </div>
 
                     <div class="form-group col-md-12">
                         <button class="btn btn-group-lg btn-success ">Submit</button>
                     </div>
-
 
                 </div>
             </div>

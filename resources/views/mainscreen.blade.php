@@ -16,6 +16,50 @@
 
 @section('content')
 
+    <div class="modal" id="editModalNationality">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Edit Rang Plan</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form class="" action="{{route('mainsreen')}}">
+
+                        <div class="form-group">
+                            <label class="control-label">Range Plan</label>
+                            <div>
+                                <input type="text" id="RangePlan"class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div>
+                                <button  type="submit" class="btn btn-primary waves-effect waves-light">
+                                    Submit
+                                </button>
+                                <button id="closemodal" class="btn btn-secondary waves-effect m-l-5">
+                                    Cancel
+                                </button>
+                            </div>
+                        </div>
+
+
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <div class="row">
         <div class="col-sm-12">
             <div class="page-title-box">
@@ -33,100 +77,92 @@
     <!-- end page title end breadcrumb -->
 
     <div class="row">
-        <div class="col-md-2">
-            <div style="background-color: white;margin-bottom: 20px;" class="card-body">
 
-                <h4 class="mt-0 header-title">Search</h4>
-                <form class="" action="#">
-                    <div class="form-group">
-                        <label>Date From</label>
-                        <input type="date" class="form-control" required placeholder="Type something"/>
-                    </div>
-                    <div class="form-group">
-                        <label>Date To</label>
-                        <input type="date" class="form-control" required placeholder="Type something"/>
-                    </div>
+        <div class="col-md-12">
 
 
-                    <div class="form-group">
-                        <label>Period</label>
-                        <div>
-                            <select class="form-control">
-                                <option>Select A period</option>
-                                <option>Last 30 days</option>
-                                <option>Last 60 days</option>
-                                <option>Last 90 days</option>
-                                <option>Last 120 days</option>
-                                <option>Last 150 days</option>
-
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Select Store</label>
-                        <div>
-                            <input type="checkbox"> WEB
-                            <input type="checkbox"> WAREHOUSE
-                            <input type="checkbox"> SHOP
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Shop</label>
-                        <div>
-                           <select class="form-control">
-                               <option>Select A Shop</option>
-                               <option>Shop 1</option>
-                               <option>Shop 2</option>
-                               <option>Shop 3</option>
-                               <option>Shop 4</option>
-                               <option>Shop 5</option>
-                               <option>Shop 6</option>
-                           </select>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <div>
-                            <button type="submit" class="btn btn-primary waves-effect waves-light">
-                                Submit
-                            </button>
-                            <button type="reset" class="btn btn-secondary waves-effect m-l-5">
-                                Cancel
-                            </button>
-                        </div>
-                    </div>
-                </form>
-
-            </div>
-        </div>
-        <div class="col-md-10">
             <div class="card">
                 <div class="card-body">
 
                     <h4 class="mt-0 header-title">Main Screen</h4>
-                    <p>Search Result for <b>SHOP 1</b></p>
+
+                    <div class="row">
+
+                        <div class="col-md-4"style="margin-left: 15px">
+                            <div class="form-group">
+                                <label>Select Shop</label>
+                                <div>
+                                    <input type="checkbox"> SHOP 1
+                                    <input type="checkbox"> SHOP 2
+                                    <input type="checkbox"> SHOP 3
+                                    <input type="checkbox"> SHOP 4
+                                    <input type="checkbox"> SHOP 5
+                                    <input type="checkbox"> SHOP 6
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2" style="margin-left: -100px">
+                            <div class="form-group">
+                                <label>Period</label>
+                                <div>
+                                    <select class="form-control">
+                                        <option>Select A period</option>
+                                        <option selected>Current(LIVE)</option>
+                                        <option>Last 30 days</option>
+                                        <option> Last 7 Days</option>
+                                        <option>Last 60 days</option>
+                                        <option>Last 90 days</option>
+                                        <option>Last 120 days</option>
+                                        <option>Last 150 days</option>
+
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <label>Date From</label>
+                                <input type="date" class="form-control"  placeholder="Type something"/>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <label>Date To</label>
+                                <input type="date" class="form-control"  placeholder="Type something"/>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div style="margin-top: 30px;" class="form-group">
+
+                                    <button type="submit" class="btn btn-primary waves-effect waves-light">
+                                        Submit
+                                    </button>
+                                    <button type="reset" class="btn btn-secondary waves-effect m-l-5">
+                                        Cancel
+                                    </button>
+
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="table table-responsive">
                         <table id="datatable" class="table table-bordered">
                             <thead>
                             <tr>
-                                <th style="font-weight: bold">BRAND</th>
-                                <th style="font-weight: bold">FACT</th>
+                                <th style="font-weight: bold">BR</th>
+                                <th style="font-weight: bold">FT</th>
                                 <th style="font-weight: bold">CATEGORY</th>
                                 <th style="font-weight: bold">PHOTO</th>
                                 <th style="font-weight: bold">NAME</th>
-                                <th style="font-weight: bold">FACTORY CODE</th>
+                                <th style="font-weight: bold">FT CODE</th>
                                 <th style="font-weight: bold">COLOUR</th>
-                                <th style="font-weight: bold">EAN 13 BARCODES</th>
+                                <th style="font-weight: bold">EAN 13</th>
                                 <th style="font-weight: bold">CP</th>
                                 <th style="font-weight: bold">SP</th>
                                 <th style="font-weight: bold">RRP</th>
-                                <th style="font-weight: bold">QTY IN WAREHOUSE</th>
+                                <th style="font-weight: bold">QTY WH</th>
                                 <th style="font-weight: bold">WEB</th>
-                                <th style="font-weight: bold">QTY STOCK</th>
-                                <th style="font-weight: bold">DAYS IN STOCK</th>
-                                <th style="font-weight: bold">QTY SOLD</th>
+                                <th style="font-weight: bold; text-align: center" width="25%">SHOP</th>
 
                             </tr>
                             </thead>
@@ -147,9 +183,39 @@
                                 <td>£230.00</td>
                                 <td>7</td>
                                 <td>YES</td>
-                                <td>5</td>
-                                <td>15</td>
-                                <td>3</td>
+                                <td>
+
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                            <th style="font-weight: bold">Shop </th>
+                                            <th style="font-weight: bold">RP</th>
+                                            <th style="font-weight: bold">QTY ST</th>
+                                            <th style="font-weight: bold">DAYS IN ST</th>
+                                            <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
+
+
 
                             </tr>
                             <tr>
@@ -166,9 +232,36 @@
                                 <td>£230.00</td>
                                 <td>7</td>
                                 <td>YES</td>
-                                <td>5</td>
-                                <td>15</td>
-                                <td>3</td>
+                                <td>
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
 
                             </tr>
                             <tr>
@@ -185,9 +278,37 @@
                                 <td>£34.99</td>
                                 <td>4</td>
                                 <td>YES</td>
-                                <td>5</td>
-                                <td>5</td>
-                                <td>3</td>
+                                <td>
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
+
 
                             </tr>
                             <tr>
@@ -204,9 +325,37 @@
                                 <td>£230.00</td>
                                 <td>10</td>
                                 <td>YES</td>
-                                <td>15</td>
-                                <td>3</td>
-                                <td>2</td>
+                                <td>
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
+
 
                             </tr>
                             <tr>
@@ -223,9 +372,37 @@
                                 <td>£230.00</td>
                                 <td>7</td>
                                 <td>YES</td>
-                                <td>5</td>
-                                <td>15</td>
-                                <td>3</td>
+                                <td>
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
+
 
                             </tr>
                             <tr>
@@ -242,9 +419,37 @@
                                 <td>£225.00</td>
                                 <td>25</td>
                                 <td>YES</td>
-                                <td>8</td>
-                                <td>12</td>
-                                <td>5</td>
+                                <td>
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
+
 
                             </tr>
 
@@ -262,9 +467,37 @@
                                 <td>£150.00</td>
                                 <td>14</td>
                                 <td>YES</td>
-                                <td>9</td>
-                                <td>17</td>
-                                <td>8</td>
+                                <td>
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
+
 
                             </tr>
                             <tr>
@@ -281,9 +514,37 @@
                                 <td>£200.00</td>
                                 <td>14</td>
                                 <td>YES</td>
-                                <td>8</td>
-                                <td>12</td>
-                                <td>13</td>
+                                <td>
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
+
 
                             </tr>
                             <tr>
@@ -300,9 +561,37 @@
                                 <td>£225.00</td>
                                 <td>80</td>
                                 <td>YES</td>
-                                <td>45</td>
-                                <td>28</td>
-                                <td>16</td>
+                                <td>
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
+
 
                             </tr>
                             <tr>
@@ -319,9 +608,37 @@
                                 <td>£175.00</td>
                                 <td>25</td>
                                 <td>YES</td>
-                                <td>17</td>
-                                <td>14</td>
-                                <td>13</td>
+                                <td>
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
+
 
                             </tr>
                             <tr>
@@ -338,9 +655,37 @@
                                 <td>£179.00</td>
                                 <td>58</td>
                                 <td>YES</td>
-                                <td>45</td>
-                                <td>16</td>
-                                <td>28</td>
+                                <td>
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
+
 
                             </tr>
                             <tr>
@@ -357,10 +702,36 @@
                                 <td>£175.00</td>
                                 <td>14</td>
                                 <td>YES</td>
-                                <td>15</td>
-                                <td>15</td>
-                                <td>12</td>
+                                <td>
+                                    <table class="table table-striped">
 
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
                             </tr>
                             <tr>
                                 <td>PC</td>
@@ -376,9 +747,37 @@
                                 <td>£175.00</td>
                                 <td>24</td>
                                 <td>YES</td>
-                                <td>50</td>
-                                <td>14</td>
-                                <td>20</td>
+                                <td>
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
+
 
                             </tr>
                             <tr>
@@ -395,10 +794,36 @@
                                 <td>£175.00</td>
                                 <td>17</td>
                                 <td>YES</td>
-                                <td>25</td>
-                                <td>15</td>
-                                <td>14</td>
+                                <td>
+                                    <table class="table table-striped">
 
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
                             </tr>
                             <tr>
                                 <td>PC</td>
@@ -414,9 +839,37 @@
                                 <td>£175.00</td>
                                 <td>17</td>
                                 <td>YES</td>
-                                <td>30</td>
-                                <td>15</td>
-                                <td>14</td>
+                                <td>
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
+
 
                             </tr>
 
@@ -434,10 +887,36 @@
                                 <td>£200.00</td>
                                 <td>27</td>
                                 <td>YES</td>
-                                <td>15</td>
-                                <td>12</td>
-                                <td>17</td>
+                                <td>
+                                    <table class="table table-striped">
 
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
                             </tr>
                             <tr>
                                 <td>PC</td>
@@ -453,9 +932,37 @@
                                 <td>£175.00</td>
                                 <td>35</td>
                                 <td>YES</td>
-                                <td>25</td>
-                                <td>17</td>
-                                <td>3</td>
+                                <td>
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
+
 
                             </tr>
                             <tr>
@@ -472,9 +979,37 @@
                                 <td>£175.00</td>
                                 <td>14</td>
                                 <td>YES</td>
-                                <td>6</td>
-                                <td>09</td>
-                                <td>8</td>
+                                <td>
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
+
 
                             </tr>
                             <tr>
@@ -491,9 +1026,37 @@
                                 <td>£225.00</td>
                                 <td>47</td>
                                 <td>YES</td>
-                                <td>35</td>
-                                <td>15</td>
-                                <td>30</td>
+                                <td>
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
+
 
                             </tr>
                             <tr>
@@ -510,9 +1073,37 @@
                                 <td>£125.00</td>
                                 <td>7</td>
                                 <td>YES</td>
-                                <td>5</td>
-                                <td>15</td>
-                                <td>3</td>
+                                <td>
+                                    <table class="table table-striped">
+
+                                        <thead>
+                                        <th style="font-weight: bold">Shop </th>
+                                        <th style="font-weight: bold">RP</th>
+                                        <th style="font-weight: bold">QTY ST</th>
+                                        <th style="font-weight: bold">DAYS IN ST</th>
+                                        <th style="font-weight: bold">QTY SOLD</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Shop 1</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td>5</td>
+                                            <td>15</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shop 2</td>
+                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
+                                            <td>5</td>
+                                            <td>18</td>
+                                            <td>4</td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </td>
+
 
                             </tr>
 
@@ -549,6 +1140,24 @@
 
 //            $().DataTable();
         } );
+
+        function editNationality(x) {
+
+
+            $("#RangePlan").val(x);
+
+
+            $('#editModalNationality').modal();
+
+
+
+        }
+
+        $('#closemodal').click(function() {
+            $('#editModalNationality').modal('hide');
+        });
+
+
     </script>
 
 @endsection

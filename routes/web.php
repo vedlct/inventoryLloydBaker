@@ -29,9 +29,10 @@ Route::view('Report/product/Shop','report.productperShop')->name('report.product
 Route::view('Report/product/Sell-Information','report.sellInformation')->name('report.sellData');
 
 //Goods In
-Route::view('/goods-in/Add-Individual-Goods','goods-in.add')->name('goods-in.add');
+//Route::view('/goods-in/Add-Individual-Goods','goods-in.add')->name('goods-in.add');
 Route::view('/goods-in/Add-Bulk-Goods','goods-in.addbulk')->name('goods-in.bulk');
-Route::view('/goods-in/Show-Goods','goods-in.showgoods')->name('goods-in.show');
+//Route::view('/goods-in/Show-Goods','goods-in.showgoods')->name('goods-in.show');
+Route::view('/goods-in/Show-Goods','goods-in.goodsin')->name('goods-in.goodsin');
 
 
 Route::view('/stock/out','stock.out')->name('stock.out');
@@ -45,8 +46,9 @@ Route::view('/stocktransfer/bulk','stocktransfer.bulkinsert')->name('stocktransf
 Route::view('/settings/product-category','settings.productCategory')->name('settings.productCategory');
 Route::view('/settings/product-category/add','settings.addProductCategory')->name('settings.productCategory.add');
 
-Route::view('/settings/location','settings.location')->name('settings.location');
-Route::view('/settings/location/add','settings.addLocation')->name('settings.location.add');
+Route::view('/settings/Shop','settings.location')->name('settings.location');
+Route::view('/settings/Shop/add','settings.addLocation')->name('settings.location.add');
+Route::view('/settings/Shop/Edit','settings.EditShop')->name('settings.location.editShop');
 
 
 Route::view('/settings/color','settings.color')->name('settings.color');
@@ -68,3 +70,4 @@ Route::view('/settings/user/add','settings.addUser')->name('settings.user.add');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/Stock-Transfer/Range-Plan', 'HomeController@editRangePlan')->name('editRangePlan');
