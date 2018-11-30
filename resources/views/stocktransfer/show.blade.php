@@ -81,26 +81,26 @@
             <div class="card">
                 <div class="card-body">
 
-                    <h4 class="mt-0 header-title">Goods In</h4>
+                    <h4 class="mt-0 header-title"> Stock Transfer</h4>
 
                     <div class="row">
 
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <label>Product</label>
-                                <div>
-                                    <select class="form-control">
-                                        <option>Select A Product</option>
-                                        <option>THE AURORA PC6148</option>
-                                        <option>THE MARIELLE KEYRING PC3151</option>
-                                        <option>LB6421X</option>
-                                        <option>THE ETICHETTA SIGNAGE PC5161</option>
-                                        <option>LB5754</option>
-                                        <option>LB5860</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
+                        {{--<div class="col-md-4">--}}
+                            {{--<div class="form-group">--}}
+                                {{--<label>Product</label>--}}
+                                {{--<div>--}}
+                                    {{--<select class="form-control">--}}
+                                        {{--<option>Select A Product</option>--}}
+                                        {{--<option>THE AURORA PC6148</option>--}}
+                                        {{--<option>THE MARIELLE KEYRING PC3151</option>--}}
+                                        {{--<option>LB6421X</option>--}}
+                                        {{--<option>THE ETICHETTA SIGNAGE PC5161</option>--}}
+                                        {{--<option>LB5754</option>--}}
+                                        {{--<option>LB5860</option>--}}
+                                    {{--</select>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
                         <div class="col-md-4" >
                             <div class="form-group">
                                 <label>Shop</label>
@@ -146,7 +146,7 @@
                                 <th style="font-weight: bold">CP</th>
                                 <th style="font-weight: bold">SP</th>
                                 <th style="font-weight: bold">RRP</th>
-                                <th style="font-weight: bold">QTY IN WARH</th>
+                                <th style="font-weight: bold">QTY IN WH</th>
                                 <th style="font-weight: bold">Range Plan</th>
                                 <th style="font-weight: bold">QTY STOCK</th>
                                 <th style="font-weight: bold">ADD STOCK</th>
@@ -562,7 +562,7 @@
                     </div>
 
                     <div class="form-group col-md-12">
-                        <button class="btn btn-group-lg btn-success " style="float: right">Update Stock</button>
+                        <button class="btn btn-group-lg btn-success " style="float: right">Update and Create Delivery Note</button>
                     </div>
 
 
