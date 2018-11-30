@@ -92,12 +92,12 @@
                             <div class="form-group">
                                 <label>Select Shop</label>
                                 <div>
-                                    <input type="checkbox"> SHOP 1
-                                    <input type="checkbox"> SHOP 2
-                                    <input type="checkbox"> SHOP 3
-                                    <input type="checkbox"> SHOP 4
-                                    <input type="checkbox"> SHOP 5
-                                    <input type="checkbox"> SHOP 6
+                                    <input type="checkbox"> Shop-1
+                                    <input type="checkbox"> Shop-2
+                                    <input type="checkbox"> Shop-3
+                                    <input type="checkbox"> Shop-4
+                                    <input type="checkbox"> Shop-5
+                                    <input type="checkbox"> Shop-6
                                 </div>
                             </div>
                         </div>
@@ -162,7 +162,17 @@
                                 <th style="font-weight: bold">RRP</th>
                                 <th style="font-weight: bold">QTY WH</th>
                                 <th style="font-weight: bold">WEB</th>
-                                <th style="font-weight: bold; text-align: center" width="25%">SHOP</th>
+                                <th style="font-weight: bold; text-align: center" width="25%">SHOP STOCK
+                                <table>
+                                    <thead>
+                                    <th style="font-weight: bold" width="20%">Shop </th>
+                                    <th style="font-weight: bold" width="20%">RP</th>
+                                    <th style="font-weight: bold" width="20%">QTY STK</th>
+                                    <th style="font-weight: bold" width="20%">DAYS IN STK</th>
+                                    <th style="font-weight: bold" width="20%">QTY SOLD</th>
+                                    </thead>
+                                </table>
+                                </th>
 
                             </tr>
                             </thead>
@@ -186,29 +196,50 @@
                                 <td>
 
                                     <table class="table table-striped">
-
-                                        <thead>
-                                            <th style="font-weight: bold">Shop </th>
-                                            <th style="font-weight: bold">RP</th>
-                                            <th style="font-weight: bold">QTY ST</th>
-                                            <th style="font-weight: bold">DAYS IN ST</th>
-                                            <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td width="20%">5</td>
+                                            <td width="20%">15</td>
+                                            <td width="20%">3</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">12</a></td>
+                                            <td width="20%">15</td>
+                                            <td width="20%">18</td>
+                                            <td width="20%">14</td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">6</a></td>
+                                            <td width="20%">7</td>
+                                            <td width="20%">11</td>
+                                            <td width="20%">8</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">4</a></td>
+                                            <td width="20%">8</td>
+                                            <td width="20%">17</td>
+                                            <td width="20%">4</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -234,29 +265,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">6</a></td>
+                                            <td width="20%">8</td>
+                                            <td width="20%">14</td>
+                                            <td width="20%">13</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">9</a></td>
+                                            <td width="20%">1</td>
+                                            <td width="20%">8</td>
+                                            <td width="20%">4</td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">4</a></td>
+                                            <td width="20%">12</td>
+                                            <td width="20%">17</td>
+                                            <td width="20%">8</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">4</a></td>
+                                            <td width="20%">8</td>
+                                            <td width="20%">17</td>
+                                            <td width="20%">4</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -280,29 +332,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">4</a></td>
+                                            <td width="20%">6</td>
+                                            <td width="20%">7</td>
+                                            <td width="20%">18</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">54</a></td>
+                                            <td width="20%">19</td>
+                                            <td width="20%">27</td>
+                                            <td width="20%">18</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -327,29 +400,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">4</a></td>
+                                            <td width="20%">9</td>
+                                            <td width="20%">1</td>
+                                            <td width="20%">23</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">64</a></td>
+                                            <td width="20%">39</td>
+                                            <td width="20%">45</td>
+                                            <td width="20%">14</td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td width="20%">4</td>
+                                            <td width="20%">5</td>
+                                            <td width="20%">6</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">40</a></td>
+                                            <td width="20%">22</td>
+                                            <td width="20%">17</td>
+                                            <td width="20%">38</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">14</a></td>
+                                            <td width="20%">15</td>
+                                            <td width="20%">16</td>
+                                            <td width="20%">18</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
+                                            <td width="20%">8</td>
+                                            <td width="20%">19</td>
+                                            <td width="20%">14</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -374,29 +468,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">60</a></td>
+                                            <td width="20%">81</td>
+                                            <td width="20%">84</td>
+                                            <td width="20%">33</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">19</a></td>
+                                            <td width="20%">10</td>
+                                            <td width="20%">68</td>
+                                            <td width="20%">34</td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">4</a></td>
+                                            <td width="20%">12</td>
+                                            <td width="20%">17</td>
+                                            <td width="20%">8</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">6</a></td>
+                                            <td width="20%">8</td>
+                                            <td width="20%">17</td>
+                                            <td width="20%">4</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -421,29 +536,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">36</a></td>
+                                            <td width="20%">18</td>
+                                            <td width="20%">24</td>
+                                            <td width="20%">13</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">14</a></td>
+                                            <td width="20%">13</td>
+                                            <td width="20%">14</td>
+                                            <td width="20%">18</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">34</a></td>
+                                            <td width="20%">18</td>
+                                            <td width="20%">37</td>
+                                            <td width="20%">14</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -469,29 +605,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">4</a></td>
+                                            <td width="20%">9</td>
+                                            <td width="20%">1</td>
+                                            <td width="20%">19</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">19</a></td>
+                                            <td width="20%">11</td>
+                                            <td width="20%">18</td>
+                                            <td width="20%">44</td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">4</a></td>
+                                            <td width="20%">12</td>
+                                            <td width="20%">18</td>
+                                            <td width="20%">54</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">4</a></td>
+                                            <td width="20%">12</td>
+                                            <td width="20%">17</td>
+                                            <td width="20%">8</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">4</a></td>
+                                            <td width="20%">8</td>
+                                            <td width="20%">17</td>
+                                            <td width="20%">4</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -516,29 +673,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">16</a></td>
+                                            <td width="20%">58</td>
+                                            <td width="20%">34</td>
+                                            <td width="20%">43</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">19</a></td>
+                                            <td width="20%">11</td>
+                                            <td width="20%">48</td>
+                                            <td width="20%">34</td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">14</a></td>
+                                            <td width="20%">15</td>
+                                            <td width="20%">9</td>
+                                            <td width="20%">40</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">34</a></td>
+                                            <td width="20%">28</td>
+                                            <td width="20%">37</td>
+                                            <td width="20%">41</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -563,29 +741,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">16</a></td>
+                                            <td width="20%">38</td>
+                                            <td width="20%">24</td>
+                                            <td width="20%">43</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">19</a></td>
+                                            <td width="20%">21</td>
+                                            <td width="20%">48</td>
+                                            <td width="20%">34</td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">12</a></td>
+                                            <td width="20%">30</td>
+                                            <td width="20%">14</td>
+                                            <td width="20%">19</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">40</a></td>
+                                            <td width="20%">13</td>
+                                            <td width="20%">19</td>
+                                            <td width="20%">18</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">14</a></td>
+                                            <td width="20%">18</td>
+                                            <td width="20%">7</td>
+                                            <td width="20%">14</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -610,29 +809,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">36</a></td>
+                                            <td width="20%">14</td>
+                                            <td width="20%">16</td>
+                                            <td width="20%">13</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">16</a></td>
+                                            <td width="20%">26</td>
+                                            <td width="20%">58</td>
+                                            <td width="20%">24</td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">19</a></td>
+                                            <td width="20%">20</td>
+                                            <td width="20%">64</td>
+                                            <td width="20%">79</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">20</a></td>
+                                            <td width="20%">33</td>
+                                            <td width="20%">49</td>
+                                            <td width="20%">28</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">14</a></td>
+                                            <td width="20%">19</td>
+                                            <td width="20%">52</td>
+                                            <td width="20%">17</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">52</a></td>
+                                            <td width="20%">32</td>
+                                            <td width="20%">17</td>
+                                            <td width="20%">44</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -657,29 +877,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">16</a></td>
+                                            <td width="20%">38</td>
+                                            <td width="20%">24</td>
+                                            <td width="20%">43</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">19</a></td>
+                                            <td width="20%">21</td>
+                                            <td width="20%">48</td>
+                                            <td width="20%">34</td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">12</a></td>
+                                            <td width="20%">30</td>
+                                            <td width="20%">14</td>
+                                            <td width="20%">19</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">40</a></td>
+                                            <td width="20%">13</td>
+                                            <td width="20%">19</td>
+                                            <td width="20%">18</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">14</a></td>
+                                            <td width="20%">18</td>
+                                            <td width="20%">7</td>
+                                            <td width="20%">14</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -704,29 +945,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">16</a></td>
+                                            <td width="20%">38</td>
+                                            <td width="20%">24</td>
+                                            <td width="20%">43</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">19</a></td>
+                                            <td width="20%">21</td>
+                                            <td width="20%">48</td>
+                                            <td width="20%">34</td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">12</a></td>
+                                            <td width="20%">30</td>
+                                            <td width="20%">14</td>
+                                            <td width="20%">19</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">40</a></td>
+                                            <td width="20%">13</td>
+                                            <td width="20%">19</td>
+                                            <td width="20%">18</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">14</a></td>
+                                            <td width="20%">18</td>
+                                            <td width="20%">7</td>
+                                            <td width="20%">14</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -749,29 +1011,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">4</a></td>
+                                            <td width="20%">9</td>
+                                            <td width="20%">1</td>
+                                            <td width="20%">23</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">64</a></td>
+                                            <td width="20%">39</td>
+                                            <td width="20%">45</td>
+                                            <td width="20%">14</td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td width="20%">4</td>
+                                            <td width="20%">5</td>
+                                            <td width="20%">6</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">40</a></td>
+                                            <td width="20%">22</td>
+                                            <td width="20%">17</td>
+                                            <td width="20%">38</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">14</a></td>
+                                            <td width="20%">15</td>
+                                            <td width="20%">16</td>
+                                            <td width="20%">18</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
+                                            <td width="20%">8</td>
+                                            <td width="20%">19</td>
+                                            <td width="20%">14</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -796,29 +1079,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">16</a></td>
+                                            <td width="20%">38</td>
+                                            <td width="20%">24</td>
+                                            <td width="20%">43</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">19</a></td>
+                                            <td width="20%">21</td>
+                                            <td width="20%">48</td>
+                                            <td width="20%">34</td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">12</a></td>
+                                            <td width="20%">30</td>
+                                            <td width="20%">14</td>
+                                            <td width="20%">19</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">40</a></td>
+                                            <td width="20%">13</td>
+                                            <td width="20%">19</td>
+                                            <td width="20%">18</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">14</a></td>
+                                            <td width="20%">18</td>
+                                            <td width="20%">7</td>
+                                            <td width="20%">14</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -841,29 +1145,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">36</a></td>
+                                            <td width="20%">24</td>
+                                            <td width="20%">38</td>
+                                            <td width="20%">12</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">17</a></td>
+                                            <td width="20%">19</td>
+                                            <td width="20%">15</td>
+                                            <td width="20%">16</td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">17</a></td>
+                                            <td width="20%">18</td>
+                                            <td width="20%">19</td>
+                                            <td width="20%">20</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">15</a></td>
+                                            <td width="20%">16</td>
+                                            <td width="20%">17</td>
+                                            <td width="20%">19</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">14</a></td>
+                                            <td width="20%">16</td>
+                                            <td width="20%">18</td>
+                                            <td width="20%">19</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">34</a></td>
+                                            <td width="20%">28</td>
+                                            <td width="20%">37</td>
+                                            <td width="20%">41</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -889,29 +1214,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">16</a></td>
+                                            <td width="20%">58</td>
+                                            <td width="20%">34</td>
+                                            <td width="20%">43</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">19</a></td>
+                                            <td width="20%">11</td>
+                                            <td width="20%">48</td>
+                                            <td width="20%">34</td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">14</a></td>
+                                            <td width="20%">15</td>
+                                            <td width="20%">9</td>
+                                            <td width="20%">40</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">34</a></td>
+                                            <td width="20%">28</td>
+                                            <td width="20%">37</td>
+                                            <td width="20%">41</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -934,29 +1280,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">14</a></td>
+                                            <td width="20%">59</td>
+                                            <td width="20%">31</td>
+                                            <td width="20%">13</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">14</a></td>
+                                            <td width="20%">29</td>
+                                            <td width="20%">45</td>
+                                            <td width="20%">15</td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td width="20%">4</td>
+                                            <td width="20%">5</td>
+                                            <td width="20%">6</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">40</a></td>
+                                            <td width="20%">22</td>
+                                            <td width="20%">17</td>
+                                            <td width="20%">38</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">14</a></td>
+                                            <td width="20%">15</td>
+                                            <td width="20%">16</td>
+                                            <td width="20%">18</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
+                                            <td width="20%">8</td>
+                                            <td width="20%">19</td>
+                                            <td width="20%">14</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -981,29 +1348,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">6</a></td>
+                                            <td width="20%">8</td>
+                                            <td width="20%">14</td>
+                                            <td width="20%">13</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">9</a></td>
+                                            <td width="20%">1</td>
+                                            <td width="20%">8</td>
+                                            <td width="20%">4</td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">4</a></td>
+                                            <td width="20%">12</td>
+                                            <td width="20%">17</td>
+                                            <td width="20%">8</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)"></a></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                            <td width="20%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">4</a></td>
+                                            <td width="20%">8</td>
+                                            <td width="20%">17</td>
+                                            <td width="20%">4</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -1075,29 +1463,50 @@
                                 <td>YES</td>
                                 <td>
                                     <table class="table table-striped">
-
-                                        <thead>
-                                        <th style="font-weight: bold">Shop </th>
-                                        <th style="font-weight: bold">RP</th>
-                                        <th style="font-weight: bold">QTY ST</th>
-                                        <th style="font-weight: bold">DAYS IN ST</th>
-                                        <th style="font-weight: bold">QTY SOLD</th>
-                                        </thead>
                                         <tbody>
                                         <tr>
-                                            <td>Shop 1</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                            <td>5</td>
-                                            <td>15</td>
-                                            <td>3</td>
+                                            <td width="20%">Shop-1</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">4</a></td>
+                                            <td width="20%">9</td>
+                                            <td width="20%">1</td>
+                                            <td width="20%">23</td>
                                         </tr>
                                         <tr>
-                                            <td>Shop 2</td>
-                                            <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                            <td>5</td>
-                                            <td>18</td>
-                                            <td>4</td>
+                                            <td width="20%">Shop-2</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">64</a></td>
+                                            <td width="20%">39</td>
+                                            <td width="20%">45</td>
+                                            <td width="20%">14</td>
                                         </tr>
+                                        <tr>
+                                            <td width="20%">Shop-3</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
+                                            <td width="20%">4</td>
+                                            <td width="20%">5</td>
+                                            <td width="20%">6</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-4</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">40</a></td>
+                                            <td width="20%">22</td>
+                                            <td width="20%">17</td>
+                                            <td width="20%">38</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-5</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">14</a></td>
+                                            <td width="20%">15</td>
+                                            <td width="20%">16</td>
+                                            <td width="20%">18</td>
+                                        </tr>
+                                        <tr>
+                                            <td width="20%">Shop-6</td>
+                                            <td width="20%"><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
+                                            <td width="20%">8</td>
+                                            <td width="20%">19</td>
+                                            <td width="20%">14</td>
+                                        </tr>
+
 
                                         </tbody>
 
@@ -1134,7 +1543,9 @@
     <script>
         $(document).ready( function () {
             $('#datatable').DataTable({
-
+                "columnDefs": [
+                    { "orderable": false, "targets": 13 }
+                ]
             } );
 
 

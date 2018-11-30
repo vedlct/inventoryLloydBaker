@@ -85,6 +85,7 @@
 
 
                     <div class="table table-responsive">
+
                         <table id="datatable" class="table table-bordered">
                             <thead>
                             <tr>
@@ -120,7 +121,7 @@
                                 <td>£230.00</td>
                                 <td>7</td>
                                 <td>15</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -137,7 +138,7 @@
                                 <td>£230.00</td>
                                 <td>7</td>
                                 <td>15</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
                             <tr>
@@ -153,7 +154,7 @@
                                 <td>£34.99</td>
                                 <td>4</td>
                                 <td>5</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -170,7 +171,7 @@
                                 <td>£230.00</td>
                                 <td>10</td>
                                 <td>3</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
                             <tr>
@@ -186,7 +187,7 @@
                                 <td>£230.00</td>
                                 <td>7</td>
                                 <td>15</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
                             <tr>
@@ -202,7 +203,7 @@
                                 <td>£225.00</td>
                                 <td>25</td>
                                 <td>12</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -221,7 +222,7 @@
                                 <td>£150.00</td>
                                 <td>14</td>
                                 <td>17</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -240,7 +241,7 @@
                                 <td>£200.00</td>
                                 <td>14</td>
                                 <td>12</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
                             <tr>
@@ -258,7 +259,7 @@
                                 <td>£225.00</td>
                                 <td>80</td>
                                 <td>28</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
                             <tr>
@@ -276,7 +277,7 @@
                                 <td>£175.00</td>
                                 <td>25</td>
                                 <td>14</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
                             <tr>
@@ -294,7 +295,7 @@
                                 <td>£179.00</td>
                                 <td>58</td>
                                 <td>16</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
                             <tr>
@@ -312,7 +313,7 @@
                                 <td>£175.00</td>
                                 <td>14</td>
                                 <td>15</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -331,7 +332,7 @@
                                 <td>£175.00</td>
                                 <td>24</td>
                                 <td>14</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -350,7 +351,7 @@
                                 <td>£175.00</td>
                                 <td>17</td>
                                 <td>15</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -369,7 +370,7 @@
                                 <td>£175.00</td>
                                 <td>17</td>
                                 <td>15</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
 
@@ -388,7 +389,7 @@
                                 <td>£200.00</td>
                                 <td>27</td>
                                 <td>12</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -407,7 +408,7 @@
                                 <td>£175.00</td>
                                 <td>35</td>
                                 <td>17</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -426,7 +427,7 @@
                                 <td>£175.00</td>
                                 <td>14</td>
                                 <td>09</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -445,7 +446,7 @@
                                 <td>£225.00</td>
                                 <td>47</td>
                                 <td>15</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -464,18 +465,17 @@
                                 <td>£125.00</td>
                                 <td>7</td>
                                 <td>15</td>
-                                <td><input type="number" max="6"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
 
                             </tbody>
                         </table>
-
-
+                        
                     </div>
 
                     <div class="form-group col-md-12">
-                        <button class="btn btn-group-lg btn-success ">Submit</button>
+                        <button class="btn btn-group-lg btn-success " style="float: right">Update and Create Delivery Note</button>
                     </div>
 
 
@@ -486,12 +486,8 @@
                         </div>
                         <div class="form-group col-md-6">
 
-                            <button class="btn btn-sm btn-success " style="margin-top: 35px">Submit</button>
+                            <button class="btn btn-sm btn-success " style="margin-top: 35px; ">Submit</button>
                         </div>
-
-
-
-
 
                     </div>
                 </div>

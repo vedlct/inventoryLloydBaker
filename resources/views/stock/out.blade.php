@@ -33,6 +33,21 @@
 
     </div>
     <div class="card-body">
+
+        <div class="row">
+            <div class="form-group col-md-12">
+                <label>Import Stock</label>
+                <input type="file" class="form-control" placeholder="insert excel report">
+            </div>
+            <div class="form-group col-md-12">
+                <button class="btn btn-sm btn-success ">Submit</button>
+            </div>
+
+
+
+
+
+        </div>
        <table class="table table-striped" id="example">
            <thead>
             <th>SHOP NO</th>
@@ -88,20 +103,7 @@
 
        </table>
 
-        <div class="row">
-            <div class="form-group col-md-12">
-                <label>Insert Stock</label>
-                <input type="file" class="form-control" placeholder="insert excel report">
-            </div>
-            <div class="form-group col-md-12">
-                <button class="btn btn-sm btn-success ">Submit</button>
-            </div>
 
-
-
-
-
-        </div>
 
     </div>
 
