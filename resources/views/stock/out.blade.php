@@ -17,7 +17,7 @@
 
 <div class="card">
     <div class="card-header">
-        <h4>Store Stock</h4>
+        <h4>Stock Out From Shop</h4>
         <div class="row">
             <div class="form-group col-md-6">
                 <label>Shop</label>

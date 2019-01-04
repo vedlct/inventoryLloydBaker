@@ -81,7 +81,7 @@
             <div class="card">
                 <div class="card-body">
 
-                    <h4 class="mt-0 header-title">Goods In</h4>
+                    <h4 class="mt-0 header-title">Goods In WareHouse</h4>
 
                     <div class="row">
                         <div class="form-group col-md-6">

@@ -6,7 +6,7 @@
             <ul class="navigation-menu">
 
                 <li class="has-submenu">
-                    <a href="{{route('mainsreen')}}"><i class="ti-home"></i>MAIN SCREEN</a>
+                    <a href="{{route('mainsreen')}}"><i class="ti-home"></i>DASHBOARD</a>
                 </li>
 
                 <li class="has-submenu">
@@ -37,7 +37,7 @@
                 </li>
 
                 <li class="has-submenu">
-                    <a href="#"><i class="ti-bookmark-alt"></i>Reporting</a>
+                    <a href="#"><i class="ti-bookmark-alt"></i>REPORTING</a>
                     <ul class="submenu">
                         <li class="has-submenu"><a href="#">Profit</a>
                             <ul class="submenu">
@@ -51,7 +51,7 @@
                 </li>
 
                 <li class="has-submenu">
-                    <a href="#"><i class="ti-bookmark-alt"></i>Settings</a>
+                    <a href="#"><i class="ti-bookmark-alt"></i>SETTING</a>
                     <ul class="submenu">
                         <li><a href="{{route('settings.productCategory')}}">Product </a></li>
                         <li><a href="{{route('settings.location')}}">Shop</a></li>
@@ -60,6 +60,7 @@
                         {{--<li><a href="{{route('settings.brand')}}">Brand</a></li>--}}
                         {{--<li><a href="{{route('settings.style')}}">Style</a></li>--}}
                         <li><a href="{{route('settings.user')}}">User</a></li>
+                        <li><a href="#">Range Plan</a></li>
 
                     </ul>
                 </li>
