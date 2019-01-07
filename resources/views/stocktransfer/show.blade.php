@@ -81,26 +81,26 @@
             <div class="card">
                 <div class="card-body">
 
-                    <h4 class="mt-0 header-title">Goods In</h4>
+                    <h4 class="mt-0 header-title"> Stock Transfer To Shop</h4>
 
                     <div class="row">
 
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <label>Product</label>
-                                <div>
-                                    <select class="form-control">
-                                        <option>Select A Product</option>
-                                        <option>THE AURORA PC6148</option>
-                                        <option>THE MARIELLE KEYRING PC3151</option>
-                                        <option>LB6421X</option>
-                                        <option>THE ETICHETTA SIGNAGE PC5161</option>
-                                        <option>LB5754</option>
-                                        <option>LB5860</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
+                        {{--<div class="col-md-4">--}}
+                            {{--<div class="form-group">--}}
+                                {{--<label>Product</label>--}}
+                                {{--<div>--}}
+                                    {{--<select class="form-control">--}}
+                                        {{--<option>Select A Product</option>--}}
+                                        {{--<option>THE AURORA PC6148</option>--}}
+                                        {{--<option>THE MARIELLE KEYRING PC3151</option>--}}
+                                        {{--<option>LB6421X</option>--}}
+                                        {{--<option>THE ETICHETTA SIGNAGE PC5161</option>--}}
+                                        {{--<option>LB5754</option>--}}
+                                        {{--<option>LB5860</option>--}}
+                                    {{--</select>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
                         <div class="col-md-4" >
                             <div class="form-group">
                                 <label>Shop</label>
@@ -146,7 +146,7 @@
                                 <th style="font-weight: bold">CP</th>
                                 <th style="font-weight: bold">SP</th>
                                 <th style="font-weight: bold">RRP</th>
-                                <th style="font-weight: bold">QTY IN WARH</th>
+                                <th style="font-weight: bold">QTY IN WH</th>
                                 <th style="font-weight: bold">Range Plan</th>
                                 <th style="font-weight: bold">QTY STOCK</th>
                                 <th style="font-weight: bold">ADD STOCK</th>
@@ -170,7 +170,7 @@
                                 <td>7</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
                                 <td>5</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -188,7 +188,7 @@
                                 <td>7</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
                                 <td>5</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
                             <tr>
@@ -205,7 +205,7 @@
                                 <td>4</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
                                 <td>0</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -223,7 +223,7 @@
                                 <td>10</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
                                 <td>0</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
                             <tr>
@@ -240,7 +240,7 @@
                                 <td>7</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
                                 <td>5</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
                             <tr>
@@ -257,7 +257,7 @@
                                 <td>25</td>
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">8</a></td>
                                 <td>8</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -278,7 +278,7 @@
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
 
                                 <td>0</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -299,7 +299,7 @@
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">8</a></td>
 
                                 <td>8</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -320,7 +320,7 @@
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
 
                                 <td>0</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -341,7 +341,7 @@
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">17</a></td>
 
                                 <td>17</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -362,7 +362,7 @@
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">20</a></td>
 
                                 <td>45</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -383,7 +383,7 @@
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
 
                                 <td>15</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -404,7 +404,7 @@
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
 
                                 <td>0</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -425,7 +425,7 @@
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
 
                                 <td>0</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -446,7 +446,7 @@
 
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">15</a></td>
                                 <td>30</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -468,7 +468,7 @@
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
 
                                 <td>15</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -489,7 +489,7 @@
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
 
                                 <td>25</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -510,7 +510,7 @@
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
 
                                 <td>6</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -531,7 +531,7 @@
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
 
                                 <td>35</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -552,7 +552,7 @@
                                 <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
 
                                 <td>0</td>
-                                <td><input type="text"></td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -562,7 +562,7 @@
                     </div>
 
                     <div class="form-group col-md-12">
-                        <button class="btn btn-group-lg btn-success ">Submit</button>
+                        <button class="btn btn-group-lg btn-success " style="float: right">Update and Create Delivery Note</button>
                     </div>
 
 

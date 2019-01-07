@@ -20,20 +20,20 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title"> Product Category</h4>
+                        <h4 class="card-title"> Product</h4>
                     </div>
                     <div class="card-body">
 
                         <div style="text-align: right;margin-right: 20px">
-                            <a href="{{route('settings.productCategory.add')}}" class="btn btn-info"><i class="fa fa-plus"></i><span class="title">Add Category</span></a>
+                            <a href="{{route('settings.productCategory.add')}}" class="btn btn-info"><i class="fa fa-plus"></i><span class="title">Add Product</span></a>
                         </div>
 
                         <div class="table-responsive">
                             <table id="example" class="table table-striped table-bordered" style="width:100%">
                                 <thead>
                                 <tr>
-                                    <th>Category Name</th>
-                                    <th>Category Description</th>
+                                    <th>Product Name</th>
+                                    <th>Product Description</th>
                                     <th>Status</th>
                                     <th>Action</th>
 
@@ -62,8 +62,8 @@
                                     if ($value==1) {
                                         echo $r = "
                                     <tr>
-                                            <td>Womenswear>Gowns</td>
-                                            <td>Category Description-1</td>
+                                            <td>THE AURORA PC6148</td>
+                                            <td>Product Description-1</td>
                                             <td>Active</td>
                                             <td><a href=\"editCategory.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
                                         <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
@@ -73,8 +73,8 @@
                                     }else if ($value==2){
                                         echo $rd="
                                         <tr>
-                                            <td>Women.Accessories.Purses</td>
-                                            <td>Category Description-2</td>
+                                            <td>THE MARIELLE KEYRING PC3151</td>
+                                            <td>Product Description-2</td>
                                             <td>Inactive</td>
                                             <td><a href=\"editCategory.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
                                         <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
@@ -86,8 +86,8 @@
                                         echo $rd="
                                         <tr>
 
-                                            <td>Womenswear Accessories.Bags.Cross-body Bags</td>
-                                            <td>Category Description-3</td>
+                                            <td>LB6421X</td>
+                                            <td>Product Description-3</td>
                                             <td>Active</td>
                                             <td><a href=\"editCategory.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
                                         <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
@@ -98,16 +98,73 @@
 
 
 
-                                    }?>
+                                    }
+                                    else if ($value==4){
+
+                                        echo $rd="
+                                        <tr>
+
+                                            <td>THE ETICHETTA SIGNAGE PC5161</td>
+                                            <td>Product Description-4</td>
+                                            <td>Active</td>
+                                            <td><a href=\"editCategory.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                        <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
+                                    </td>
+
+                                        </tr>
+                                        ";
+
+
+
+                                    }
+                                    else if ($value==5){
+
+                                        echo $rd="
+                                        <tr>
+
+                                            <td>LB6115A</td>
+                                            <td>Product Description-5</td>
+                                            <td>Active</td>
+                                            <td><a href=\"editCategory.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                        <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
+                                    </td>
+
+                                        </tr>
+                                        ";
+
+
+
+                                    }
+                                    else if ($value==6){
+
+                                        echo $rd="
+                                        <tr>
+
+                                            <td>LB5754</td>
+                                            <td>Product Description-6</td>
+                                            <td>Active</td>
+                                            <td><a href=\"editCategory.php\" class=\"btn btn-info btn-sm\"><i class=\"fa fa-edit\"></i></a>
+                                        <button class=\"btn btn-info btn-sm\"><i class=\"fa fa-trash\"></i></button>
+                                    </td>
+
+                                        </tr>
+                                        ";
+
+
+
+                                    }
+
+
+                                    ?>
 
 
 
                                 <?php } ?>
 
 
-                                <?php for($i=0;$i<1000;$i++)
+                                <?php for($i=0;$i<100;$i++)
                                 {
-                                    $random = rand(1, 3);
+                                    $random = rand(1, 6);
                                     // echo $random;
                                     myfunction($random); //may you was intended to pass $val here?
 

@@ -81,59 +81,22 @@
             <div class="card">
                 <div class="card-body">
 
-                    <h4 class="mt-0 header-title">Goods In</h4>
-
+                    <h4 class="mt-0 header-title">Goods In WareHouse</h4>
 
                     <div class="row">
-
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <label>Product</label>
-                                <div>
-                                    <select class="form-control">
-                                        <option>Select A Product</option>
-                                        <option>THE AURORA PC6148</option>
-                                        <option>THE MARIELLE KEYRING PC3151</option>
-                                        <option>LB6421X</option>
-                                        <option>THE ETICHETTA SIGNAGE PC5161</option>
-                                        <option>LB5754</option>
-                                        <option>LB5860</option>
-                                    </select>
-                                </div>
-                            </div>
+                        <div class="form-group col-md-6">
+                            <label>Insert / Update Stock</label>
+                            <input type="file" class="form-control" placeholder="insert excel report">
                         </div>
-                        <div class="col-md-4" >
-                            <div class="form-group">
-                                <label>Shop</label>
-                                <div>
-                                    <select class="form-control">
-                                        <option>Select A Shop</option>
-                                        <option>Shop 1</option>
-                                        <option>Shop 2</option>
-                                        <option>Shop 3</option>
-                                        <option>Shop 4</option>
-                                        <option>Shop 5</option>
-                                        <option>Shop 6</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div style="margin-top: 30px;" class="form-group">
+                        <div class="form-group col-md-6">
 
-                                <button type="submit" class="btn btn-primary waves-effect waves-light">
-                                    Submit
-                                </button>
-                                <button type="reset" class="btn btn-secondary waves-effect m-l-5">
-                                    Cancel
-                                </button>
-
-                            </div>
+                            <button class="btn btn-sm btn-success " style="margin-top: 35px; ">Submit</button>
                         </div>
+
                     </div>
 
-
                     <div class="table table-responsive">
+
                         <table id="datatable" class="table table-bordered">
                             <thead>
                             <tr>
@@ -141,17 +104,14 @@
                                 <th style="font-weight: bold">FT</th>
                                 <th style="font-weight: bold">PHOTO</th>
                                 <th style="font-weight: bold">Style</th>
-                                <th style="font-weight: bold">SR BARCODE</th>
+                                <th style="font-weight: bold">FT Code</th>
                                 <th style="font-weight: bold">COLOUR</th>
                                 <th style="font-weight: bold">EAN 13</th>
                                 <th style="font-weight: bold">CP</th>
                                 <th style="font-weight: bold">SP</th>
                                 <th style="font-weight: bold">RRP</th>
+                                <th style="font-weight: bold">QTY IN WH</th>
                                 <th style="font-weight: bold">STOCK IN</th>
-                                <th style="font-weight: bold">QTY IN WARH</th>
-                                <th style="font-weight: bold">Range Plan</th>
-                                <th style="font-weight: bold">QTY STOCK</th>
-                                <th style="font-weight: bold">ADD STOCK</th>
 
                             </tr>
                             </thead>
@@ -169,11 +129,8 @@
                                 <td></td>
                                 <td>£69.99</td>
                                 <td>£230.00</td>
-                                <td><input type="text"></td>
                                 <td>7</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">2</a></td>
-                                <td>5</td>
-                                <td>15</td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -188,11 +145,8 @@
                                 <td></td>
                                 <td>£69.99</td>
                                 <td>£230.00</td>
-                                <td><input type="text"></td>
                                 <td>7</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">3</a></td>
-                                <td>5</td>
-                                <td>15</td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
                             <tr>
@@ -206,11 +160,8 @@
                                 <td>£12.99</td>
                                 <td>£12.99</td>
                                 <td>£34.99</td>
-                                <td><input type="text"></td>
                                 <td>4</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
-                                <td>0</td>
-                                <td>5</td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -225,12 +176,8 @@
                                 <td></td>
                                 <td>£69.99</td>
                                 <td>£230.00</td>
-                                <td><input type="text"></td>
                                 <td>10</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
-
-                                <td>0</td>
-                                <td>3</td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
                             <tr>
@@ -244,12 +191,8 @@
                                 <td></td>
                                 <td>£69.99</td>
                                 <td>£230.00</td>
-                                <td><input type="text"></td>
                                 <td>7</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
-
-                                <td>5</td>
-                                <td>15</td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
                             <tr>
@@ -263,11 +206,8 @@
                                 <td></td>
                                 <td>£79.99</td>
                                 <td>£225.00</td>
-                                <td><input type="text"></td>
                                 <td>25</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">8</a></td>
-                                <td>8</td>
-                                <td>12</td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -284,12 +224,8 @@
 
                                 <td>£39.99</td>
                                 <td>£150.00</td>
-                                <td><input type="text"></td>
                                 <td>14</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
-
-                                <td>0</td>
-                                <td>17</td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -306,13 +242,8 @@
 
                                 <td>£49.99</td>
                                 <td>£200.00</td>
-                                <td><input type="text"></td>
                                 <td>14</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">8</a></td>
-
-                                <td>8</td>
-                                <td>12</td>
-
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
                             <tr>
@@ -328,13 +259,8 @@
 
                                 <td>£89.99</td>
                                 <td>£225.00</td>
-                                <td><input type="text"></td>
                                 <td>80</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
-
-                                <td>0</td>
-                                <td>28</td>
-
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
                             <tr>
@@ -350,13 +276,8 @@
 
                                 <td>£59.99</td>
                                 <td>£175.00</td>
-                                <td><input type="text"></td>
                                 <td>25</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">17</a></td>
-
-                                <td>17</td>
-                                <td>14</td>
-
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
                             <tr>
@@ -372,13 +293,8 @@
 
                                 <td>£79.99</td>
                                 <td>£179.00</td>
-                                <td><input type="text"></td>
                                 <td>58</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">20</a></td>
-
-                                <td>45</td>
-                                <td>16</td>
-
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
                             <tr>
@@ -394,12 +310,8 @@
 
                                 <td>£59.99</td>
                                 <td>£175.00</td>
-                                <td><input type="text"></td>
                                 <td>14</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
-
-                                <td>15</td>
-                                <td>15</td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -416,12 +328,8 @@
 
                                 <td>£79.99</td>
                                 <td>£175.00</td>
-                                <td><input type="text"></td>
                                 <td>24</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
-
-                                <td>0</td>
-                                <td>14</td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -438,12 +346,8 @@
 
                                 <td>£79.99</td>
                                 <td>£175.00</td>
-                                <td><input type="text"></td>
                                 <td>17</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
-
-                                <td>0</td>
-                                <td>15</td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -460,13 +364,8 @@
 
                                 <td>£79.99</td>
                                 <td>£175.00</td>
-                                <td><input type="text"></td>
                                 <td>17</td>
-
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">15</a></td>
-                                <td>30</td>
-                                <td>15</td>
-
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
 
@@ -483,12 +382,8 @@
 
                                 <td>£49.99</td>
                                 <td>£200.00</td>
-                                <td><input type="text"></td>
                                 <td>27</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
-
-                                <td>15</td>
-                                <td>12</td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -505,12 +400,8 @@
                                 <td></td>
                                 <td>£79.99</td>
                                 <td>£175.00</td>
-                                <td><input type="text"></td>
                                 <td>35</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
-
-                                <td>25</td>
-                                <td>17</td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -527,12 +418,8 @@
 
                                 <td>£79.99</td>
                                 <td>£175.00</td>
-                                <td><input type="text"></td>
                                 <td>14</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">5</a></td>
-
-                                <td>6</td>
-                                <td>09</td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -549,12 +436,8 @@
 
                                 <td>£79.99</td>
                                 <td>£225.00</td>
-                                <td><input type="text"></td>
                                 <td>47</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
-
-                                <td>35</td>
-                                <td>15</td>
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
 
                             </tr>
@@ -571,25 +454,21 @@
 
                                 <td>£79.99</td>
                                 <td>£125.00</td>
-                                <td><input type="text"></td>
                                 <td>7</td>
-                                <td><a href="#" id="RP" onclick="editNationality(this.text)">0</a></td>
-
-                                <td>0</td>
-                                <td>15</td>
-
+                                <td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>
 
                             </tr>
 
                             </tbody>
                         </table>
-
-
+                        
                     </div>
 
                     <div class="form-group col-md-12">
-                        <button class="btn btn-group-lg btn-success ">Submit</button>
+                        <button class="btn btn-group-lg btn-success " style="float: right">Update Stock</button>
                     </div>
+
+
 
                 </div>
             </div>

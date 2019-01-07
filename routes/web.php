@@ -43,8 +43,8 @@ Route::view('/stocktransfer','stocktransfer.show')->name('stocktransfer.show');
 Route::view('/stocktransfer/bulk','stocktransfer.bulkinsert')->name('stocktransfer.bulk');
 
 
-Route::view('/settings/product-category','settings.productCategory')->name('settings.productCategory');
-Route::view('/settings/product-category/add','settings.addProductCategory')->name('settings.productCategory.add');
+Route::view('/settings/product','settings.productCategory')->name('settings.productCategory');
+Route::view('/settings/product/add','settings.addProductCategory')->name('settings.productCategory.add');
 
 Route::view('/settings/Shop','settings.location')->name('settings.location');
 Route::view('/settings/Shop/add','settings.addLocation')->name('settings.location.add');
