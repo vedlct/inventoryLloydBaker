@@ -14,41 +14,50 @@
 //Route::get('/', function () {
 //    return view('welcome');
 //});
-Route::view('/','login')->name('/');
+//Route::view('/','login')->name('/');
+Route::get('/','Auth\LoginController@getLoginForm')->name('/');
+
 Route::view('/main','main')->name('main');
 Route::view('/form','form')->name('form');
 Route::view('/datatable','datatable')->name('datatable');
 Route::view('/onlyDatatable','onlyDatatable')->name('only.datatable');
 
-Route::view('/Main-Screen','mainscreen')->name('mainsreen');
+//====================================Dashboard=================================================
 
+Route::get('/dashboard','DashboardController@index')->name('mainsreen');
 
-Route::view('profit/profitCalculation','profit.profitCalculation')->name('profit.profitCalculation');
-Route::view('profit/MostProfitableProduct','profit.mostProfitableProduct')->name('profit.mostProfitableProduct');
+//====================================Report=================================================
+Route::get('profit/profitCalculation','ReportController@productCalculation')->name('profit.profitCalculation');
+Route::get('profit/MostProfitableProduct','ReportController@mostProfitableProduct')->name('profit.mostProfitableProduct');
+Route::get('Report/product/Sell-Information','ReportController@stockValuation')->name('report.sellData');
+
 Route::view('Report/product/Shop','report.productperShop')->name('report.productperShop');
-Route::view('Report/product/Sell-Information','report.sellInformation')->name('report.sellData');
+
+
 
 //Goods In
-//Route::view('/goods-in/Add-Individual-Goods','goods-in.add')->name('goods-in.add');
+
 Route::view('/goods-in/Add-Bulk-Goods','goods-in.addbulk')->name('goods-in.bulk');
-//Route::view('/goods-in/Show-Goods','goods-in.showgoods')->name('goods-in.show');
-Route::view('/goods-in/Show-Goods','goods-in.goodsin')->name('goods-in.goodsin');
+
+//=====================================Stock=====================================
+Route::get('/goods-in/Show-Goods','GoodsController@index')->name('goods-in.goodsin');
+Route::get('/stock/out','StockOutController@index')->name('stock.out');
+Route::get('/stocktransfer','StockTransferController@index')->name('stocktransfer.show');
 
 
-Route::view('/stock/out','stock.out')->name('stock.out');
 Route::view('/stock/out/add','stock.add')->name('stock.out.add');
 
 
-Route::view('/stocktransfer','stocktransfer.show')->name('stocktransfer.show');
+
 Route::view('/stocktransfer/bulk','stocktransfer.bulkinsert')->name('stocktransfer.bulk');
 
 
-Route::view('/settings/product','settings.productCategory')->name('settings.productCategory');
-Route::view('/settings/product/add','settings.addProductCategory')->name('settings.productCategory.add');
-
-Route::view('/settings/Shop','settings.location')->name('settings.location');
-Route::view('/settings/Shop/add','settings.addLocation')->name('settings.location.add');
-Route::view('/settings/Shop/Edit','settings.EditShop')->name('settings.location.editShop');
+//=====================================Settings=====================================
+Route::get('/settings/product','SettingsController@product')->name('settings.productCategory');
+Route::get('/settings/product/add','SettingsController@addProduct')->name('settings.productCategory.add');
+Route::get('/settings/Shop','SettingsController@shop')->name('settings.location');
+Route::get('/settings/Shop/add','SettingsController@addShop')->name('settings.location.add');
+Route::get('/settings/Shop/Edit','SettingsController@editShop')->name('settings.location.editShop');
 
 
 Route::view('/settings/color','settings.color')->name('settings.color');
@@ -71,3 +80,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/Stock-Transfer/Range-Plan', 'HomeController@editRangePlan')->name('editRangePlan');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
