@@ -81,16 +81,34 @@
             <div class="card">
                 <div class="card-body">
 
-                    <h4 class="mt-0 header-title">Goods In WareHouse</h4>
+                    <h4 class="mt-0 header-title">Range Plan</h4>
 
                     <div class="row">
-                        <div class="form-group col-md-6">
-                            <label>Insert / Update Stock</label>
-                            <input type="file" class="form-control" placeholder="insert excel report">
-                        </div>
-                        <div class="form-group col-md-6">
 
-                            <button class="btn btn-sm btn-success " style="margin-top: 35px; ">Submit</button>
+                        <div class="col-md-4" >
+                            <div class="form-group">
+                                <label>Shop</label>
+                                <div>
+                                    <select class="form-control">
+                                        <option>Select A Shop</option>
+                                        @foreach($shop as $shop)
+                                            <option value="{{$shop->shopId}}">{{$shop->shopName}}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div style="margin-top: 30px;" class="form-group">
+
+                                <button type="submit" class="btn btn-primary waves-effect waves-light">
+                                    Submit
+                                </button>
+                                <button type="reset" class="btn btn-secondary waves-effect m-l-5">
+                                    Cancel
+                                </button>
+
+                            </div>
                         </div>
 
                     </div>
@@ -119,18 +137,18 @@
 
                             <tbody>
                             {{--<tr>--}}
-                                {{--<td>PC</td>--}}
-                                {{--<td></td>--}}
-                                {{--<td><img width="80px" height="80px" src="{{url('public/image/image1.jpeg')}}"></td>--}}
-                                {{--<td>THE AURORA PC6148</td>--}}
-                                {{--<td>01-61481BQ</td>--}}
-                                {{--<td>TAUPE BROWN 1BQ</td>--}}
-                                {{--<td></td>--}}
-                                {{--<td></td>--}}
-                                {{--<td>£69.99</td>--}}
-                                {{--<td>£230.00</td>--}}
-                                {{--<td>7</td>--}}
-                                {{--<td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>--}}
+                            {{--<td>PC</td>--}}
+                            {{--<td></td>--}}
+                            {{--<td><img width="80px" height="80px" src="{{url('public/image/image1.jpeg')}}"></td>--}}
+                            {{--<td>THE AURORA PC6148</td>--}}
+                            {{--<td>01-61481BQ</td>--}}
+                            {{--<td>TAUPE BROWN 1BQ</td>--}}
+                            {{--<td></td>--}}
+                            {{--<td></td>--}}
+                            {{--<td>£69.99</td>--}}
+                            {{--<td>£230.00</td>--}}
+                            {{--<td>7</td>--}}
+                            {{--<td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>--}}
 
 
                             {{--</tr>--}}
@@ -139,8 +157,9 @@
 
                             </tbody>
                         </table>
-                        
+
                     </div>
+
 
                     <div class="form-group col-md-12">
                         <button class="btn btn-group-lg btn-success " style="float: right" onclick="updateStock()">Update Stock</button>
@@ -188,7 +207,7 @@
                 ordering:false,
                 type:"POST",
                 "ajax":{
-                    "url": "{!! route('goods-in.getdata') !!}",
+                    "url": "{!! route('settings.getRangePlanData') !!}",
                     "type": "POST",
                     data:function (d){
                         d._token="{{csrf_token()}}";
@@ -213,7 +232,7 @@
                             return data.qty;},
                         "orderable": false, "searchable":false, "name":"selected_rows" },
                     { "data": function(data){
-                                return '<input style="width: 80px" type="number" data-panel-id="'+data.productId+'" name="stockIn[]" onKeyPress="if(this.value.length==6) return false;">'
+                            return '<input style="width: 80px" type="number" data-panel-id="'+data.productId+'" name="stockIn[]" onKeyPress="if(this.value.length==6) return false;">'
                                 ;},
                         "orderable": false, "searchable":false, "name":"selected_rows" },
 
