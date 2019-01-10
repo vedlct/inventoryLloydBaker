@@ -13,7 +13,12 @@ class GoodsController extends Controller
         $this->middleware('auth');
     }
     public function index(){
-
+//        $products=Product::select('product.productId','product.brandId','product.ft','product.mainImage','product.style','product.ftCode',
+//            'product.color','product.ean','product.costPrice','product.retailPrice','product.RRP',DB::raw('sum(stockwh.quantity) as qty'))
+//            ->leftJoin('stockwh','stockwh.fkproductId','product.productId')
+//            ->groupBy('product.productId')->get();
+//
+//        return $products;
 
         return view('goods-in.goodsin');
     }
