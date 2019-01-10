@@ -207,7 +207,7 @@
                     { data: 'color', name: 'product.color' },
                     { data: 'ean', name: 'product.ean'},
                     { data: 'costPrice', name: 'product.costPrice'},
-                    { data: 'price', name: 'product.price'},
+                    { data: 'retailPrice', name: 'product.retailPrice'},
                     { data: 'RRP', name: 'product.RRP'},
                     { "data": function(data){
                             return '0';},

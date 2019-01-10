@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Product;
 use Illuminate\Http\Request;
 use Yajra\DataTables\DataTables;
+use DB;
 class GoodsController extends Controller
 {
     public function __construct()
@@ -13,12 +14,15 @@ class GoodsController extends Controller
     }
     public function index(){
 
+
         return view('goods-in.goodsin');
     }
 
     public function getGoodsInData(Request $r){
-        $products=Product::select('productId','brandId','ftCode','ft','mainImage','style','ftCode',
-            'color','ean','costPrice','price','RRP');
+        $products=Product::select('product.productId','product.brandId','product.ft','product.mainImage','product.style','product.ftCode',
+            'product.color','product.ean','product.costPrice','product.retailPrice','product.RRP',DB::raw('sum(stockwh.quantity) as qty'))
+            ->leftJoin('stockwh','stockwh.fkproductId','product.productId')
+            ->groupBy('product.productId');
 
         $datatables = Datatables::of($products);
         return $datatables->make(true);
