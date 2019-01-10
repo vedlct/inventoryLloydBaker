@@ -209,8 +209,9 @@
                     { data: 'costPrice', name: 'product.costPrice'},
                     { data: 'retailPrice', name: 'product.retailPrice'},
                     { data: 'RRP', name: 'product.RRP'},
+                    { data: 'RRP', name: 'product.RRP'},
                     { "data": function(data){
-                            return '0';},
+                            return data.qty;},
                         "orderable": false, "searchable":false, "name":"selected_rows" },
                     { "data": function(data){
                                 return '<input style="width: 80px" type="number" data-panel-id="'+data.productId+'" name="stockIn[]" onKeyPress="if(this.value.length==6) return false;">'
