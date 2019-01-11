@@ -44,6 +44,7 @@ Route::get('/goods-in/Show-Goods','GoodsController@index')->name('goods-in.goods
 Route::post('/goods-in/Show-Goods','GoodsController@getGoodsInData')->name('goods-in.getdata');
 Route::post('/goods-in/insertGoodsInStock','GoodsController@insertGoodsInStock')->name('goods-in.insertGoodsInStock');
 Route::get('/stock/out','StockOutController@index')->name('stock.out');
+Route::post('/stock/out/insert/excel','StockOutController@insertExcel')->name('stock.out.excel');
 Route::get('/stocktransfer','StockTransferController@index')->name('stocktransfer.show');
 
 

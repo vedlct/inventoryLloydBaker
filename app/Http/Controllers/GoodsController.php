@@ -44,7 +44,7 @@ class GoodsController extends Controller
             $stockwh->quantity=$r->values[$i];
             $stockwh->currentStatus="in";
             $stockwh->insertedBy=Auth::user()->userId;
-            $stockwh->insertType="1";
+            $stockwh->insertType="s";
             $stockwh->save();
 
         }
