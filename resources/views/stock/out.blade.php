@@ -34,20 +34,21 @@
     </div>
     <div class="card-body">
 
+        <form method="post" enctype="multipart/form-data" action="{{route('stock.out.excel')}}">
+            {{csrf_field()}}
+
         <div class="row">
             <div class="form-group col-md-12">
                 <label>Import Stock</label>
-                <input type="file" class="form-control" placeholder="insert excel report">
+                <input type="file" class="form-control" name="excel" placeholder="insert excel report" required>
             </div>
             <div class="form-group col-md-12">
                 <button class="btn btn-sm btn-success ">Submit</button>
             </div>
-
-
-
-
-
         </div>
+        </form>
+
+
        <table class="table table-striped" id="example">
            <thead>
             <th>SHOP NO</th>
