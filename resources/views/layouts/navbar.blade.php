@@ -60,7 +60,7 @@
                         {{--<li><a href="{{route('settings.brand')}}">Brand</a></li>--}}
                         {{--<li><a href="{{route('settings.style')}}">Style</a></li>--}}
                         <li><a href="{{route('settings.user')}}">User</a></li>
-                        <li><a href="#">Range Plan</a></li>
+                        <li><a href="{{route('settings.rangePlan')}}">Range Plan</a></li>
 
                     </ul>
                 </li>

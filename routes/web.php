@@ -61,6 +61,10 @@ Route::get('/settings/Shop','SettingsController@shop')->name('settings.location'
 Route::get('/settings/Shop/add','SettingsController@addShop')->name('settings.location.add');
 Route::get('/settings/Shop/Edit','SettingsController@editShop')->name('settings.location.editShop');
 
+//rangeplan
+Route::get('/settings/ranglePlan','SettingsController@rangePlan')->name('settings.rangePlan');
+Route::post('/settings/ranglePlan/get','SettingsController@getRangePlanData')->name('settings.getRangePlanData');
+
 
 Route::view('/settings/color','settings.color')->name('settings.color');
 Route::view('/settings/color/add','settings.addColor')->name('settings.color.add');
