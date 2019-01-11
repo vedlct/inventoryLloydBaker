@@ -37,7 +37,7 @@ class SettingsController extends Controller
     public function user(){}
 
     public function rangePlan(){
-        $shop = Shop::get();
+        $shop = Shop::select('shopName', 'shopId')->get();
         return view('settings.rangePlan', compact('shop'));
     }
 

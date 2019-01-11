@@ -162,8 +162,25 @@
 
 
                     <div class="form-group col-md-12">
-                        <button class="btn btn-group-lg btn-success " style="float: right" onclick="updateStock()">Update Stock</button>
+                        <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Shop</label>
+                                <div>
+                                    <select class="form-control">
+                                        <option>Select A Shop</option>
+
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-group-lg btn-success " style="float: left; margin-top: 30px" onclick="updateStock()">Update RangePlan</button>
+                        </div>
+
                     </div>
+                    </div>
+
 
 
 
