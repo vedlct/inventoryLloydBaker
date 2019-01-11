@@ -65,6 +65,7 @@ Route::get('/settings/Shop/Edit','SettingsController@editShop')->name('settings.
 //rangeplan
 Route::get('/settings/ranglePlan','SettingsController@rangePlan')->name('settings.rangePlan');
 Route::post('/settings/ranglePlan/get','SettingsController@getRangePlanData')->name('settings.getRangePlanData');
+Route::post('/settings/ranglePlan/insert','SettingsController@insertRangePlanData')->name('settings.insertRangePlanData');
 
 
 Route::view('/settings/color','settings.color')->name('settings.color');

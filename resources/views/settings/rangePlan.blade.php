@@ -91,8 +91,8 @@
                                 <div>
                                     <select class="form-control">
                                         <option>Select A Shop</option>
-                                        @foreach($shop as $shop)
-                                            <option value="{{$shop->shopId}}">{{$shop->shopName}}</option>
+                                        @foreach($shop as $sh)
+                                            <option value="{{$sh->shopId}}">{{$sh->shopName}}</option>
                                         @endforeach
                                     </select>
                                 </div>
@@ -167,15 +167,18 @@
                             <div class="form-group">
                                 <label>Shop</label>
                                 <div>
-                                    <select class="form-control">
+                                    <select id="selectshop" class="form-control" required>
                                         <option>Select A Shop</option>
+                                        @foreach($shop as $sp)
+                                        <option value="{{$sp->shopId}}">{{$sp->shopName}}</option>
+                                        @endforeach
 
                                     </select>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <button class="btn btn-group-lg btn-success " style="float: left; margin-top: 30px" onclick="updateStock()">Update RangePlan</button>
+                            <button class="btn btn-group-lg btn-success " style="float: left; margin-top: 30px" onclick="updateRangePlan()">Update RangePlan</button>
                         </div>
 
                     </div>
@@ -276,8 +279,9 @@
         });
 
 
-        function updateStock() {
-            // alert("sdfsd")
+        function updateRangePlan() {
+           var shopoid =  document.getElementById('selectshop').value;
+
             var id=[];
 
 
@@ -290,7 +294,24 @@
 
 
             // console.log(id);
-            console.log(cleanArray(values,id));
+            var all = cleanArray(values,id);
+
+
+            $.ajax({
+                type: 'POST',
+                url: "{!! route('settings.insertRangePlanData') !!}",
+                cache: false,
+                data: {_token: "{{csrf_token()}}",'productsId': all.Ids,'values':all.values, 'shopid':shopoid},
+                success: function (data) {
+                    $.alert({
+                        animationBounce: 2,
+                        title: 'Success!',
+                        content: 'RangePlan Inserted',
+                    });
+
+                    dataTable.ajax.reload();
+                }
+            });
         }
 
 
