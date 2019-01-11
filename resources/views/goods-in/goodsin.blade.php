@@ -176,6 +176,7 @@
 
 
 
+
             dataTable=  $('#datatable').DataTable({
                 rowReorder: {
                     selector: 'td:nth-child(0)'
@@ -252,9 +253,24 @@
                 }).get();
 
 
+            var all=cleanArray(values,id);
 
-            // console.log(id);
-            console.log(cleanArray(values,id));
+
+            $.ajax({
+            type: 'POST',
+            url: "{!! route('goods-in.insertGoodsInStock') !!}",
+            cache: false,
+            data: {_token: "{{csrf_token()}}",'productsId': all.Ids,'values':all.values},
+            success: function (data) {
+                $.alert({
+                    animationBounce: 2,
+                    title: 'Success!',
+                    content: 'Stock Inserted',
+                });
+
+                dataTable.ajax.reload();
+            }
+            });
         }
 
 

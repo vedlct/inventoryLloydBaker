@@ -42,6 +42,7 @@ Route::view('/goods-in/Add-Bulk-Goods','goods-in.addbulk')->name('goods-in.bulk'
 //=====================================Stock=====================================
 Route::get('/goods-in/Show-Goods','GoodsController@index')->name('goods-in.goodsin');
 Route::post('/goods-in/Show-Goods','GoodsController@getGoodsInData')->name('goods-in.getdata');
+Route::post('/goods-in/insertGoodsInStock','GoodsController@insertGoodsInStock')->name('goods-in.insertGoodsInStock');
 Route::get('/stock/out','StockOutController@index')->name('stock.out');
 Route::get('/stocktransfer','StockTransferController@index')->name('stocktransfer.show');
 
