@@ -89,8 +89,8 @@
                             <div class="form-group">
                                 <label>Shop</label>
                                 <div>
-                                    <select class="form-control">
-                                        <option>Select A Shop</option>
+                                    <select class="form-control" id="shopid">
+                                        <option value="">Select A Shop</option>
                                         @foreach($shop as $sh)
                                             <option value="{{$sh->shopId}}">{{$sh->shopName}}</option>
                                         @endforeach
@@ -234,6 +234,11 @@
                         d.date=$('#date1').val();
                         d.clientId=$('#clientId').val();
                         d.statusId=$('#statusId').val();
+                        if ($('#shopid').val() != '') {
+                            d.shopfilter = $('#shopid').val();
+
+                        }
+
                     },
                 },
 
@@ -262,23 +267,27 @@
 
         } );
 
-        function editNationality(x) {
+        // function editNationality(x) {
+        //
+        //
+        //     $("#RangePlan").val(x);
+        //
+        //
+        //     $('#editModalNationality').modal();
+        //
+        //
+        //
+        // }
+        //
+        // $('#closemodal').click(function() {
+        //     $('#editModalNationality').modal('hide');
+        // });
 
+        $('#shopid').on('change', function(){
 
-            $("#RangePlan").val(x);
+            dataTable.ajax.reload();
 
-
-            $('#editModalNationality').modal();
-
-
-
-        }
-
-        $('#closemodal').click(function() {
-            $('#editModalNationality').modal('hide');
         });
-
-
         function updateRangePlan() {
            var shopoid =  document.getElementById('selectshop').value;
 

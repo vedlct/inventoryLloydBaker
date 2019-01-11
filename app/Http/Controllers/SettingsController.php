@@ -6,6 +6,7 @@ use App\Product;
 use App\RangePlan;
 use App\Shop;
 use Illuminate\Http\Request;
+use SebastianBergmann\CodeCoverage\Report\Xml\Project;
 use Yajra\DataTables\DataTables;
 use DB;
 use Auth;
@@ -50,6 +51,8 @@ class SettingsController extends Controller
 
     public function rangePlan()
     {
+
+
         $shop = Shop::select('shopName', 'shopId')->get();
         return view('settings.rangePlan', compact('shop'));
     }
@@ -61,6 +64,10 @@ class SettingsController extends Controller
             ->leftJoin('stockwh', 'stockwh.fkproductId', 'product.productId')
             ->groupBy('product.productId');
 
+        if ($r->shopfilter){
+            $products = $products->leftJoin('rangeplan','rangeplan.fkproductId','productId')
+                ->where('fkshopId', $r->shopfilter);
+        }
         $datatables = Datatables::of($products);
         return $datatables->make(true);
     }

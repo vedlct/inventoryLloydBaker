@@ -196,6 +196,8 @@
                         d.date=$('#date1').val();
                         d.clientId=$('#clientId').val();
                         d.statusId=$('#statusId').val();
+
+
                     },
                 },
 
