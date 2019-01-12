@@ -26,6 +26,7 @@ class StockOutController extends Controller
             $reader->all();
 
         })->get();
+
         return $result;
     }
 }
