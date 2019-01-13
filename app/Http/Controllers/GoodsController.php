@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Yajra\DataTables\DataTables;
 use Illuminate\Support\Facades\Auth;
 use DB;
+use Excel;
 class GoodsController extends Controller
 {
     public function __construct()
@@ -48,13 +49,22 @@ class GoodsController extends Controller
             $stockwh->save();
 
         }
-
-
-
-
-
-
         return  response()->json('Success');
+    }
 
+    public function insertExcel(Request $r){
+        $file = $r->file('excel');
+        $fileName=$file->getClientOriginalName();
+        $file->move('files',$fileName);
+        chmod("files/" . $fileName, 0755);
+//        return $fileName;
+        $result=Excel::load('files/'.$fileName, function($reader) {
+
+            // reader methods
+            $reader->all();
+
+        })->get();
+
+        return $result;
     }
 }
