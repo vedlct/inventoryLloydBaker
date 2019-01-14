@@ -63,8 +63,18 @@ Route::view('/stocktransfer/bulk','stocktransfer.bulkinsert')->name('stocktransf
 Route::get('/settings/product','SettingsController@product')->name('settings.productCategory');
 Route::get('/settings/product/add','SettingsController@addProduct')->name('settings.productCategory.add');
 Route::get('/settings/Shop','SettingsController@shop')->name('settings.location');
+Route::post('/settings/Shop','SettingsController@getAllShop')->name('settings.location.getAllShop');
+
+// Add Shop
 Route::get('/settings/Shop/add','SettingsController@addShop')->name('settings.location.add');
-Route::get('/settings/Shop/Edit','SettingsController@editShop')->name('settings.location.editShop');
+Route::post('/settings/Shop/add','SettingsController@insertShop')->name('settings.location.insertShop');
+
+// Edit Shop
+Route::get('/settings/Shop/Edit/{id}','SettingsController@editShop')->name('shop.edit');
+Route::post('/settings/Shop/update','SettingsController@updateShop')->name('shop.update');
+
+// Delete Shop
+Route::post('/settings/Shop/delete','SettingsController@deleteShop')->name('shop.delete');
 
 //rangeplan
 Route::get('/settings/ranglePlan','SettingsController@rangePlan')->name('settings.rangePlan');
@@ -86,6 +96,8 @@ Route::view('/settings/style/add','settings.addStyle')->name('settings.style.add
 
 Route::view('/settings/user','settings.user')->name('settings.user');
 Route::view('/settings/user/add','settings.addUser')->name('settings.user.add');
+
+
 
 
 Auth::routes();
