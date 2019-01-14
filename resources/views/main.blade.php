@@ -19,7 +19,7 @@
                 <!-- Image Logo -->
                 <a href="{{route('main')}}" class="logo">
                     <img src="assets/images/logo-sm.png" alt="" height="22" class="logo-small">
-                    
+
                     <h3>LLoydBaker WareHouse Stock Control System</h3>
 <!--                    <img src="assets/images/logo.png" alt="" height="24" class="logo-large">-->
                 </a>
@@ -176,6 +176,20 @@
 
 <div class="wrapper">
     <div class="container-fluid">
+
+        @if(Session::has('message'))
+            <p class="alert alert-info text-center">{{ Session::get('message') }}</p>
+        @endif
+
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
 
         @yield('content')
 

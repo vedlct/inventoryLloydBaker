@@ -10,6 +10,8 @@ use SebastianBergmann\CodeCoverage\Report\Xml\Project;
 use Yajra\DataTables\DataTables;
 use DB;
 use Auth;
+use Session;
+
 class SettingsController extends Controller
 {
     public function __construct()
@@ -39,10 +41,81 @@ class SettingsController extends Controller
         return view('settings.addLocation');
     }
 
-    public function editShop()
-    {
+    // Insert Shop
+    public function insertShop(Request $r){
 
-        return view('settings.EditShop');
+        $r->validate([
+            'name' => 'required|max:45',
+            'phone' => 'required|max:25',
+            'email' => 'required|unique:shop,shopEmail',
+            'contactPerson' => 'required|max:45',
+            'status' => 'required|max:45',
+        ]);
+
+        $shop = new Shop();
+        $shop->shopName = $r->name;
+        $shop->shopEmail = $r->email;
+        $shop->shopPhone = $r->phone;
+        $shop->shopContactPerson = $r->contactPerson;
+        $shop->shopLocation = $r->location;
+        $shop->shopDescription = $r->desc;
+        $shop->shopStatus = $r->status;
+        $shop->save();
+
+        Session::flash('message', 'New Shop Added!');
+
+        return back();
+    }
+
+    // Show all Shop
+    public function getAllShop(Request $r){
+        $shops = Shop::select('shop.shopName','shop.shopLocation','shop.shopStatus','shop.shopId')->where('deleted_at', '0');
+
+        $datatables = Datatables::of($shops);
+        return $datatables->make(true);
+    }
+
+    // Edit shop page
+    public function editShop($id){
+        $shop = Shop::findOrFail($id);
+        return view('settings.EditShop')->with('shop', $shop);
+    }
+
+    // Update Shop
+    public function updateShop(Request $r){
+
+        $r->validate([
+            'name' => 'required|max:45',
+            'phone' => 'required|max:25',
+            // 'email' => 'required|unique:shop,shopEmail',
+            'contactPerson' => 'required|max:45',
+            'status' => 'required|max:45',
+        ]);
+
+        $shop = Shop::findOrFail($r->shopId);
+        $shop->shopName = $r->name;
+        $shop->shopEmail = $r->email;
+        $shop->shopPhone = $r->phone;
+        $shop->shopContactPerson = $r->contactPerson;
+        $shop->shopLocation = $r->location;
+        $shop->shopDescription = $r->desc;
+        $shop->shopStatus = $r->status;
+        $shop->save();
+
+        Session::flash('message', 'Shop Updated!');
+
+        return back();
+    }
+
+    // delete Shop
+    public function deleteShop(Request $r){
+        $shop = Shop::findOrFail($r->id);
+        $shop->deleted_at = '1';
+        $shop->save();
+
+        Session::flash('message', 'Shop Deleted!');
+
+        return back();
     }
 
     public function user()

@@ -27,30 +27,16 @@
                         </div>
 
                         <div class="table-responsive">
-                            <table id="example" class="table table-striped table-bordered" style="width:100%">
+                            <table id="shopTable" class="table table-striped table-bordered" style="width:100%">
                                 <thead>
                                 <tr>
                                     <th>Name</th>
                                     <th>Location</th>
                                     <th>Status</th>
                                     <th>Action</th>
-
-
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <?php for ($i=1;$i<7;$i++){?>
-                                <tr >
-                                    <td>Shop <?php echo $i ?></td>
-                                    <td>Location</td>
-                                    <td>Active</td>
-                                    <td><a href="{{route('settings.location.editShop')}}" class="btn btn-info btn-sm"><i class="fa fa-edit"></i></a>
-                                        <button class="btn btn-info btn-sm"><i class="fa fa-trash"></i></button>
-                                    </td>
-
-                                </tr>
-                                <?php } ?>
-
 
                                 </tbody>
 
@@ -88,7 +74,78 @@
                 "aaSorting" : []
             });
 
+            dataTable=  $('#shopTable').DataTable({
+               rowReorder: {
+                   selector: 'td:nth-child(0)'
+               },
+               responsive: true,
+               processing: true,
+               serverSide: true,
+               Filter: true,
+               stateSave: true,
+               ordering:false,
+               type:"POST",
+               "ajax":{
+                   "url": "{!! route('settings.location.getAllShop') !!}",
+                   "type": "POST",
+                   data:function (d){
+                       d._token="{{csrf_token()}}";
+                   },
+               },
+               columns: [
+                   { data: 'shopName', name: 'shop.shopName' },
+                   { data: 'shopLocation', name: 'shop.shopLocation' },
+                   { data: 'shopStatus', name: 'shop.shopStatus' },
+
+                   { "data": function(data){
+                            return '<button class="btn btn-info btn-sm mr-2" data-panel-id="'+data.shopId+'" onclick="editShop(this)"><i class="fa fa-edit fa-lg"></i></button>'+
+                                   '<button class="btn btn-info btn-sm" data-panel-id="'+data.shopId+'" onclick="deleteShop(this)"><i class="fa fa-trash fa-lg"></i></button>'
+                            ;},
+                        "orderable": false, "searchable":false, "name":"selected_rows" },
+               ]
+           } );
+
         } );
+
+        // call edit shop
+        function editShop(x) {
+            btn = $(x).data('panel-id');
+            var url = '{{route("shop.edit", ":id") }}';
+            var newUrl=url.replace(':id', btn);
+            window.location.href = newUrl;
+        }
+
+        // call delete shop
+        function deleteShop(x) {
+
+            // confirmation
+            var result = confirm("Are you sure want to delete?");
+            if (result) {
+                btn = $(x).data('panel-id');
+
+                $.ajax({
+                     type: 'POST',
+                     url: "{!! route('shop.delete') !!}",
+                     cache: false,
+                     data: {
+                         _token: "{{csrf_token()}}",
+                         'id': btn
+                     },
+                     success: function (data) {
+                         $.alert({
+                             animationBounce: 2,
+                             title: 'Success!',
+                             content: 'Shop Deleted',
+                         });
+                         dataTable.ajax.reload();
+                     }
+                });
+            }
+
+        }
+
+
+
     </script>
 
 @endsection
