@@ -121,23 +121,6 @@
 
 
                             <tbody>
-                            {{--<tr>--}}
-                                {{--<td>PC</td>--}}
-                                {{--<td></td>--}}
-                                {{--<td><img width="80px" height="80px" src="{{url('public/image/image1.jpeg')}}"></td>--}}
-                                {{--<td>THE AURORA PC6148</td>--}}
-                                {{--<td>01-61481BQ</td>--}}
-                                {{--<td>TAUPE BROWN 1BQ</td>--}}
-                                {{--<td></td>--}}
-                                {{--<td></td>--}}
-                                {{--<td>£69.99</td>--}}
-                                {{--<td>£230.00</td>--}}
-                                {{--<td>7</td>--}}
-                                {{--<td><input style="width: 80px" type="number" onKeyPress="if(this.value.length==6) return false;"></td>--}}
-
-
-                            {{--</tr>--}}
-
 
 
                             </tbody>
