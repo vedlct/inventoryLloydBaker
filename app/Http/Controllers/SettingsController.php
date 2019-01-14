@@ -60,6 +60,7 @@ class SettingsController extends Controller
         $shop->shopLocation = $r->location;
         $shop->shopDescription = $r->desc;
         $shop->shopStatus = $r->status;
+        // $shop->deleted_at = NULL;
         $shop->save();
 
         Session::flash('message', 'New Shop Added!');
@@ -69,7 +70,7 @@ class SettingsController extends Controller
 
     // Show all Shop
     public function getAllShop(Request $r){
-        $shops = Shop::select('shop.shopName','shop.shopLocation','shop.shopStatus','shop.shopId')->where('deleted_at', '0');
+        $shops = Shop::select('shop.shopName','shop.shopLocation','shop.shopStatus','shop.shopId')->where('deleted_at', null);
 
         $datatables = Datatables::of($shops);
         return $datatables->make(true);
@@ -110,7 +111,7 @@ class SettingsController extends Controller
     // delete Shop
     public function deleteShop(Request $r){
         $shop = Shop::findOrFail($r->id);
-        $shop->deleted_at = '1';
+        $shop->deleted_at = date('Y-m-d');
         $shop->save();
 
         Session::flash('message', 'Shop Deleted!');
