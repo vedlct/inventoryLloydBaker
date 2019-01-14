@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class StockOut extends Model
 {
-    protected $table='user';
-    protected $primaryKey='userId';
+    protected $table='stockout';
+    protected $primaryKey='stockOutId';
     public $timestamps=false;
 }

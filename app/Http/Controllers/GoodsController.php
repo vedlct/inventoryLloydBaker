@@ -16,13 +16,6 @@ class GoodsController extends Controller
         $this->middleware('auth');
     }
     public function index(){
-//        $products=Product::select('product.productId','product.brandId','product.ft','product.mainImage','product.style','product.ftCode',
-//            'product.color','product.ean','product.costPrice','product.retailPrice','product.RRP',DB::raw('sum(stockwh.quantity) as qty'))
-//            ->leftJoin('stockwh','stockwh.fkproductId','product.productId')
-//            ->groupBy('product.productId')
-//            ->get();
-//
-//        return $products;
 
         return view('goods-in.goodsin');
     }
@@ -58,13 +51,37 @@ class GoodsController extends Controller
         $file->move('files',$fileName);
         chmod("files/" . $fileName, 0755);
 //        return $fileName;
-        $result=Excel::load('files/'.$fileName, function($reader) {
+        $results=Excel::load('files/'.$fileName, function($reader) {
 
             // reader methods
             $reader->all();
 
         })->get();
 
-        return $result;
+        foreach ($results as $res){
+            $product=Product::where('ean',$res->barcode)->first();
+
+
+            //If Product-Ean matches
+            if($product){
+                $stockwh=new StockWh();
+                $stockwh->fkproductId=$product->productId;
+                $stockwh->quantity=$res->stk;
+
+                if($res->stk<0){
+                    //For negative Quantity
+                    $stockwh->currentStatus="refund";
+                }
+                else{
+                    $stockwh->currentStatus="in";
+                }
+                $stockwh->insertType="b";
+                $stockwh->insertedBy=Auth::user()->userId;
+                $stockwh->save();
+            }
+
+        }
+
+        return $results;
     }
 }
