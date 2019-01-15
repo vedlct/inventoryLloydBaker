@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Product;
+use App\Shop;
 use App\StockOut;
 use Illuminate\Http\Request;
+use Yajra\DataTables\DataTables;
 use Excel;
 use Auth;
 class StockOutController extends Controller
@@ -13,8 +15,21 @@ class StockOutController extends Controller
     {
         $this->middleware('auth');
     }
+
     public function index(){
-        return view('stock.out');
+        $shops=Shop::get();
+        return view('stock.out',compact('shops'));
+    }
+
+    public function getdata(Request $r){
+        $stockout=StockOut::select('stockout.*');
+
+        if($r->shopId){
+            $stockout=$stockout->where('fkshopId',$r->shopId);
+        }
+
+        $datatables = Datatables::of($stockout);
+        return $datatables->make(true);
     }
 
     public function insertExcel(Request $r){
@@ -46,6 +61,7 @@ class StockOutController extends Controller
                 $stockOut->barCode=$result->barcode;
                 $stockOut->quantity=$result->stk;
                 $stockOut->actualPrice=$result->actual_price;
+                $stockOut->salePrice=$result->sale_price;
                 if($result->stk<0){
                     //For negative Quantity
                     $stockOut->currentStatus="refund";

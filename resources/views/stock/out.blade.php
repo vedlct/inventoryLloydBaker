@@ -6,11 +6,6 @@
     <link href="{{url('public/assets/plugins/datatables/buttons.bootstrap4.min.css')}}" rel="stylesheet" type="text/css" />
     <!-- Responsive datatable examples -->
     <link href="{{url('public/assets/plugins/datatables/responsive.bootstrap4.min.css')}}" rel="stylesheet" type="text/css" />
-    {{--<link href="https://cdn.datatables.net/rowreorder/1.2.3/css/rowReorder.dataTables.min.css" rel="stylesheet" type="text/css" />--}}
-    {{--<link href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" rel="stylesheet" type="text/css" />--}}
-    {{--https://cdn.datatables.net/rowreorder/1.2.3/css/rowReorder.dataTables.min.css--}}
-    {{--https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css--}}
-
 
 @endsection
 @section('content')
@@ -21,11 +16,11 @@
         <div class="row">
             <div class="form-group col-md-6">
                 <label>Shop</label>
-                <select class="form-control">
-                    <option>Select Shop</option>
-                    <option>Shop 1</option>
-                    <option>Shop 2</option>
-                    <option>Shop 3</option>
+                <select class="form-control" id="changeShop" onchange="changeShop(this)">
+                    <option value="">Select Shop</option>
+                    @foreach($shops as $shop)
+                        <option value="{{$shop->shopId}}">{{$shop->shopName}}</option>
+                    @endforeach
                 </select>
             </div>
 
@@ -64,42 +59,31 @@
            </thead>
 
            <tbody>
-            <tr>
-                <td>2</td>
-                <td>2018-10-21</td>
-                <td>1627</td>
-                <td>10</td>
-                <td>68302</td>
-                <td>164</td>
-                <td>LB4154BLK</td>
-                <td>1</td>
-                <td>79.99</td>
-                <td>79.99</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2018-10-21</td>
-                <td>1319</td>
-                <td>4</td>
-                <td>36971</td>
-                <td>623</td>
-                <td>5060615068517</td>
-                <td >1</td>
-                <td>79.99</td>
-                <td>-79.99</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2018-10-22</td>
-                <td>1319</td>
-                <td>4</td>
-                <td>36971</td>
-                <td>623</td>
-                <td>5060615068517</td>
-                <td style="background: red;color: white">-1</td>
-                <td>79.99</td>
-                <td>-79.99</td>
-            </tr>
+
+            {{--<tr>--}}
+                {{--<td>1</td>--}}
+                {{--<td>2018-10-21</td>--}}
+                {{--<td>1319</td>--}}
+                {{--<td>4</td>--}}
+                {{--<td>36971</td>--}}
+                {{--<td>623</td>--}}
+                {{--<td>5060615068517</td>--}}
+                {{--<td >1</td>--}}
+                {{--<td>79.99</td>--}}
+                {{--<td>-79.99</td>--}}
+            {{--</tr>--}}
+            {{--<tr>--}}
+                {{--<td>1</td>--}}
+                {{--<td>2018-10-22</td>--}}
+                {{--<td>1319</td>--}}
+                {{--<td>4</td>--}}
+                {{--<td>36971</td>--}}
+                {{--<td>623</td>--}}
+                {{--<td>5060615068517</td>--}}
+                {{--<td style="background: red;color: white">-1</td>--}}
+                {{--<td>79.99</td>--}}
+                {{--<td>-79.99</td>--}}
+            {{--</tr>--}}
            </tbody>
 
        </table>
@@ -132,11 +116,56 @@
 
         $(document).ready(function() {
 
-            $('#example').DataTable({
-                "aaSorting" : []
-            });
+            // $('#example').DataTable({
+            //     "aaSorting" : []
+            // });
+
+            dataTable=  $('#example').DataTable({
+                rowReorder: {
+                    selector: 'td:nth-child(0)'
+                },
+                responsive: true,
+                processing: true,
+                serverSide: true,
+                Filter: true,
+                stateSave: true,
+                ordering:false,
+                type:"POST",
+                "ajax":{
+                    "url": "{!! route('stockout.getdata') !!}",
+                    "type": "POST",
+                    data:function (d){
+                        d._token="{{csrf_token()}}";
+                        d.shopId=$('#changeShop').val();
+                        // d.clientId=$('#clientId').val();
+                        // d.statusId=$('#statusId').val();
+
+
+                    },
+                },
+
+                columns: [
+                    { data: 'fkshopId', name: 'stockout.fkshopId' },
+                    { data: 'dateOfSale', name: 'stockout.dateOfSale' },
+                    { data: 'timeOfSale', name: 'stockout.timeOfSale' },
+                    { data: 'tillNo', name: 'stockout.tillNo' },
+                    { data: 'receiptNo', name: 'stockout.receiptNo' },
+                    { data: 'staffNo', name: 'stockout.staffNo' },
+                    { data: 'barCode', name: 'stockout.barCode' },
+                    { data: 'quantity', name: 'stockout.quantity'},
+                    { data: 'actualPrice', name: 'stockout.actualPrice'},
+                    { data: 'salePrice', name: 'stockout.salePrice'},
+
+                ]
+            } );
+
 
         } );
+
+        function changeShop(x) {
+            dataTable.ajax.reload();
+
+        }
     </script>
 
 @endsection
